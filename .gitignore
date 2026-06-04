@@ -3,6 +3,9 @@ data/
 outputs/merged_dataset.parquet
 outputs/merged_dataset.csv
 
+# Documento de estudio interno del equipo (no publicar)
+EXPLICACION_EQUIPO.md
+
 # Python
 __pycache__/
 *.py[cod]

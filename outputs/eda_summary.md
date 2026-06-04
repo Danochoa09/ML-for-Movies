@@ -4,7 +4,7 @@
 - Columnas: 11 -> ['dataId', 'contentType', 'title', 'length', 'releaseYear', 'endYear', 'votes', 'rating', 'gross', 'certificate', 'description']
 - Tipos de contenido: {'movie': 72912, 'tvSeries': 28694}
 - Generos distintos: 27
-- Regiones distintas: 194
+- Regiones distintas: 191
 - Rango de anios: 1874 - 2023
 
 ## Valores faltantes (% por columna)
