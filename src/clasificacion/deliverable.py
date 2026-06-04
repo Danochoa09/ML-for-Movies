@@ -23,6 +23,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 
 from .config import OUT_DIR
 from .data import Dataset
@@ -147,3 +148,25 @@ def rankings_all_models(results, ds: Dataset) -> dict:
     savefig("12_clf_ranking_generos.png")
 
     return rankings
+
+
+def matriz_region_genero(model, ds: Dataset, nombre_modelo: str) -> pd.DataFrame:
+    """Matriz completa P(exito) por region (activa) x genero: heatmap + CSV."""
+    shares = _movie_share(ds)
+    pred = _predict_region_genre(model, ds, ds.active_regions, shares)
+    mat = pred.pivot(index="region", columns="genre", values="p_exito")
+
+    # ordenar: generos por P(exito) medio (desc), regiones por P(exito) medio (desc)
+    mat = mat.loc[
+        mat.mean(axis=1).sort_values(ascending=False).index,
+        mat.mean(axis=0).sort_values(ascending=False).index,
+    ]
+    mat.round(4).to_csv(OUT_DIR / "clf_matriz_region_genero.csv")
+
+    plt.figure(figsize=(13, 8))
+    sns.heatmap(mat, cmap="RdYlGn", center=mat.values.mean(),
+                cbar_kws={"label": "P(exito)"}, linewidths=0.3, linecolor="white")
+    plt.title(f"P(exito) por region de origen y genero - {nombre_modelo}")
+    plt.xlabel("Genero"); plt.ylabel("Region (activa)")
+    savefig("13_clf_heatmap_region_genero.png")
+    return mat

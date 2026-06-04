@@ -171,3 +171,7 @@ P(exito) promedio entre **regiones activas** (las que aun producen, >= 2020). La
 | News | 0.048 | posible fracaso | United Kingdom (0.08), India (0.07), Japan (0.07) |
 | Reality-TV | 0.043 | posible fracaso | Japan (0.12), United Kingdom (0.07), Iran (0.07) |
 | Game-Show | 0.041 | posible fracaso | South Korea (0.23), India (0.07), United Kingdom (0.06) |
+
+## Matriz P(exito) por region y genero
+
+Matriz completa (region activa x genero) segun Random Forest en `outputs/clf_matriz_region_genero.csv` y figura `13_clf_heatmap_region_genero.png`.

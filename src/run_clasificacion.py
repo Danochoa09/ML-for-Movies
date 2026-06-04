@@ -18,7 +18,7 @@ from clasificacion.config import MIN_REGION, OUT_DIR, SPLIT_YEAR
 from clasificacion.data import build_dataset
 from clasificacion.models import build_models
 from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions
-from clasificacion.deliverable import rankings_all_models
+from clasificacion.deliverable import rankings_all_models, matriz_region_genero
 
 from sklearn.metrics import recall_score
 
@@ -121,6 +121,13 @@ def main() -> None:
         for x in rk.itertuples():
             log(f"| {x.genre} | {x.p_exito_promedio:.3f} | {x.categoria} | {x.top_regiones} |")
         log("")
+
+    # matriz completa P(exito) region x genero (mejor modelo)
+    matriz_region_genero(results[best_name].model, ds, best_name)
+    log("## Matriz P(exito) por region y genero\n")
+    log(f"Matriz completa (region activa x genero) segun {best_name} en "
+        f"`outputs/clf_matriz_region_genero.csv` y figura "
+        f"`13_clf_heatmap_region_genero.png`.\n")
 
     SUMMARY.write_text("\n".join(lines), encoding="utf-8")
     print(f"\nResumen -> {SUMMARY}")
