@@ -17,7 +17,11 @@
 | Random Forest | 0.554 | 0.742 | 0.665 |
 | XGBoost | 0.555 | 0.738 | 0.663 |
 
-### Reporte - Regresion Logistica
+### Regresion Logistica
+*Como funciona:* Modelo lineal base: aprende un peso por variable y combina todo en una probabilidad. Simple e interpretable; solo capta relaciones lineales.
+
+*Resultado:* F1(exito)=0.513, ROC-AUC=0.691, accuracy=0.629. Detecta el 66% de los exitos reales del test.
+
 ```
               precision    recall  f1-score   support
 
@@ -30,7 +34,11 @@ weighted avg      0.694     0.629     0.645     12863
 
 ```
 
-### Reporte - Random Forest
+### Random Forest
+*Como funciona:* Ensamble (bagging): cientos de arboles entrenados con muestras distintas que votan. Capta no linealidad e interacciones y entrega importancia de variables.
+
+*Resultado:* F1(exito)=0.554, ROC-AUC=0.742, accuracy=0.665. Detecta el 70% de los exitos reales del test.
+
 ```
               precision    recall  f1-score   support
 
@@ -43,7 +51,11 @@ weighted avg      0.724     0.665     0.679     12863
 
 ```
 
-### Reporte - XGBoost
+### XGBoost
+*Como funciona:* Boosting: arboles en serie donde cada uno corrige los errores del anterior. Modelo avanzado, suele rendir muy bien en datos tabulares.
+
+*Resultado:* F1(exito)=0.555, ROC-AUC=0.738, accuracy=0.663. Detecta el 70% de los exitos reales del test.
+
 ```
               precision    recall  f1-score   support
 
@@ -58,37 +70,36 @@ weighted avg      0.724     0.663     0.677     12863
 
 **Mejor modelo (ROC-AUC): Random Forest**
 
-## Top 3 generos con mayor P(exito) por region
+## Ranking de generos por probabilidad de exito
 
-(probabilidad predicha por Random Forest)
+(P(exito) promedio entre regiones, segun Random Forest. La region es el origen de produccion; se listan las 3 mejores por genero.)
 
-- **Argentina**: Film-Noir (0.44), Documentary (0.42), Biography (0.39)
-- **Australia**: Documentary (0.60), Film-Noir (0.43), Biography (0.39)
-- **Belgium**: Documentary (0.53), Film-Noir (0.43), Biography (0.39)
-- **Brazil**: Film-Noir (0.42), Documentary (0.36), History (0.33)
-- **Canada**: Documentary (0.48), Film-Noir (0.38), Biography (0.37)
-- **China**: Drama (0.52), Documentary (0.47), Film-Noir (0.44)
-- **Denmark**: Documentary (0.61), Film-Noir (0.45), Drama (0.45)
-- **Egypt**: Documentary (0.49), Film-Noir (0.41), Biography (0.39)
-- **Finland**: Documentary (0.50), Film-Noir (0.42), Biography (0.39)
-- **France**: Documentary (0.51), Drama (0.50), Biography (0.47)
-- **Germany**: Documentary (0.52), Film-Noir (0.44), Drama (0.42)
-- **Greece**: Documentary (0.46), Film-Noir (0.44), Drama (0.40)
-- **Hong Kong**: Documentary (0.54), Drama (0.46), Film-Noir (0.43)
-- **India**: Documentary (0.49), Film-Noir (0.44), Biography (0.40)
-- **Iran**: Drama (0.50), Documentary (0.47), Film-Noir (0.43)
-- **Italy**: Documentary (0.45), Film-Noir (0.43), Drama (0.41)
-- **Japan**: Drama (0.55), Documentary (0.48), Film-Noir (0.45)
-- **Mexico**: Film-Noir (0.45), Drama (0.42), Biography (0.40)
-- **Netherlands**: Documentary (0.42), Film-Noir (0.41), Biography (0.37)
-- **Norway**: Documentary (0.54), Film-Noir (0.45), Biography (0.40)
-- **Poland**: Drama (0.46), Documentary (0.46), Film-Noir (0.45)
-- **Russia**: Documentary (0.49), Film-Noir (0.42), Biography (0.37)
-- **South Korea**: Drama (0.56), Documentary (0.54), Film-Noir (0.46)
-- **Soviet Union**: Drama (0.52), Film-Noir (0.50), Documentary (0.47)
-- **Spain**: Documentary (0.54), Film-Noir (0.44), Drama (0.40)
-- **Sweden**: Documentary (0.56), Film-Noir (0.45), Biography (0.41)
-- **Turkey**: Documentary (0.54), Drama (0.45), Film-Noir (0.44)
-- **United Kingdom**: Documentary (0.53), Biography (0.46), Film-Noir (0.45)
-- **United States**: Documentary (0.57), Film-Noir (0.49), Biography (0.39)
-- **West Germany**: Documentary (0.65), Drama (0.48), Film-Noir (0.46)
+| Genero | P(exito) | Categoria | 3 mejores regiones productoras |
+|--------|----------|-----------|--------------------------------|
+| Documentary | 0.502 | posible exito | West Germany (0.65), Denmark (0.61), Australia (0.60) |
+| Film-Noir | 0.440 | posible exito | Soviet Union (0.50), United States (0.49), West Germany (0.46) |
+| Drama | 0.408 | posible exito | South Korea (0.56), Japan (0.55), China (0.52) |
+| Biography | 0.397 | posible exito | France (0.47), United Kingdom (0.46), Japan (0.44) |
+| History | 0.360 | posible exito | France (0.44), Soviet Union (0.41), Japan (0.39) |
+| Music | 0.337 | posible exito | Japan (0.39), Soviet Union (0.39), France (0.38) |
+| War | 0.331 | posible exito | France (0.44), Soviet Union (0.41), Japan (0.37) |
+| Animation | 0.310 | posible exito | Japan (0.43), France (0.37), Soviet Union (0.37) |
+| Western | 0.277 | posible exito | United States (0.39), Soviet Union (0.36), France (0.34) |
+| Crime | 0.258 | sin pena ni gloria | Japan (0.39), France (0.34), Soviet Union (0.34) |
+| Mystery | 0.249 | sin pena ni gloria | Soviet Union (0.34), France (0.33), Japan (0.31) |
+| Comedy | 0.244 | sin pena ni gloria | Soviet Union (0.44), Poland (0.41), China (0.38) |
+| Short | 0.241 | sin pena ni gloria | France (0.35), Soviet Union (0.32), Japan (0.27) |
+| Adventure | 0.227 | sin pena ni gloria | Soviet Union (0.38), France (0.36), Japan (0.35) |
+| Romance | 0.222 | sin pena ni gloria | Soviet Union (0.38), France (0.34), Japan (0.27) |
+| Sport | 0.213 | sin pena ni gloria | Soviet Union (0.32), France (0.29), Japan (0.27) |
+| Musical | 0.209 | sin pena ni gloria | Soviet Union (0.33), France (0.31), Japan (0.26) |
+| Fantasy | 0.202 | sin pena ni gloria | Soviet Union (0.31), France (0.28), Japan (0.26) |
+| News | 0.197 | posible fracaso | Soviet Union (0.31), France (0.29), Japan (0.26) |
+| Game-Show | 0.190 | posible fracaso | Soviet Union (0.30), France (0.29), Japan (0.26) |
+| Talk-Show | 0.183 | posible fracaso | Soviet Union (0.28), France (0.27), Japan (0.25) |
+| Thriller | 0.181 | posible fracaso | India (0.27), Japan (0.26), Soviet Union (0.24) |
+| Family | 0.174 | posible fracaso | Soviet Union (0.32), France (0.29), Japan (0.23) |
+| Sci-Fi | 0.151 | posible fracaso | France (0.28), Japan (0.24), Soviet Union (0.23) |
+| Action | 0.151 | posible fracaso | Japan (0.29), Soviet Union (0.28), France (0.23) |
+| Reality-TV | 0.149 | posible fracaso | Japan (0.26), Soviet Union (0.23), France (0.22) |
+| Horror | 0.146 | posible fracaso | France (0.24), Belgium (0.24), Japan (0.20) |

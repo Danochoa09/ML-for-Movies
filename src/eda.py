@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-from data_utils import load_prime, load_genres, load_regions, load_merged
+from data_utils import load_prime, load_genres, load_regions
 
 sns.set_theme(style="whitegrid")
 
@@ -184,21 +184,6 @@ def main() -> None:
     plt.ylabel("Rating")
     plt.title("Popularidad vs Calificacion")
     savefig("09_votes_vs_rating.png")
-
-    # ------------------------------------------------------------------ #
-    # 12. Guardar tabla maestra unida (para fases de ML)
-    # ------------------------------------------------------------------ #
-    merged = load_merged()
-    out = ROOT / "outputs" / "merged_dataset.parquet"
-    try:
-        merged.to_parquet(out, index=False)
-        log(f"Tabla maestra (one-hot generos + region) guardada en {out.name} "
-            f"({merged.shape[0]:,} x {merged.shape[1]})")
-    except Exception as e:  # parquet necesita pyarrow; fallback a csv
-        out = out.with_suffix(".csv")
-        merged.to_csv(out, index=False)
-        log(f"Tabla maestra guardada en {out.name} (csv, pyarrow no disponible: {e})")
-    log("")
 
     SUMMARY.parent.mkdir(parents=True, exist_ok=True)
     SUMMARY.write_text("\n".join(lines), encoding="utf-8")

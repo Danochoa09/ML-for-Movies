@@ -39,7 +39,7 @@ IMDb/
 │       ├── data.py             # construcción del dataset + preprocesador
 │       ├── models.py           # los 3 clasificadores (LogReg, RF, XGBoost)
 │       ├── evaluate.py         # entrenamiento, métricas y gráficas
-│       └── deliverable.py      # top-3 géneros por región (mejor modelo)
+│       └── deliverable.py      # ranking de géneros + mejores regiones
 ├── outputs/
 │   ├── figures/                # gráficas (EDA + clasificación)
 │   ├── eda_summary.md
@@ -68,7 +68,9 @@ se usa como variable predictora (es el eje de la partición).
 2. **Random Forest** — ensamble de árboles (bagging).
 3. **XGBoost** — boosting de árboles (modelo avanzado).
 
-Entregable de negocio: **top-3 géneros con mayor P(éxito) por región** (mejor modelo).
+Entregable de negocio: **ranking de géneros por P(éxito)**, clasificados en 3
+niveles (posible éxito / sin pena ni gloria / posible fracaso), con las **3
+regiones de origen que mejor producen** cada género (mejor modelo).
 
 ## Cómo ejecutar
 

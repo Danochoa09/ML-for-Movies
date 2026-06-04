@@ -18,9 +18,29 @@ from clasificacion.config import MIN_REGION, OUT_DIR, SPLIT_YEAR
 from clasificacion.data import build_dataset
 from clasificacion.models import build_models
 from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions
-from clasificacion.deliverable import top3_por_region, plot_feature_importance
+from clasificacion.deliverable import ranking_generos, plot_feature_importance
+
+from sklearn.metrics import recall_score
+
+from clasificacion.evaluate import POS
 
 SUMMARY = OUT_DIR / "clf_summary.md"
+
+
+def _recall_exito(r) -> float:
+    return recall_score(r.y_true, r.y_pred, pos_label=POS)
+
+# Breve explicacion de cada tecnica (para el informe / lectura rapida)
+COMO_FUNCIONA = {
+    "Regresion Logistica": "Modelo lineal base: aprende un peso por variable y "
+    "combina todo en una probabilidad. Simple e interpretable; solo capta "
+    "relaciones lineales.",
+    "Random Forest": "Ensamble (bagging): cientos de arboles entrenados con "
+    "muestras distintas que votan. Capta no linealidad e interacciones y entrega "
+    "importancia de variables.",
+    "XGBoost": "Boosting: arboles en serie donde cada uno corrige los errores del "
+    "anterior. Modelo avanzado, suele rendir muy bien en datos tabulares.",
+}
 
 
 def main() -> None:
@@ -65,7 +85,11 @@ def main() -> None:
     log("")
 
     for r in results.values():
-        log(f"### Reporte - {r.name}")
+        log(f"### {r.name}")
+        log(f"*Como funciona:* {COMO_FUNCIONA.get(r.name, '')}\n")
+        log(f"*Resultado:* F1(exito)={r.f1_exito:.3f}, ROC-AUC={r.roc_auc:.3f}, "
+            f"accuracy={r.accuracy:.3f}. Detecta el "
+            f"{_recall_exito(r)*100:.0f}% de los exitos reales del test.\n")
         log("```")
         log(r.report)
         log("```")
@@ -83,18 +107,22 @@ def main() -> None:
 
     plot_feature_importance(best, ds, "12_clf_feature_importance.png")
 
-    top3 = top3_por_region(best, ds)
-    log("## Top 3 generos con mayor P(exito) por region\n")
-    log(f"(probabilidad predicha por {best_name})\n")
-    for region in ds.regions_kept:
-        sub = top3[top3["region"] == region]
-        items = ", ".join(f"{x.genre} ({x.p_exito:.2f})" for x in sub.itertuples())
-        log(f"- **{region}**: {items}")
+    # ----------------------------------------------------------------- #
+    # 4. Entregable: ranking de generos por P(exito) + mejores regiones
+    # ----------------------------------------------------------------- #
+    rank = ranking_generos(best, ds)
+    log("## Ranking de generos por probabilidad de exito\n")
+    log(f"(P(exito) promedio entre regiones, segun {best_name}. La region es el "
+        f"origen de produccion; se listan las 3 mejores por genero.)\n")
+    log("| Genero | P(exito) | Categoria | 3 mejores regiones productoras |")
+    log("|--------|----------|-----------|--------------------------------|")
+    for x in rank.itertuples():
+        log(f"| {x.genre} | {x.p_exito_promedio:.3f} | {x.categoria} | {x.top_regiones} |")
     log("")
 
     SUMMARY.write_text("\n".join(lines), encoding="utf-8")
     print(f"\nResumen -> {SUMMARY}")
-    print(f"Top3 CSV -> {OUT_DIR / 'clf_top3_generos_por_region.csv'}")
+    print(f"Ranking CSV -> {OUT_DIR / 'clf_ranking_generos.csv'}")
 
 
 if __name__ == "__main__":

@@ -46,29 +46,3 @@ def load_regions(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
     # Eliminar artefactos de parseo (regiones espurias 'l', 'n', 'u')
     r = r[r["region"].str.len() > 2]
     return r.reset_index(drop=True)
-
-
-def genres_wide(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
-    """One-hot de generos: una columna por genero, indexado por dataId."""
-    g = load_genres(raw_dir)
-    return (
-        pd.crosstab(g["dataId"], g["genre"])
-        .clip(upper=1)
-        .add_prefix("genre_")
-    )
-
-
-def primary_region(raw_dir: Path = RAW_DIR) -> pd.Series:
-    """Primera region listada por dataId (proxy de region principal)."""
-    r = load_regions(raw_dir)
-    return r.groupby("dataId")["region"].first().rename("primary_region")
-
-
-def load_merged(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
-    """Tabla principal + one-hot de generos + region principal."""
-    df = load_prime(raw_dir).set_index("dataId")
-    df = df.join(genres_wide(raw_dir))
-    df = df.join(primary_region(raw_dir))
-    genre_cols = [c for c in df.columns if c.startswith("genre_")]
-    df[genre_cols] = df[genre_cols].fillna(0).astype(int)
-    return df.reset_index()

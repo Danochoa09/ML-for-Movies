@@ -1,8 +1,15 @@
-"""Entregable de negocio: top-3 generos con mayor P(exito) por region.
+"""Entregable de negocio: ranking de GENEROS por probabilidad de exito.
 
-Se usa el mejor clasificador. Para cada (region, genero) se arma un titulo
-sintetico (solo ese genero activo, duracion/anio medianos, formato pelicula)
-y se predice la probabilidad de la clase 'exito'.
+Para cada (region de origen, genero) se arma un titulo sintetico (solo ese genero
+activo, duracion mediana, formato pelicula) y se predice P(exito) con el mejor
+modelo. Luego, por genero:
+
+  - se promedia P(exito) entre regiones -> puntaje del genero,
+  - se clasifica en 3 niveles: posible exito / sin pena ni gloria / posible
+    fracaso (por terciles del puntaje),
+  - se listan las 3 regiones que mejor producen ese genero (mayor P(exito)).
+
+La region se interpreta como el ORIGEN de produccion del titulo.
 """
 from __future__ import annotations
 
@@ -10,12 +17,19 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
-import seaborn as sns
 
 from .config import FIG_DIR, OUT_DIR
 from .data import Dataset
 from .evaluate import CLASS_TO_INT, savefig
+
+NIVELES = ["posible fracaso", "sin pena ni gloria", "posible exito"]
+COLORES = {
+    "posible exito": "#2ca02c",
+    "sin pena ni gloria": "#ff7f0e",
+    "posible fracaso": "#d62728",
+}
 
 
 def _exito_col(model) -> int:
@@ -24,7 +38,8 @@ def _exito_col(model) -> int:
     return classes.index(CLASS_TO_INT["exito"])
 
 
-def top3_por_region(model, ds: Dataset) -> pd.DataFrame:
+def _predict_region_genre(model, ds: Dataset) -> pd.DataFrame:
+    """P(exito) para cada combinacion (region, genero)."""
     col = _exito_col(model)
     med_len = float(ds.X_train["length"].median())
 
@@ -42,26 +57,57 @@ def top3_por_region(model, ds: Dataset) -> pd.DataFrame:
         proba = model.predict_proba(sx)[:, col]
         for gname, p in zip(ds.genre_names, proba):
             rows.append({"region": region, "genre": gname, "p_exito": float(p)})
+    return pd.DataFrame(rows)
 
-    pred = pd.DataFrame(rows)
-    top3 = (
-        pred.sort_values(["region", "p_exito"], ascending=[True, False])
-        .groupby("region")
-        .head(3)
-        .reset_index(drop=True)
+
+def ranking_generos(model, ds: Dataset, top_n_regiones: int = 3) -> pd.DataFrame:
+    pred = _predict_region_genre(model, ds)
+
+    # puntaje por genero = P(exito) promedio entre regiones
+    score = pred.groupby("genre")["p_exito"].mean().sort_values(ascending=False)
+
+    # 3 niveles por terciles del puntaje
+    q1, q2 = score.quantile([1 / 3, 2 / 3])
+
+    def nivel(p: float) -> str:
+        if p >= q2:
+            return "posible exito"
+        if p >= q1:
+            return "sin pena ni gloria"
+        return "posible fracaso"
+
+    # top regiones por genero (mayor P(exito))
+    top_reg = (
+        pred.sort_values(["genre", "p_exito"], ascending=[True, False])
+        .groupby("genre")
+        .head(top_n_regiones)
+        .groupby("genre")
+        .apply(lambda d: ", ".join(
+            f"{r.region} ({r.p_exito:.2f})" for r in d.itertuples()
+        ), include_groups=False)
     )
-    top3.to_csv(OUT_DIR / "clf_top3_generos_por_region.csv", index=False)
 
-    # heatmap region x genero
-    pivot = pred.pivot(index="region", columns="genre", values="p_exito")
-    order = pivot.max(axis=1).sort_values(ascending=False).index[:20]
-    plt.figure(figsize=(12, 7))
-    sns.heatmap(pivot.loc[order], cmap="viridis", cbar_kws={"label": "P(exito)"})
-    plt.title("Probabilidad de exito por region y genero (mejor modelo)")
-    plt.xlabel("Genero"); plt.ylabel("Region")
-    savefig("13_clf_heatmap_region_genero.png")
+    out = (
+        pd.DataFrame({"p_exito_promedio": score.round(4)})
+        .assign(categoria=lambda d: d["p_exito_promedio"].map(nivel))
+        .assign(top_regiones=top_reg)
+        .reset_index()
+        .rename(columns={"index": "genre"})
+    )
+    out.to_csv(OUT_DIR / "clf_ranking_generos.csv", index=False)
 
-    return top3
+    # figura: barras de generos por P(exito), coloreadas por nivel
+    plt.figure(figsize=(8, 8))
+    colors = out["categoria"].map(COLORES)
+    plt.barh(out["genre"], out["p_exito_promedio"], color=colors)
+    plt.gca().invert_yaxis()  # mayor arriba
+    plt.xlabel("P(exito) promedio entre regiones")
+    plt.title("Generos por probabilidad de exito (mejor modelo)")
+    handles = [plt.Rectangle((0, 0), 1, 1, color=COLORES[n]) for n in reversed(NIVELES)]
+    plt.legend(handles, list(reversed(NIVELES)), loc="lower right")
+    savefig("13_clf_ranking_generos.png")
+
+    return out
 
 
 def plot_feature_importance(model, ds: Dataset, fname: str) -> None:

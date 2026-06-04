@@ -71,5 +71,3 @@ votes          0.08         0.03   1.00    0.11   0.66
 rating        -0.01        -0.07   0.11    1.00   0.13
 gross          0.17         0.09   0.66    0.13   1.00
 ```
-
-Tabla maestra (one-hot generos + region) guardada en merged_dataset.parquet (101,606 x 39)

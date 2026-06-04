@@ -1,7 +1,5 @@
 # Datos (se descargan con src/download_data.py, no versionar)
 data/
-outputs/merged_dataset.parquet
-outputs/merged_dataset.csv
 
 # Documento de estudio interno del equipo (no publicar)
 EXPLICACION_EQUIPO.md
