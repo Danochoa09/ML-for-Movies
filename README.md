@@ -50,19 +50,27 @@ IMDb/
 
 ## Las tres técnicas (todas de clasificación)
 
-Mismo problema, tres clasificadores comparados para predecir si un título será un
-**éxito de taquilla y público** (no solo de crítica) a partir de género, región,
-tipo y duración.
+Mismo problema, tres clasificadores comparados para predecir el **nivel de éxito**
+de un título (`fracaso` / `mediocre` / `exito`) a partir de género, región, tipo y
+duración.
 
-**Definición de éxito (binaria):** un título es `exito` si combina aceptación y
-tracción masiva:
+**Definición de éxito — IEP (Índice de Rendimiento Económico):** un puntaje
+continuo en [0,1] que combina calidad, alcance y rentabilidad. Como `votes` y
+`gross` siguen ley de potencias, se les aplica **log** antes de normalizar
+(Min-Max `N(·)`):
 
-> `rating ≥ 6.5`  **Y**  ( `votes > mediana`  **O**  `gross > mediana` )
+> Con `gross`:  `IEP = 0.2·N(rating) + 0.3·N(log votes) + 0.5·N(log gross)`
+> Sin `gross` (series de TV / cine indie, ~85%):  `IEP = 0.2·N(rating) + 0.8·N(log votes)`
+
+El `gross` falta en el 85% de los títulos (las series no tienen taquilla); por eso
+**su peso (0.5) se transfiere a los votos** cuando no existe, sin perder registros.
+El IEP se corta en **3 clases por terciles**. Esto corrige el sesgo de usar solo
+rating (documentales de nicho como "mayores éxitos") al pesar el alcance comercial.
 
 **Validación temporal:** se entrena con títulos **anteriores a 2020** y se prueba
-con títulos de **2020 en adelante** (simula predecir el futuro). Los umbrales y el
-agrupado de regiones se calculan solo con train (sin fuga de datos). El año **no**
-se usa como variable predictora (es el eje de la partición).
+con títulos de **2020 en adelante** (simula predecir el futuro). Normalización,
+terciles y agrupado de regiones se calculan solo con train (sin fuga de datos). El
+año **no** se usa como variable predictora (es el eje de la partición).
 
 1. **Regresión Logística** — modelo lineal base/simple.
 2. **Random Forest** — ensamble de árboles (bagging).
@@ -87,8 +95,8 @@ python src/run_clasificacion.py   # compara los 3 modelos + entregable
 
 - [x] **Fase 1 — EDA** (limpieza, distribuciones, correlaciones, géneros/regiones)
 - [x] **Fase 2 — Clasificación (3 modelos comparados).** Regresión Logística,
-  Random Forest y XGBoost sobre la clase binaria de éxito (taquilla/público),
-  con validación temporal (<2020 train / ≥2020 test). ROC-AUC: LogReg 0.69,
-  RF 0.74, XGBoost 0.74 (`src/run_clasificacion.py`).
+  Random Forest y XGBoost sobre el nivel de éxito (IEP en 3 clases), con
+  validación temporal (<2020 train / ≥2020 test). F1-macro: LogReg 0.50,
+  RF 0.51, XGBoost 0.52 (mejor) (`src/run_clasificacion.py`).
 - [ ] **Fase 3 — Informe IEEE** doble columna (máx. 6 páginas)
 - [ ] **Fase 4 — Video** presentación (máx. 6 min)

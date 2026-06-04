@@ -1,7 +1,10 @@
-"""Experimento de CLASIFICACION BINARIA: predecir si un titulo sera un EXITO de
-taquilla y publico, con validacion temporal.
+"""Experimento de CLASIFICACION MULTICLASE: predecir el nivel de exito de un
+titulo (fracaso / mediocre / exito) con validacion temporal.
 
-EXITO  =  rating >= 6.5  Y  ( votes > mediana  O  gross > mediana )
+El nivel se deriva del IEP (Indice de Rendimiento Economico), que combina calidad
+(rating), alcance (votes) y rentabilidad (gross) con log-escalado y normalizacion
+Min-Max; el peso del gross se transfiere a los votos cuando no hay recaudo. El IEP
+se corta en 3 clases por terciles (ver config.py).
 
 Se comparan tres clasificadores:
     Regresion Logistica  -> modelo base / lineal
@@ -9,7 +12,7 @@ Se comparan tres clasificadores:
     XGBoost              -> boosting de arboles (modelo avanzado)
 
 Validacion temporal: train con titulos < 2020, test con titulos >= 2020.
-Entregable: top-3 generos con mayor P(exito) por region (mejor modelo).
+Entregable: ranking de generos por P(exito) + mejores regiones (los 3 modelos).
 
 Uso:
     python src/run_clasificacion.py
@@ -17,18 +20,17 @@ Uso:
 from clasificacion.config import MIN_REGION, OUT_DIR, SPLIT_YEAR
 from clasificacion.data import build_dataset
 from clasificacion.models import build_models
-from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions
+from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions, CLASS_TO_INT
 from clasificacion.deliverable import rankings_all_models, heatmaps_all_models
 
 from sklearn.metrics import recall_score
-
-from clasificacion.evaluate import POS
 
 SUMMARY = OUT_DIR / "clf_summary.md"
 
 
 def _recall_exito(r) -> float:
-    return recall_score(r.y_true, r.y_pred, pos_label=POS)
+    return recall_score(r.y_true, r.y_pred, labels=[CLASS_TO_INT["exito"]],
+                        average="macro", zero_division=0)
 
 # Breve explicacion de cada tecnica (para el informe / lectura rapida)
 COMO_FUNCIONA = {
@@ -55,14 +57,16 @@ def main() -> None:
     # ----------------------------------------------------------------- #
     ds = build_dataset()
     i = ds.info
-    log("# Clasificacion de EXITO de taquilla/publico - 3 modelos\n")
-    log("**Definicion de exito:** rating >= 6.5 Y (votes > mediana O gross > mediana)\n")
-    log(f"- Umbrales (solo train): mediana votos = {i['median_votes']:.0f}, "
-        f"mediana gross = {i['median_gross']:.0f}")
+    log("# Clasificacion del nivel de exito (IEP) - 3 modelos\n")
+    log("**Objetivo (IEP):** combina rating (0.2) + log-votos + log-gross. Con "
+        "gross: 0.2/0.3/0.5; sin gross el 0.5 pasa a votos -> 0.2/0.8. "
+        "Normalizado Min-Max y cortado en 3 clases por terciles.\n")
+    log(f"- Titulos con gross: {i['pct_con_gross']*100:.1f}% (el resto usa la "
+        f"formula sin gross). Cortes IEP (train): q1={i['iep_q1']:.3f}, q2={i['iep_q2']:.3f}")
     log(f"- Validacion temporal: train anio < {SPLIT_YEAR} ({i['n_train']:,} filas), "
         f"test anio >= {SPLIT_YEAR} ({i['n_test']:,} filas)")
-    log(f"- Tasa de exito: train {i['exito_rate_train']*100:.1f}% | "
-        f"test {i['exito_rate_test']*100:.1f}%")
+    log(f"- Distribucion clases train: {i['dist_train']}")
+    log(f"- Distribucion clases test:  {i['dist_test']}")
     log(f"- Regiones modeladas (>= {MIN_REGION} en train): {len(ds.regions_kept)} + 'Other'")
     log(f"- Generos (one-hot): {len(ds.genre_cols)}")
     log(f"- Predictoras: {ds.num_cols + ds.cat_cols} + generos "
@@ -78,18 +82,18 @@ def main() -> None:
     )
 
     log("## Resultados en test temporal (>= 2020)\n")
-    log("| Modelo | F1 (exito) | ROC-AUC | Accuracy |")
-    log("|--------|-----------|---------|----------|")
+    log("| Modelo | F1-macro | ROC-AUC | Accuracy |")
+    log("|--------|----------|---------|----------|")
     for r in results.values():
-        log(f"| {r.name} | {r.f1_exito:.3f} | {r.roc_auc:.3f} | {r.accuracy:.3f} |")
+        log(f"| {r.name} | {r.f1_macro:.3f} | {r.roc_auc:.3f} | {r.accuracy:.3f} |")
     log("")
 
     for r in results.values():
         log(f"### {r.name}")
         log(f"*Como funciona:* {COMO_FUNCIONA.get(r.name, '')}\n")
-        log(f"*Resultado:* F1(exito)={r.f1_exito:.3f}, ROC-AUC={r.roc_auc:.3f}, "
+        log(f"*Resultado:* F1-macro={r.f1_macro:.3f}, ROC-AUC={r.roc_auc:.3f}, "
             f"accuracy={r.accuracy:.3f}. Detecta el "
-            f"{_recall_exito(r)*100:.0f}% de los exitos reales del test.\n")
+            f"{_recall_exito(r)*100:.0f}% de los 'exito' reales del test.\n")
         log("```")
         log(r.report)
         log("```")
@@ -98,8 +102,8 @@ def main() -> None:
     plot_comparison(results, "10_clf_model_compare.png")
     plot_confusions(results, "11_clf_confusion.png")
 
-    best_name = max(results, key=lambda n: results[n].roc_auc)
-    log(f"**Mejor modelo (ROC-AUC): {best_name}**\n")
+    best_name = max(results, key=lambda n: results[n].f1_macro)
+    log(f"**Mejor modelo (F1-macro): {best_name}**\n")
 
     # ----------------------------------------------------------------- #
     # 3. Entregable: ranking de generos por P(exito) para los 3 modelos

@@ -18,7 +18,10 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from data_utils import load_prime, load_genres, load_regions
 
-from .config import MIN_ACTIVE, MIN_REGION, RATING_MIN_EXITO, SPLIT_YEAR
+from .config import (
+    MIN_ACTIVE, MIN_REGION, SPLIT_YEAR,
+    W_RATING, W_VOTES, W_GROSS, W_VOTES_SIN_GROSS,
+)
 
 
 @dataclass
@@ -39,10 +42,33 @@ class Dataset:
         return [c.replace("genre_", "") for c in self.genre_cols]
 
 
-def _label_exito(df: pd.DataFrame, vmed: float, gmed: float) -> pd.Series:
-    masivo = (df["votes"] > vmed) | (df["gross"].notna() & (df["gross"] > gmed))
-    es_exito = (df["rating"] >= RATING_MIN_EXITO) & masivo
-    return np.where(es_exito, "exito", "no_exito")
+def _minmax_params(s: pd.Series) -> tuple[float, float]:
+    return float(s.min()), float(s.max())
+
+
+def _norm(s: pd.Series, lo: float, hi: float) -> pd.Series:
+    """Min-Max a [0,1] con parametros (lo,hi) de train; clip para test."""
+    if hi <= lo:
+        return pd.Series(0.0, index=s.index)
+    return ((s - lo) / (hi - lo)).clip(0, 1)
+
+
+def _compute_iep(df: pd.DataFrame, params: dict) -> pd.Series:
+    """IEP por titulo. Normaliza con parametros de train. Redistribuye el peso
+    del gross a votos cuando no hay recaudo."""
+    r_n = _norm(df["rating"], *params["rating"])
+    v_n = _norm(np.log10(df["votes"].clip(lower=1)), *params["logvotes"])
+    g_log = np.log10(df["gross"].clip(lower=1))
+    g_n = _norm(g_log, *params["loggross"])
+
+    has_g = df["gross"].notna()
+    iep = pd.Series(0.0, index=df.index)
+    # con gross
+    iep[has_g] = (W_RATING * r_n[has_g] + W_VOTES * v_n[has_g]
+                  + W_GROSS * g_n[has_g])
+    # sin gross: peso del gross -> votos
+    iep[~has_g] = W_RATING * r_n[~has_g] + W_VOTES_SIN_GROSS * v_n[~has_g]
+    return iep
 
 
 def build_dataset() -> Dataset:
@@ -54,13 +80,28 @@ def build_dataset() -> Dataset:
     prime = prime.dropna(subset=["releaseYear"]).copy()
     is_train = prime["releaseYear"] < SPLIT_YEAR
 
-    # ---- umbrales calculados SOLO con train (sin fuga) ----
-    vmed = float(prime.loc[is_train, "votes"].median())
-    gmed = float(prime.loc[is_train, "gross"].median())
-    len_med = float(prime.loc[is_train, "length"].median())
+    # ---- parametros de normalizacion calculados SOLO con train (sin fuga) ----
+    tr = prime.loc[is_train]
+    params = {
+        "rating": _minmax_params(tr["rating"]),
+        "logvotes": _minmax_params(np.log10(tr["votes"].clip(lower=1))),
+        # gross se normaliza solo sobre titulos con recaudo (train)
+        "loggross": _minmax_params(np.log10(tr.loc[tr["gross"].notna(), "gross"].clip(lower=1))),
+    }
+    len_med = float(tr["length"].median())
 
-    # etiqueta de exito (a nivel titulo)
-    prime["clase"] = _label_exito(prime, vmed, gmed)
+    # IEP por titulo y discretizacion en 3 clases por terciles (de train)
+    prime["iep"] = _compute_iep(prime, params)
+    q1, q2 = prime.loc[is_train, "iep"].quantile([1 / 3, 2 / 3])
+
+    def _clase(v: float) -> str:
+        if v >= q2:
+            return "exito"
+        if v >= q1:
+            return "mediocre"
+        return "fracaso"
+
+    prime["clase"] = prime["iep"].map(_clase)
 
     # variables a nivel titulo
     prime["is_movie"] = (prime["contentType"] == "movie").astype(int)
@@ -97,12 +138,13 @@ def build_dataset() -> Dataset:
     test = df[df["releaseYear"] >= SPLIT_YEAR]
 
     info = {
-        "median_votes": vmed,
-        "median_gross": gmed,
+        "iep_q1": float(q1),
+        "iep_q2": float(q2),
+        "pct_con_gross": float(prime["gross"].notna().mean()),
         "n_train": len(train),
         "n_test": len(test),
-        "exito_rate_train": float((train["clase"] == "exito").mean()),
-        "exito_rate_test": float((test["clase"] == "exito").mean()),
+        "dist_train": train["clase"].value_counts().to_dict(),
+        "dist_test": test["clase"].value_counts().to_dict(),
         "regions_excluded": sorted(set(keep) - set(active)),
     }
 

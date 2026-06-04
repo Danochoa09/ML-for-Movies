@@ -1,2269 +1,2269 @@
 modelo,region,genre,p_exito
-Regresion Logistica,Argentina,Action,0.2014
-Regresion Logistica,Argentina,Adventure,0.2543
-Regresion Logistica,Argentina,Animation,0.3007
-Regresion Logistica,Argentina,Biography,0.3365
-Regresion Logistica,Argentina,Comedy,0.244
-Regresion Logistica,Argentina,Crime,0.2555
-Regresion Logistica,Argentina,Documentary,0.3278
-Regresion Logistica,Argentina,Drama,0.3799
-Regresion Logistica,Argentina,Family,0.1528
-Regresion Logistica,Argentina,Fantasy,0.2241
-Regresion Logistica,Argentina,Film-Noir,0.3792
-Regresion Logistica,Argentina,Game-Show,0.2301
-Regresion Logistica,Argentina,History,0.2411
-Regresion Logistica,Argentina,Horror,0.1041
-Regresion Logistica,Argentina,Music,0.2629
-Regresion Logistica,Argentina,Musical,0.2299
-Regresion Logistica,Argentina,Mystery,0.2651
-Regresion Logistica,Argentina,News,0.1706
-Regresion Logistica,Argentina,Reality-TV,0.1402
-Regresion Logistica,Argentina,Romance,0.2125
-Regresion Logistica,Argentina,Sci-Fi,0.1912
-Regresion Logistica,Argentina,Short,0.2372
-Regresion Logistica,Argentina,Sport,0.2102
-Regresion Logistica,Argentina,Talk-Show,0.1527
-Regresion Logistica,Argentina,Thriller,0.2005
-Regresion Logistica,Argentina,War,0.2995
-Regresion Logistica,Argentina,Western,0.2623
-Regresion Logistica,Australia,Action,0.2573
-Regresion Logistica,Australia,Adventure,0.3189
-Regresion Logistica,Australia,Animation,0.3713
-Regresion Logistica,Australia,Biography,0.4106
-Regresion Logistica,Australia,Comedy,0.3071
-Regresion Logistica,Australia,Crime,0.3203
-Regresion Logistica,Australia,Documentary,0.401
-Regresion Logistica,Australia,Drama,0.4569
-Regresion Logistica,Australia,Family,0.1985
-Regresion Logistica,Australia,Fantasy,0.284
-Regresion Logistica,Australia,Film-Noir,0.4562
-Regresion Logistica,Australia,Game-Show,0.291
-Regresion Logistica,Australia,History,0.3037
-Regresion Logistica,Australia,Horror,0.1376
-Regresion Logistica,Australia,Music,0.3287
-Regresion Logistica,Australia,Musical,0.2907
-Regresion Logistica,Australia,Mystery,0.3313
-Regresion Logistica,Australia,News,0.2202
-Regresion Logistica,Australia,Reality-TV,0.183
-Regresion Logistica,Australia,Romance,0.2704
-Regresion Logistica,Australia,Sci-Fi,0.2451
-Regresion Logistica,Australia,Short,0.2992
-Regresion Logistica,Australia,Sport,0.2677
-Regresion Logistica,Australia,Talk-Show,0.1984
-Regresion Logistica,Australia,Thriller,0.2562
-Regresion Logistica,Australia,War,0.3699
-Regresion Logistica,Australia,Western,0.3281
-Regresion Logistica,Belgium,Action,0.289
-Regresion Logistica,Belgium,Adventure,0.3546
-Regresion Logistica,Belgium,Animation,0.4093
-Regresion Logistica,Belgium,Biography,0.4497
-Regresion Logistica,Belgium,Comedy,0.3421
-Regresion Logistica,Belgium,Crime,0.3561
-Regresion Logistica,Belgium,Documentary,0.44
-Regresion Logistica,Belgium,Drama,0.4967
-Regresion Logistica,Belgium,Family,0.2252
-Regresion Logistica,Belgium,Fantasy,0.3176
-Regresion Logistica,Belgium,Film-Noir,0.4961
-Regresion Logistica,Belgium,Game-Show,0.3251
-Regresion Logistica,Belgium,History,0.3385
-Regresion Logistica,Belgium,Horror,0.1577
-Regresion Logistica,Belgium,Music,0.3649
-Regresion Logistica,Belgium,Musical,0.3248
-Regresion Logistica,Belgium,Mystery,0.3676
-Regresion Logistica,Belgium,News,0.2489
-Regresion Logistica,Belgium,Reality-TV,0.2081
-Regresion Logistica,Belgium,Romance,0.3031
-Regresion Logistica,Belgium,Sci-Fi,0.2759
-Regresion Logistica,Belgium,Short,0.3338
-Regresion Logistica,Belgium,Sport,0.3002
-Regresion Logistica,Belgium,Talk-Show,0.2251
-Regresion Logistica,Belgium,Thriller,0.2878
-Regresion Logistica,Belgium,War,0.4079
-Regresion Logistica,Belgium,Western,0.3643
-Regresion Logistica,Brazil,Action,0.1827
-Regresion Logistica,Brazil,Adventure,0.2321
-Regresion Logistica,Brazil,Animation,0.2759
-Regresion Logistica,Brazil,Biography,0.3101
-Regresion Logistica,Brazil,Comedy,0.2224
-Regresion Logistica,Brazil,Crime,0.2332
-Regresion Logistica,Brazil,Documentary,0.3017
-Regresion Logistica,Brazil,Drama,0.3518
-Regresion Logistica,Brazil,Family,0.1378
-Regresion Logistica,Brazil,Fantasy,0.2038
-Regresion Logistica,Brazil,Film-Noir,0.3512
-Regresion Logistica,Brazil,Game-Show,0.2094
-Regresion Logistica,Brazil,History,0.2196
-Regresion Logistica,Brazil,Horror,0.0934
-Regresion Logistica,Brazil,Music,0.2401
-Regresion Logistica,Brazil,Musical,0.2092
-Regresion Logistica,Brazil,Mystery,0.2422
-Regresion Logistica,Brazil,News,0.1542
-Regresion Logistica,Brazil,Reality-TV,0.1262
-Regresion Logistica,Brazil,Romance,0.193
-Regresion Logistica,Brazil,Sci-Fi,0.1732
-Regresion Logistica,Brazil,Short,0.216
-Regresion Logistica,Brazil,Sport,0.1909
-Regresion Logistica,Brazil,Talk-Show,0.1377
-Regresion Logistica,Brazil,Thriller,0.1818
-Regresion Logistica,Brazil,War,0.2747
-Regresion Logistica,Brazil,Western,0.2396
-Regresion Logistica,Canada,Action,0.2398
-Regresion Logistica,Canada,Adventure,0.299
-Regresion Logistica,Canada,Animation,0.3497
-Regresion Logistica,Canada,Biography,0.3881
-Regresion Logistica,Canada,Comedy,0.2876
-Regresion Logistica,Canada,Crime,0.3003
-Regresion Logistica,Canada,Documentary,0.3788
-Regresion Logistica,Canada,Drama,0.4338
-Regresion Logistica,Canada,Family,0.184
-Regresion Logistica,Canada,Fantasy,0.2654
-Regresion Logistica,Canada,Film-Noir,0.4331
-Regresion Logistica,Canada,Game-Show,0.2721
-Regresion Logistica,Canada,History,0.2843
-Regresion Logistica,Canada,Horror,0.1269
-Regresion Logistica,Canada,Music,0.3084
-Regresion Logistica,Canada,Musical,0.2718
-Regresion Logistica,Canada,Mystery,0.3109
-Regresion Logistica,Canada,News,0.2046
-Regresion Logistica,Canada,Reality-TV,0.1694
-Regresion Logistica,Canada,Romance,0.2524
-Regresion Logistica,Canada,Sci-Fi,0.2282
-Regresion Logistica,Canada,Short,0.28
-Regresion Logistica,Canada,Sport,0.2498
-Regresion Logistica,Canada,Talk-Show,0.184
-Regresion Logistica,Canada,Thriller,0.2388
-Regresion Logistica,Canada,War,0.3484
-Regresion Logistica,Canada,Western,0.3078
-Regresion Logistica,China,Action,0.261
-Regresion Logistica,China,Adventure,0.3231
-Regresion Logistica,China,Animation,0.3758
-Regresion Logistica,China,Biography,0.4152
-Regresion Logistica,China,Comedy,0.3112
-Regresion Logistica,China,Crime,0.3245
-Regresion Logistica,China,Documentary,0.4057
-Regresion Logistica,China,Drama,0.4617
-Regresion Logistica,China,Family,0.2016
-Regresion Logistica,China,Fantasy,0.2879
-Regresion Logistica,China,Film-Noir,0.461
-Regresion Logistica,China,Game-Show,0.295
-Regresion Logistica,China,History,0.3078
-Regresion Logistica,China,Horror,0.1399
-Regresion Logistica,China,Music,0.333
-Regresion Logistica,China,Musical,0.2947
-Regresion Logistica,China,Mystery,0.3355
-Regresion Logistica,China,News,0.2236
-Regresion Logistica,China,Reality-TV,0.1859
-Regresion Logistica,China,Romance,0.2742
-Regresion Logistica,China,Sci-Fi,0.2487
-Regresion Logistica,China,Short,0.3033
-Regresion Logistica,China,Sport,0.2715
-Regresion Logistica,China,Talk-Show,0.2015
-Regresion Logistica,China,Thriller,0.2599
-Regresion Logistica,China,War,0.3744
-Regresion Logistica,China,Western,0.3323
-Regresion Logistica,Denmark,Action,0.3065
-Regresion Logistica,Denmark,Adventure,0.374
-Regresion Logistica,Denmark,Animation,0.4296
-Regresion Logistica,Denmark,Biography,0.4705
-Regresion Logistica,Denmark,Comedy,0.3612
-Regresion Logistica,Denmark,Crime,0.3755
-Regresion Logistica,Denmark,Documentary,0.4607
-Regresion Logistica,Denmark,Drama,0.5176
-Regresion Logistica,Denmark,Family,0.2401
-Regresion Logistica,Denmark,Fantasy,0.336
-Regresion Logistica,Denmark,Film-Noir,0.517
-Regresion Logistica,Denmark,Game-Show,0.3437
-Regresion Logistica,Denmark,History,0.3575
-Regresion Logistica,Denmark,Horror,0.1692
-Regresion Logistica,Denmark,Music,0.3845
-Regresion Logistica,Denmark,Musical,0.3434
-Regresion Logistica,Denmark,Mystery,0.3872
-Regresion Logistica,Denmark,News,0.2649
-Regresion Logistica,Denmark,Reality-TV,0.2222
-Regresion Logistica,Denmark,Romance,0.3211
-Regresion Logistica,Denmark,Sci-Fi,0.2929
-Regresion Logistica,Denmark,Short,0.3527
-Regresion Logistica,Denmark,Sport,0.318
-Regresion Logistica,Denmark,Talk-Show,0.24
-Regresion Logistica,Denmark,Thriller,0.3053
-Regresion Logistica,Denmark,War,0.4282
-Regresion Logistica,Denmark,Western,0.3838
-Regresion Logistica,Egypt,Action,0.1961
-Regresion Logistica,Egypt,Adventure,0.248
-Regresion Logistica,Egypt,Animation,0.2937
-Regresion Logistica,Egypt,Biography,0.329
-Regresion Logistica,Egypt,Comedy,0.2379
-Regresion Logistica,Egypt,Crime,0.2492
-Regresion Logistica,Egypt,Documentary,0.3204
-Regresion Logistica,Egypt,Drama,0.372
-Regresion Logistica,Egypt,Family,0.1485
-Regresion Logistica,Egypt,Fantasy,0.2183
-Regresion Logistica,Egypt,Film-Noir,0.3713
-Regresion Logistica,Egypt,Game-Show,0.2242
-Regresion Logistica,Egypt,History,0.2349
-Regresion Logistica,Egypt,Horror,0.101
-Regresion Logistica,Egypt,Music,0.2564
-Regresion Logistica,Egypt,Musical,0.224
-Regresion Logistica,Egypt,Mystery,0.2586
-Regresion Logistica,Egypt,News,0.1659
-Regresion Logistica,Egypt,Reality-TV,0.1362
-Regresion Logistica,Egypt,Romance,0.207
-Regresion Logistica,Egypt,Sci-Fi,0.1861
-Regresion Logistica,Egypt,Short,0.2311
-Regresion Logistica,Egypt,Sport,0.2047
-Regresion Logistica,Egypt,Talk-Show,0.1484
-Regresion Logistica,Egypt,Thriller,0.1951
-Regresion Logistica,Egypt,War,0.2924
-Regresion Logistica,Egypt,Western,0.2558
-Regresion Logistica,Finland,Action,0.1781
-Regresion Logistica,Finland,Adventure,0.2266
-Regresion Logistica,Finland,Animation,0.2698
-Regresion Logistica,Finland,Biography,0.3035
-Regresion Logistica,Finland,Comedy,0.2171
-Regresion Logistica,Finland,Crime,0.2277
-Regresion Logistica,Finland,Documentary,0.2953
-Regresion Logistica,Finland,Drama,0.3448
-Regresion Logistica,Finland,Family,0.1342
-Regresion Logistica,Finland,Fantasy,0.1988
-Regresion Logistica,Finland,Film-Noir,0.3442
-Regresion Logistica,Finland,Game-Show,0.2043
-Regresion Logistica,Finland,History,0.2144
-Regresion Logistica,Finland,Horror,0.0908
-Regresion Logistica,Finland,Music,0.2345
-Regresion Logistica,Finland,Musical,0.2041
-Regresion Logistica,Finland,Mystery,0.2366
-Regresion Logistica,Finland,News,0.1502
-Regresion Logistica,Finland,Reality-TV,0.1229
-Regresion Logistica,Finland,Romance,0.1883
-Regresion Logistica,Finland,Sci-Fi,0.1689
-Regresion Logistica,Finland,Short,0.2108
-Regresion Logistica,Finland,Sport,0.1862
-Regresion Logistica,Finland,Talk-Show,0.1341
-Regresion Logistica,Finland,Thriller,0.1773
-Regresion Logistica,Finland,War,0.2686
-Regresion Logistica,Finland,Western,0.234
-Regresion Logistica,France,Action,0.3266
-Regresion Logistica,France,Adventure,0.396
-Regresion Logistica,France,Animation,0.4526
-Regresion Logistica,France,Biography,0.4938
-Regresion Logistica,France,Comedy,0.383
-Regresion Logistica,France,Crime,0.3976
-Regresion Logistica,France,Documentary,0.4838
-Regresion Logistica,France,Drama,0.5408
-Regresion Logistica,France,Family,0.2575
-Regresion Logistica,France,Fantasy,0.3571
-Regresion Logistica,France,Film-Noir,0.5402
-Regresion Logistica,France,Game-Show,0.365
-Regresion Logistica,France,History,0.3791
-Regresion Logistica,France,Horror,0.1827
-Regresion Logistica,France,Music,0.4068
-Regresion Logistica,France,Musical,0.3647
-Regresion Logistica,France,Mystery,0.4095
-Regresion Logistica,France,News,0.2834
-Regresion Logistica,France,Reality-TV,0.2387
-Regresion Logistica,France,Romance,0.3417
-Regresion Logistica,France,Sci-Fi,0.3126
-Regresion Logistica,France,Short,0.3742
-Regresion Logistica,France,Sport,0.3386
-Regresion Logistica,France,Talk-Show,0.2574
-Regresion Logistica,France,Thriller,0.3254
-Regresion Logistica,France,War,0.4512
-Regresion Logistica,France,Western,0.4061
-Regresion Logistica,Germany,Action,0.3018
-Regresion Logistica,Germany,Adventure,0.3688
-Regresion Logistica,Germany,Animation,0.4242
-Regresion Logistica,Germany,Biography,0.465
-Regresion Logistica,Germany,Comedy,0.3561
-Regresion Logistica,Germany,Crime,0.3703
-Regresion Logistica,Germany,Documentary,0.4551
-Regresion Logistica,Germany,Drama,0.5121
-Regresion Logistica,Germany,Family,0.2361
-Regresion Logistica,Germany,Fantasy,0.331
-Regresion Logistica,Germany,Film-Noir,0.5115
-Regresion Logistica,Germany,Game-Show,0.3387
-Regresion Logistica,Germany,History,0.3524
-Regresion Logistica,Germany,Horror,0.1661
-Regresion Logistica,Germany,Music,0.3792
-Regresion Logistica,Germany,Musical,0.3384
-Regresion Logistica,Germany,Mystery,0.3819
-Regresion Logistica,Germany,News,0.2606
-Regresion Logistica,Germany,Reality-TV,0.2184
-Regresion Logistica,Germany,Romance,0.3162
-Regresion Logistica,Germany,Sci-Fi,0.2883
-Regresion Logistica,Germany,Short,0.3476
-Regresion Logistica,Germany,Sport,0.3132
-Regresion Logistica,Germany,Talk-Show,0.236
-Regresion Logistica,Germany,Thriller,0.3006
-Regresion Logistica,Germany,War,0.4228
-Regresion Logistica,Germany,Western,0.3786
-Regresion Logistica,Greece,Action,0.2462
-Regresion Logistica,Greece,Adventure,0.3063
-Regresion Logistica,Greece,Animation,0.3576
-Regresion Logistica,Greece,Biography,0.3964
-Regresion Logistica,Greece,Comedy,0.2947
-Regresion Logistica,Greece,Crime,0.3077
-Regresion Logistica,Greece,Documentary,0.387
-Regresion Logistica,Greece,Drama,0.4423
-Regresion Logistica,Greece,Family,0.1893
-Regresion Logistica,Greece,Fantasy,0.2722
-Regresion Logistica,Greece,Film-Noir,0.4417
-Regresion Logistica,Greece,Game-Show,0.279
-Regresion Logistica,Greece,History,0.2914
-Regresion Logistica,Greece,Horror,0.1308
-Regresion Logistica,Greece,Music,0.3159
-Regresion Logistica,Greece,Musical,0.2788
-Regresion Logistica,Greece,Mystery,0.3183
-Regresion Logistica,Greece,News,0.2103
-Regresion Logistica,Greece,Reality-TV,0.1743
-Regresion Logistica,Greece,Romance,0.259
-Regresion Logistica,Greece,Sci-Fi,0.2344
-Regresion Logistica,Greece,Short,0.287
-Regresion Logistica,Greece,Sport,0.2563
-Regresion Logistica,Greece,Talk-Show,0.1892
-Regresion Logistica,Greece,Thriller,0.2451
-Regresion Logistica,Greece,War,0.3563
-Regresion Logistica,Greece,Western,0.3152
-Regresion Logistica,Hong Kong,Action,0.2978
-Regresion Logistica,Hong Kong,Adventure,0.3644
-Regresion Logistica,Hong Kong,Animation,0.4196
-Regresion Logistica,Hong Kong,Biography,0.4603
-Regresion Logistica,Hong Kong,Comedy,0.3518
-Regresion Logistica,Hong Kong,Crime,0.3659
-Regresion Logistica,Hong Kong,Documentary,0.4504
-Regresion Logistica,Hong Kong,Drama,0.5073
-Regresion Logistica,Hong Kong,Family,0.2327
-Regresion Logistica,Hong Kong,Fantasy,0.3269
-Regresion Logistica,Hong Kong,Film-Noir,0.5067
-Regresion Logistica,Hong Kong,Game-Show,0.3345
-Regresion Logistica,Hong Kong,History,0.3481
-Regresion Logistica,Hong Kong,Horror,0.1635
-Regresion Logistica,Hong Kong,Music,0.3748
-Regresion Logistica,Hong Kong,Musical,0.3342
-Regresion Logistica,Hong Kong,Mystery,0.3775
-Regresion Logistica,Hong Kong,News,0.2569
-Regresion Logistica,Hong Kong,Reality-TV,0.2152
-Regresion Logistica,Hong Kong,Romance,0.3122
-Regresion Logistica,Hong Kong,Sci-Fi,0.2845
-Regresion Logistica,Hong Kong,Short,0.3433
-Regresion Logistica,Hong Kong,Sport,0.3092
-Regresion Logistica,Hong Kong,Talk-Show,0.2326
-Regresion Logistica,Hong Kong,Thriller,0.2966
-Regresion Logistica,Hong Kong,War,0.4182
-Regresion Logistica,Hong Kong,Western,0.3741
-Regresion Logistica,India,Action,0.3041
-Regresion Logistica,India,Adventure,0.3714
-Regresion Logistica,India,Animation,0.4269
-Regresion Logistica,India,Biography,0.4677
-Regresion Logistica,India,Comedy,0.3586
-Regresion Logistica,India,Crime,0.3729
-Regresion Logistica,India,Documentary,0.4579
-Regresion Logistica,India,Drama,0.5148
-Regresion Logistica,India,Family,0.2381
-Regresion Logistica,India,Fantasy,0.3335
-Regresion Logistica,India,Film-Noir,0.5142
-Regresion Logistica,India,Game-Show,0.3412
-Regresion Logistica,India,History,0.3549
-Regresion Logistica,India,Horror,0.1676
-Regresion Logistica,India,Music,0.3819
-Regresion Logistica,India,Musical,0.3409
-Regresion Logistica,India,Mystery,0.3846
-Regresion Logistica,India,News,0.2627
-Regresion Logistica,India,Reality-TV,0.2203
-Regresion Logistica,India,Romance,0.3186
-Regresion Logistica,India,Sci-Fi,0.2906
-Regresion Logistica,India,Short,0.3501
-Regresion Logistica,India,Sport,0.3156
-Regresion Logistica,India,Talk-Show,0.238
-Regresion Logistica,India,Thriller,0.3029
-Regresion Logistica,India,War,0.4255
-Regresion Logistica,India,Western,0.3812
-Regresion Logistica,Iran,Action,0.2656
-Regresion Logistica,Iran,Adventure,0.3284
-Regresion Logistica,Iran,Animation,0.3814
-Regresion Logistica,Iran,Biography,0.4211
-Regresion Logistica,Iran,Comedy,0.3164
-Regresion Logistica,Iran,Crime,0.3298
-Regresion Logistica,Iran,Documentary,0.4115
-Regresion Logistica,Iran,Drama,0.4676
-Regresion Logistica,Iran,Family,0.2055
-Regresion Logistica,Iran,Fantasy,0.2929
-Regresion Logistica,Iran,Film-Noir,0.467
-Regresion Logistica,Iran,Game-Show,0.3
-Regresion Logistica,Iran,History,0.3129
-Regresion Logistica,Iran,Horror,0.1429
-Regresion Logistica,Iran,Music,0.3383
-Regresion Logistica,Iran,Musical,0.2997
-Regresion Logistica,Iran,Mystery,0.3409
-Regresion Logistica,Iran,News,0.2278
-Regresion Logistica,Iran,Reality-TV,0.1895
-Regresion Logistica,Iran,Romance,0.279
-Regresion Logistica,Iran,Sci-Fi,0.2532
-Regresion Logistica,Iran,Short,0.3084
-Regresion Logistica,Iran,Sport,0.2763
-Regresion Logistica,Iran,Talk-Show,0.2054
-Regresion Logistica,Iran,Thriller,0.2645
-Regresion Logistica,Iran,War,0.38
-Regresion Logistica,Iran,Western,0.3377
-Regresion Logistica,Italy,Action,0.276
-Regresion Logistica,Italy,Adventure,0.3401
-Regresion Logistica,Italy,Animation,0.3939
-Regresion Logistica,Italy,Biography,0.434
-Regresion Logistica,Italy,Comedy,0.3279
-Regresion Logistica,Italy,Crime,0.3416
-Regresion Logistica,Italy,Documentary,0.4243
-Regresion Logistica,Italy,Drama,0.4808
-Regresion Logistica,Italy,Family,0.2142
-Regresion Logistica,Italy,Fantasy,0.3039
-Regresion Logistica,Italy,Film-Noir,0.4802
-Regresion Logistica,Italy,Game-Show,0.3112
-Regresion Logistica,Italy,History,0.3244
-Regresion Logistica,Italy,Horror,0.1494
-Regresion Logistica,Italy,Music,0.3502
-Regresion Logistica,Italy,Musical,0.3109
-Regresion Logistica,Italy,Mystery,0.3529
-Regresion Logistica,Italy,News,0.2372
-Regresion Logistica,Italy,Reality-TV,0.1978
-Regresion Logistica,Italy,Romance,0.2898
-Regresion Logistica,Italy,Sci-Fi,0.2633
-Regresion Logistica,Italy,Short,0.3198
-Regresion Logistica,Italy,Sport,0.2869
-Regresion Logistica,Italy,Talk-Show,0.2142
-Regresion Logistica,Italy,Thriller,0.2749
-Regresion Logistica,Italy,War,0.3925
-Regresion Logistica,Italy,Western,0.3496
-Regresion Logistica,Japan,Action,0.3091
-Regresion Logistica,Japan,Adventure,0.3769
-Regresion Logistica,Japan,Animation,0.4327
-Regresion Logistica,Japan,Biography,0.4736
-Regresion Logistica,Japan,Comedy,0.3641
-Regresion Logistica,Japan,Crime,0.3784
-Regresion Logistica,Japan,Documentary,0.4637
-Regresion Logistica,Japan,Drama,0.5207
-Regresion Logistica,Japan,Family,0.2424
-Regresion Logistica,Japan,Fantasy,0.3388
-Regresion Logistica,Japan,Film-Noir,0.5201
-Regresion Logistica,Japan,Game-Show,0.3465
-Regresion Logistica,Japan,History,0.3603
-Regresion Logistica,Japan,Horror,0.1709
-Regresion Logistica,Japan,Music,0.3874
-Regresion Logistica,Japan,Musical,0.3462
-Regresion Logistica,Japan,Mystery,0.3901
-Regresion Logistica,Japan,News,0.2673
-Regresion Logistica,Japan,Reality-TV,0.2244
-Regresion Logistica,Japan,Romance,0.3238
-Regresion Logistica,Japan,Sci-Fi,0.2955
-Regresion Logistica,Japan,Short,0.3555
-Regresion Logistica,Japan,Sport,0.3207
-Regresion Logistica,Japan,Talk-Show,0.2423
-Regresion Logistica,Japan,Thriller,0.3079
-Regresion Logistica,Japan,War,0.4313
-Regresion Logistica,Japan,Western,0.3868
-Regresion Logistica,Mexico,Action,0.2447
-Regresion Logistica,Mexico,Adventure,0.3046
-Regresion Logistica,Mexico,Animation,0.3558
-Regresion Logistica,Mexico,Biography,0.3945
-Regresion Logistica,Mexico,Comedy,0.2931
-Regresion Logistica,Mexico,Crime,0.306
-Regresion Logistica,Mexico,Documentary,0.3851
-Regresion Logistica,Mexico,Drama,0.4404
-Regresion Logistica,Mexico,Family,0.1881
-Regresion Logistica,Mexico,Fantasy,0.2706
-Regresion Logistica,Mexico,Film-Noir,0.4397
-Regresion Logistica,Mexico,Game-Show,0.2774
-Regresion Logistica,Mexico,History,0.2898
-Regresion Logistica,Mexico,Horror,0.1299
-Regresion Logistica,Mexico,Music,0.3141
-Regresion Logistica,Mexico,Musical,0.2772
-Regresion Logistica,Mexico,Mystery,0.3166
-Regresion Logistica,Mexico,News,0.209
-Regresion Logistica,Mexico,Reality-TV,0.1732
-Regresion Logistica,Mexico,Romance,0.2575
-Regresion Logistica,Mexico,Sci-Fi,0.233
-Regresion Logistica,Mexico,Short,0.2854
-Regresion Logistica,Mexico,Sport,0.2548
-Regresion Logistica,Mexico,Talk-Show,0.188
-Regresion Logistica,Mexico,Thriller,0.2437
-Regresion Logistica,Mexico,War,0.3545
-Regresion Logistica,Mexico,Western,0.3135
-Regresion Logistica,Netherlands,Action,0.2481
-Regresion Logistica,Netherlands,Adventure,0.3085
-Regresion Logistica,Netherlands,Animation,0.36
-Regresion Logistica,Netherlands,Biography,0.3989
-Regresion Logistica,Netherlands,Comedy,0.2969
-Regresion Logistica,Netherlands,Crime,0.3099
-Regresion Logistica,Netherlands,Documentary,0.3895
-Regresion Logistica,Netherlands,Drama,0.4449
-Regresion Logistica,Netherlands,Family,0.1909
-Regresion Logistica,Netherlands,Fantasy,0.2743
-Regresion Logistica,Netherlands,Film-Noir,0.4443
-Regresion Logistica,Netherlands,Game-Show,0.2811
-Regresion Logistica,Netherlands,History,0.2936
-Regresion Logistica,Netherlands,Horror,0.132
-Regresion Logistica,Netherlands,Music,0.3181
-Regresion Logistica,Netherlands,Musical,0.2809
-Regresion Logistica,Netherlands,Mystery,0.3206
-Regresion Logistica,Netherlands,News,0.212
-Regresion Logistica,Netherlands,Reality-TV,0.1758
-Regresion Logistica,Netherlands,Romance,0.261
-Regresion Logistica,Netherlands,Sci-Fi,0.2363
-Regresion Logistica,Netherlands,Short,0.2892
-Regresion Logistica,Netherlands,Sport,0.2583
-Regresion Logistica,Netherlands,Talk-Show,0.1908
-Regresion Logistica,Netherlands,Thriller,0.2471
-Regresion Logistica,Netherlands,War,0.3587
-Regresion Logistica,Netherlands,Western,0.3175
-Regresion Logistica,Norway,Action,0.2887
-Regresion Logistica,Norway,Adventure,0.3543
-Regresion Logistica,Norway,Animation,0.4089
-Regresion Logistica,Norway,Biography,0.4494
-Regresion Logistica,Norway,Comedy,0.3418
-Regresion Logistica,Norway,Crime,0.3557
-Regresion Logistica,Norway,Documentary,0.4396
-Regresion Logistica,Norway,Drama,0.4964
-Regresion Logistica,Norway,Family,0.2249
-Regresion Logistica,Norway,Fantasy,0.3173
-Regresion Logistica,Norway,Film-Noir,0.4957
-Regresion Logistica,Norway,Game-Show,0.3248
-Regresion Logistica,Norway,History,0.3382
-Regresion Logistica,Norway,Horror,0.1575
-Regresion Logistica,Norway,Music,0.3646
-Regresion Logistica,Norway,Musical,0.3245
-Regresion Logistica,Norway,Mystery,0.3672
-Regresion Logistica,Norway,News,0.2486
-Regresion Logistica,Norway,Reality-TV,0.2078
-Regresion Logistica,Norway,Romance,0.3028
-Regresion Logistica,Norway,Sci-Fi,0.2756
-Regresion Logistica,Norway,Short,0.3335
-Regresion Logistica,Norway,Sport,0.2999
-Regresion Logistica,Norway,Talk-Show,0.2248
-Regresion Logistica,Norway,Thriller,0.2875
-Regresion Logistica,Norway,War,0.4075
-Regresion Logistica,Norway,Western,0.3639
-Regresion Logistica,Poland,Action,0.2513
-Regresion Logistica,Poland,Adventure,0.3121
-Regresion Logistica,Poland,Animation,0.3639
-Regresion Logistica,Poland,Biography,0.4029
-Regresion Logistica,Poland,Comedy,0.3004
-Regresion Logistica,Poland,Crime,0.3135
-Regresion Logistica,Poland,Documentary,0.3935
-Regresion Logistica,Poland,Drama,0.449
-Regresion Logistica,Poland,Family,0.1935
-Regresion Logistica,Poland,Fantasy,0.2776
-Regresion Logistica,Poland,Film-Noir,0.4484
-Regresion Logistica,Poland,Game-Show,0.2845
-Regresion Logistica,Poland,History,0.2971
-Regresion Logistica,Poland,Horror,0.1339
-Regresion Logistica,Poland,Music,0.3218
-Regresion Logistica,Poland,Musical,0.2843
-Regresion Logistica,Poland,Mystery,0.3243
-Regresion Logistica,Poland,News,0.2149
-Regresion Logistica,Poland,Reality-TV,0.1783
-Regresion Logistica,Poland,Romance,0.2642
-Regresion Logistica,Poland,Sci-Fi,0.2393
-Regresion Logistica,Poland,Short,0.2926
-Regresion Logistica,Poland,Sport,0.2616
-Regresion Logistica,Poland,Talk-Show,0.1934
-Regresion Logistica,Poland,Thriller,0.2502
-Regresion Logistica,Poland,War,0.3626
-Regresion Logistica,Poland,Western,0.3212
-Regresion Logistica,Russia,Action,0.1752
-Regresion Logistica,Russia,Adventure,0.2231
-Regresion Logistica,Russia,Animation,0.2658
-Regresion Logistica,Russia,Biography,0.2993
-Regresion Logistica,Russia,Comedy,0.2137
-Regresion Logistica,Russia,Crime,0.2242
-Regresion Logistica,Russia,Documentary,0.2911
-Regresion Logistica,Russia,Drama,0.3403
-Regresion Logistica,Russia,Family,0.1318
-Regresion Logistica,Russia,Fantasy,0.1956
-Regresion Logistica,Russia,Film-Noir,0.3396
-Regresion Logistica,Russia,Game-Show,0.201
-Regresion Logistica,Russia,History,0.211
-Regresion Logistica,Russia,Horror,0.0891
-Regresion Logistica,Russia,Music,0.2309
-Regresion Logistica,Russia,Musical,0.2008
-Regresion Logistica,Russia,Mystery,0.233
-Regresion Logistica,Russia,News,0.1476
-Regresion Logistica,Russia,Reality-TV,0.1207
-Regresion Logistica,Russia,Romance,0.1852
-Regresion Logistica,Russia,Sci-Fi,0.166
-Regresion Logistica,Russia,Short,0.2075
-Regresion Logistica,Russia,Sport,0.1831
-Regresion Logistica,Russia,Talk-Show,0.1318
-Regresion Logistica,Russia,Thriller,0.1743
-Regresion Logistica,Russia,War,0.2647
-Regresion Logistica,Russia,Western,0.2304
-Regresion Logistica,South Korea,Action,0.3379
-Regresion Logistica,South Korea,Adventure,0.4083
-Regresion Logistica,South Korea,Animation,0.4652
-Regresion Logistica,South Korea,Biography,0.5065
-Regresion Logistica,South Korea,Comedy,0.3951
-Regresion Logistica,South Korea,Crime,0.4098
-Regresion Logistica,South Korea,Documentary,0.4966
-Regresion Logistica,South Korea,Drama,0.5535
-Regresion Logistica,South Korea,Family,0.2674
-Regresion Logistica,South Korea,Fantasy,0.3688
-Regresion Logistica,South Korea,Film-Noir,0.5529
-Regresion Logistica,South Korea,Game-Show,0.3769
-Regresion Logistica,South Korea,History,0.3912
-Regresion Logistica,South Korea,Horror,0.1904
-Regresion Logistica,South Korea,Music,0.4191
-Regresion Logistica,South Korea,Musical,0.3766
-Regresion Logistica,South Korea,Mystery,0.4219
-Regresion Logistica,South Korea,News,0.2939
-Regresion Logistica,South Korea,Reality-TV,0.2481
-Regresion Logistica,South Korea,Romance,0.3532
-Regresion Logistica,South Korea,Sci-Fi,0.3236
-Regresion Logistica,South Korea,Short,0.3862
-Regresion Logistica,South Korea,Sport,0.3501
-Regresion Logistica,South Korea,Talk-Show,0.2673
-Regresion Logistica,South Korea,Thriller,0.3367
-Regresion Logistica,South Korea,War,0.4638
-Regresion Logistica,South Korea,Western,0.4184
-Regresion Logistica,Spain,Action,0.2473
-Regresion Logistica,Spain,Adventure,0.3075
-Regresion Logistica,Spain,Animation,0.359
-Regresion Logistica,Spain,Biography,0.3978
-Regresion Logistica,Spain,Comedy,0.296
-Regresion Logistica,Spain,Crime,0.3089
-Regresion Logistica,Spain,Documentary,0.3884
-Regresion Logistica,Spain,Drama,0.4438
-Regresion Logistica,Spain,Family,0.1902
-Regresion Logistica,Spain,Fantasy,0.2734
-Regresion Logistica,Spain,Film-Noir,0.4431
-Regresion Logistica,Spain,Game-Show,0.2802
-Regresion Logistica,Spain,History,0.2926
-Regresion Logistica,Spain,Horror,0.1315
-Regresion Logistica,Spain,Music,0.3171
-Regresion Logistica,Spain,Musical,0.2799
-Regresion Logistica,Spain,Mystery,0.3196
-Regresion Logistica,Spain,News,0.2113
-Regresion Logistica,Spain,Reality-TV,0.1752
-Regresion Logistica,Spain,Romance,0.2601
-Regresion Logistica,Spain,Sci-Fi,0.2355
-Regresion Logistica,Spain,Short,0.2882
-Regresion Logistica,Spain,Sport,0.2575
-Regresion Logistica,Spain,Talk-Show,0.1901
-Regresion Logistica,Spain,Thriller,0.2462
-Regresion Logistica,Spain,War,0.3576
-Regresion Logistica,Spain,Western,0.3165
-Regresion Logistica,Sweden,Action,0.2798
-Regresion Logistica,Sweden,Adventure,0.3443
-Regresion Logistica,Sweden,Animation,0.3984
-Regresion Logistica,Sweden,Biography,0.4386
-Regresion Logistica,Sweden,Comedy,0.332
-Regresion Logistica,Sweden,Crime,0.3458
-Regresion Logistica,Sweden,Documentary,0.4288
-Regresion Logistica,Sweden,Drama,0.4854
-Regresion Logistica,Sweden,Family,0.2174
-Regresion Logistica,Sweden,Fantasy,0.3079
-Regresion Logistica,Sweden,Film-Noir,0.4848
-Regresion Logistica,Sweden,Game-Show,0.3152
-Regresion Logistica,Sweden,History,0.3285
-Regresion Logistica,Sweden,Horror,0.1518
-Regresion Logistica,Sweden,Music,0.3545
-Regresion Logistica,Sweden,Musical,0.3149
-Regresion Logistica,Sweden,Mystery,0.3571
-Regresion Logistica,Sweden,News,0.2406
-Regresion Logistica,Sweden,Reality-TV,0.2007
-Regresion Logistica,Sweden,Romance,0.2936
-Regresion Logistica,Sweden,Sci-Fi,0.267
-Regresion Logistica,Sweden,Short,0.3238
-Regresion Logistica,Sweden,Sport,0.2908
-Regresion Logistica,Sweden,Talk-Show,0.2173
-Regresion Logistica,Sweden,Thriller,0.2786
-Regresion Logistica,Sweden,War,0.397
-Regresion Logistica,Sweden,Western,0.3538
-Regresion Logistica,Turkey,Action,0.2959
-Regresion Logistica,Turkey,Adventure,0.3623
-Regresion Logistica,Turkey,Animation,0.4174
-Regresion Logistica,Turkey,Biography,0.4581
-Regresion Logistica,Turkey,Comedy,0.3497
-Regresion Logistica,Turkey,Crime,0.3638
-Regresion Logistica,Turkey,Documentary,0.4482
-Regresion Logistica,Turkey,Drama,0.5051
-Regresion Logistica,Turkey,Family,0.2311
-Regresion Logistica,Turkey,Fantasy,0.3249
-Regresion Logistica,Turkey,Film-Noir,0.5045
-Regresion Logistica,Turkey,Game-Show,0.3325
-Regresion Logistica,Turkey,History,0.3461
-Regresion Logistica,Turkey,Horror,0.1623
-Regresion Logistica,Turkey,Music,0.3727
-Regresion Logistica,Turkey,Musical,0.3322
-Regresion Logistica,Turkey,Mystery,0.3754
-Regresion Logistica,Turkey,News,0.2552
-Regresion Logistica,Turkey,Reality-TV,0.2137
-Regresion Logistica,Turkey,Romance,0.3102
-Regresion Logistica,Turkey,Sci-Fi,0.2827
-Regresion Logistica,Turkey,Short,0.3413
-Regresion Logistica,Turkey,Sport,0.3073
-Regresion Logistica,Turkey,Talk-Show,0.231
-Regresion Logistica,Turkey,Thriller,0.2947
-Regresion Logistica,Turkey,War,0.416
-Regresion Logistica,Turkey,Western,0.3721
-Regresion Logistica,United Kingdom,Action,0.3225
-Regresion Logistica,United Kingdom,Adventure,0.3915
-Regresion Logistica,United Kingdom,Animation,0.4479
-Regresion Logistica,United Kingdom,Biography,0.489
-Regresion Logistica,United Kingdom,Comedy,0.3785
-Regresion Logistica,United Kingdom,Crime,0.393
-Regresion Logistica,United Kingdom,Documentary,0.4791
-Regresion Logistica,United Kingdom,Drama,0.5361
-Regresion Logistica,United Kingdom,Family,0.2539
-Regresion Logistica,United Kingdom,Fantasy,0.3527
-Regresion Logistica,United Kingdom,Film-Noir,0.5355
-Regresion Logistica,United Kingdom,Game-Show,0.3607
-Regresion Logistica,United Kingdom,History,0.3747
-Regresion Logistica,United Kingdom,Horror,0.1799
-Regresion Logistica,United Kingdom,Music,0.4022
-Regresion Logistica,United Kingdom,Musical,0.3603
-Regresion Logistica,United Kingdom,Mystery,0.405
-Regresion Logistica,United Kingdom,News,0.2796
-Regresion Logistica,United Kingdom,Reality-TV,0.2353
-Regresion Logistica,United Kingdom,Romance,0.3375
-Regresion Logistica,United Kingdom,Sci-Fi,0.3085
-Regresion Logistica,United Kingdom,Short,0.3698
-Regresion Logistica,United Kingdom,Sport,0.3343
-Regresion Logistica,United Kingdom,Talk-Show,0.2538
-Regresion Logistica,United Kingdom,Thriller,0.3212
-Regresion Logistica,United Kingdom,War,0.4465
-Regresion Logistica,United Kingdom,Western,0.4015
-Regresion Logistica,United States,Action,0.2877
-Regresion Logistica,United States,Adventure,0.3532
-Regresion Logistica,United States,Animation,0.4078
-Regresion Logistica,United States,Biography,0.4482
-Regresion Logistica,United States,Comedy,0.3408
-Regresion Logistica,United States,Crime,0.3547
-Regresion Logistica,United States,Documentary,0.4385
-Regresion Logistica,United States,Drama,0.4952
-Regresion Logistica,United States,Family,0.2241
-Regresion Logistica,United States,Fantasy,0.3163
-Regresion Logistica,United States,Film-Noir,0.4946
-Regresion Logistica,United States,Game-Show,0.3238
-Regresion Logistica,United States,History,0.3372
-Regresion Logistica,United States,Horror,0.1569
-Regresion Logistica,United States,Music,0.3635
-Regresion Logistica,United States,Musical,0.3235
-Regresion Logistica,United States,Mystery,0.3662
-Regresion Logistica,United States,News,0.2478
-Regresion Logistica,United States,Reality-TV,0.2071
-Regresion Logistica,United States,Romance,0.3018
-Regresion Logistica,United States,Sci-Fi,0.2747
-Regresion Logistica,United States,Short,0.3325
-Regresion Logistica,United States,Sport,0.2989
-Regresion Logistica,United States,Talk-Show,0.2241
-Regresion Logistica,United States,Thriller,0.2866
-Regresion Logistica,United States,War,0.4064
-Regresion Logistica,United States,Western,0.3629
-Random Forest,Argentina,Action,0.1331
-Random Forest,Argentina,Adventure,0.1768
-Random Forest,Argentina,Animation,0.2003
-Random Forest,Argentina,Biography,0.3682
-Random Forest,Argentina,Comedy,0.182
-Random Forest,Argentina,Crime,0.2081
-Random Forest,Argentina,Documentary,0.3324
-Random Forest,Argentina,Drama,0.2603
-Random Forest,Argentina,Family,0.1224
-Random Forest,Argentina,Fantasy,0.1661
-Random Forest,Argentina,Film-Noir,0.4355
-Random Forest,Argentina,Game-Show,0.0903
-Random Forest,Argentina,History,0.2956
-Random Forest,Argentina,Horror,0.1728
-Random Forest,Argentina,Music,0.2999
-Random Forest,Argentina,Musical,0.1791
-Random Forest,Argentina,Mystery,0.2045
-Random Forest,Argentina,News,0.1026
-Random Forest,Argentina,Reality-TV,0.082
-Random Forest,Argentina,Romance,0.1796
-Random Forest,Argentina,Sci-Fi,0.1285
-Random Forest,Argentina,Short,0.2155
-Random Forest,Argentina,Sport,0.1811
-Random Forest,Argentina,Talk-Show,0.1021
-Random Forest,Argentina,Thriller,0.1645
-Random Forest,Argentina,War,0.3048
-Random Forest,Argentina,Western,0.2595
-Random Forest,Australia,Action,0.1651
-Random Forest,Australia,Adventure,0.1903
-Random Forest,Australia,Animation,0.1982
-Random Forest,Australia,Biography,0.3693
-Random Forest,Australia,Comedy,0.2225
-Random Forest,Australia,Crime,0.2451
-Random Forest,Australia,Documentary,0.4526
-Random Forest,Australia,Drama,0.2961
-Random Forest,Australia,Family,0.1047
-Random Forest,Australia,Fantasy,0.1689
-Random Forest,Australia,Film-Noir,0.4334
-Random Forest,Australia,Game-Show,0.0932
-Random Forest,Australia,History,0.3051
-Random Forest,Australia,Horror,0.1089
-Random Forest,Australia,Music,0.2954
-Random Forest,Australia,Musical,0.1875
-Random Forest,Australia,Mystery,0.2211
-Random Forest,Australia,News,0.104
-Random Forest,Australia,Reality-TV,0.0711
-Random Forest,Australia,Romance,0.1928
-Random Forest,Australia,Sci-Fi,0.1519
-Random Forest,Australia,Short,0.2302
-Random Forest,Australia,Sport,0.1933
-Random Forest,Australia,Talk-Show,0.0793
-Random Forest,Australia,Thriller,0.1644
-Random Forest,Australia,War,0.3213
-Random Forest,Australia,Western,0.2577
-Random Forest,Belgium,Action,0.1425
-Random Forest,Belgium,Adventure,0.1857
-Random Forest,Belgium,Animation,0.2377
-Random Forest,Belgium,Biography,0.3714
-Random Forest,Belgium,Comedy,0.1972
-Random Forest,Belgium,Crime,0.1994
-Random Forest,Belgium,Documentary,0.4153
-Random Forest,Belgium,Drama,0.338
-Random Forest,Belgium,Family,0.1328
-Random Forest,Belgium,Fantasy,0.1712
-Random Forest,Belgium,Film-Noir,0.4341
-Random Forest,Belgium,Game-Show,0.0964
-Random Forest,Belgium,History,0.3139
-Random Forest,Belgium,Horror,0.2403
-Random Forest,Belgium,Music,0.3048
-Random Forest,Belgium,Musical,0.182
-Random Forest,Belgium,Mystery,0.2097
-Random Forest,Belgium,News,0.1075
-Random Forest,Belgium,Reality-TV,0.0799
-Random Forest,Belgium,Romance,0.1822
-Random Forest,Belgium,Sci-Fi,0.1314
-Random Forest,Belgium,Short,0.2132
-Random Forest,Belgium,Sport,0.1903
-Random Forest,Belgium,Talk-Show,0.104
-Random Forest,Belgium,Thriller,0.1516
-Random Forest,Belgium,War,0.3166
-Random Forest,Belgium,Western,0.2595
-Random Forest,Brazil,Action,0.145
-Random Forest,Brazil,Adventure,0.1852
-Random Forest,Brazil,Animation,0.1887
-Random Forest,Brazil,Biography,0.3034
-Random Forest,Brazil,Comedy,0.1863
-Random Forest,Brazil,Crime,0.2002
-Random Forest,Brazil,Documentary,0.2932
-Random Forest,Brazil,Drama,0.2837
-Random Forest,Brazil,Family,0.106
-Random Forest,Brazil,Fantasy,0.1642
-Random Forest,Brazil,Film-Noir,0.4209
-Random Forest,Brazil,Game-Show,0.0827
-Random Forest,Brazil,History,0.2752
-Random Forest,Brazil,Horror,0.1736
-Random Forest,Brazil,Music,0.262
-Random Forest,Brazil,Musical,0.176
-Random Forest,Brazil,Mystery,0.2043
-Random Forest,Brazil,News,0.0969
-Random Forest,Brazil,Reality-TV,0.0885
-Random Forest,Brazil,Romance,0.1834
-Random Forest,Brazil,Sci-Fi,0.1299
-Random Forest,Brazil,Short,0.2061
-Random Forest,Brazil,Sport,0.1729
-Random Forest,Brazil,Talk-Show,0.0975
-Random Forest,Brazil,Thriller,0.1697
-Random Forest,Brazil,War,0.2987
-Random Forest,Brazil,Western,0.2488
-Random Forest,Canada,Action,0.1217
-Random Forest,Canada,Adventure,0.187
-Random Forest,Canada,Animation,0.2109
-Random Forest,Canada,Biography,0.3459
-Random Forest,Canada,Comedy,0.1869
-Random Forest,Canada,Crime,0.1794
-Random Forest,Canada,Documentary,0.3765
-Random Forest,Canada,Drama,0.3169
-Random Forest,Canada,Family,0.1075
-Random Forest,Canada,Fantasy,0.1392
-Random Forest,Canada,Film-Noir,0.3823
-Random Forest,Canada,Game-Show,0.0884
-Random Forest,Canada,History,0.2727
-Random Forest,Canada,Horror,0.1233
-Random Forest,Canada,Music,0.2906
-Random Forest,Canada,Musical,0.1589
-Random Forest,Canada,Mystery,0.1703
-Random Forest,Canada,News,0.0959
-Random Forest,Canada,Reality-TV,0.1032
-Random Forest,Canada,Romance,0.1513
-Random Forest,Canada,Sci-Fi,0.126
-Random Forest,Canada,Short,0.1992
-Random Forest,Canada,Sport,0.1645
-Random Forest,Canada,Talk-Show,0.1275
-Random Forest,Canada,Thriller,0.0959
-Random Forest,Canada,War,0.2791
-Random Forest,Canada,Western,0.1968
-Random Forest,China,Action,0.1316
-Random Forest,China,Adventure,0.2159
-Random Forest,China,Animation,0.1994
-Random Forest,China,Biography,0.3684
-Random Forest,China,Comedy,0.3314
-Random Forest,China,Crime,0.225
-Random Forest,China,Documentary,0.3808
-Random Forest,China,Drama,0.4449
-Random Forest,China,Family,0.1412
-Random Forest,China,Fantasy,0.1746
-Random Forest,China,Film-Noir,0.4418
-Random Forest,China,Game-Show,0.1097
-Random Forest,China,History,0.288
-Random Forest,China,Horror,0.1363
-Random Forest,China,Music,0.3005
-Random Forest,China,Musical,0.1989
-Random Forest,China,Mystery,0.2254
-Random Forest,China,News,0.1214
-Random Forest,China,Reality-TV,0.0846
-Random Forest,China,Romance,0.1901
-Random Forest,China,Sci-Fi,0.1378
-Random Forest,China,Short,0.231
-Random Forest,China,Sport,0.2008
-Random Forest,China,Talk-Show,0.119
-Random Forest,China,Thriller,0.1714
-Random Forest,China,War,0.3028
-Random Forest,China,Western,0.2723
-Random Forest,Denmark,Action,0.1643
-Random Forest,Denmark,Adventure,0.1742
-Random Forest,Denmark,Animation,0.1998
-Random Forest,Denmark,Biography,0.3493
-Random Forest,Denmark,Comedy,0.17
-Random Forest,Denmark,Crime,0.2471
-Random Forest,Denmark,Documentary,0.4707
-Random Forest,Denmark,Drama,0.3973
-Random Forest,Denmark,Family,0.0952
-Random Forest,Denmark,Fantasy,0.1715
-Random Forest,Denmark,Film-Noir,0.4508
-Random Forest,Denmark,Game-Show,0.0859
-Random Forest,Denmark,History,0.3084
-Random Forest,Denmark,Horror,0.1303
-Random Forest,Denmark,Music,0.2903
-Random Forest,Denmark,Musical,0.192
-Random Forest,Denmark,Mystery,0.2056
-Random Forest,Denmark,News,0.1027
-Random Forest,Denmark,Reality-TV,0.0788
-Random Forest,Denmark,Romance,0.1791
-Random Forest,Denmark,Sci-Fi,0.1379
-Random Forest,Denmark,Short,0.2138
-Random Forest,Denmark,Sport,0.1899
-Random Forest,Denmark,Talk-Show,0.0934
-Random Forest,Denmark,Thriller,0.173
-Random Forest,Denmark,War,0.319
-Random Forest,Denmark,Western,0.259
-Random Forest,Egypt,Action,0.125
-Random Forest,Egypt,Adventure,0.1717
-Random Forest,Egypt,Animation,0.2022
-Random Forest,Egypt,Biography,0.3658
-Random Forest,Egypt,Comedy,0.1111
-Random Forest,Egypt,Crime,0.1966
-Random Forest,Egypt,Documentary,0.3861
-Random Forest,Egypt,Drama,0.3075
-Random Forest,Egypt,Family,0.1134
-Random Forest,Egypt,Fantasy,0.1438
-Random Forest,Egypt,Film-Noir,0.4055
-Random Forest,Egypt,Game-Show,0.1009
-Random Forest,Egypt,History,0.2719
-Random Forest,Egypt,Horror,0.1331
-Random Forest,Egypt,Music,0.275
-Random Forest,Egypt,Musical,0.1498
-Random Forest,Egypt,Mystery,0.1844
-Random Forest,Egypt,News,0.0979
-Random Forest,Egypt,Reality-TV,0.0846
-Random Forest,Egypt,Romance,0.1511
-Random Forest,Egypt,Sci-Fi,0.1246
-Random Forest,Egypt,Short,0.1951
-Random Forest,Egypt,Sport,0.1536
-Random Forest,Egypt,Talk-Show,0.1117
-Random Forest,Egypt,Thriller,0.1377
-Random Forest,Egypt,War,0.2627
-Random Forest,Egypt,Western,0.2175
-Random Forest,Finland,Action,0.136
-Random Forest,Finland,Adventure,0.1819
-Random Forest,Finland,Animation,0.2043
-Random Forest,Finland,Biography,0.3693
-Random Forest,Finland,Comedy,0.1076
-Random Forest,Finland,Crime,0.2183
-Random Forest,Finland,Documentary,0.396
-Random Forest,Finland,Drama,0.3386
-Random Forest,Finland,Family,0.106
-Random Forest,Finland,Fantasy,0.1555
-Random Forest,Finland,Film-Noir,0.4158
-Random Forest,Finland,Game-Show,0.0929
-Random Forest,Finland,History,0.2823
-Random Forest,Finland,Horror,0.143
-Random Forest,Finland,Music,0.314
-Random Forest,Finland,Musical,0.1813
-Random Forest,Finland,Mystery,0.1942
-Random Forest,Finland,News,0.0996
-Random Forest,Finland,Reality-TV,0.0766
-Random Forest,Finland,Romance,0.181
-Random Forest,Finland,Sci-Fi,0.1269
-Random Forest,Finland,Short,0.2
-Random Forest,Finland,Sport,0.1804
-Random Forest,Finland,Talk-Show,0.1038
-Random Forest,Finland,Thriller,0.1541
-Random Forest,Finland,War,0.3007
-Random Forest,Finland,Western,0.2455
-Random Forest,France,Action,0.2343
-Random Forest,France,Adventure,0.3229
-Random Forest,France,Animation,0.2737
-Random Forest,France,Biography,0.4489
-Random Forest,France,Comedy,0.2554
-Random Forest,France,Crime,0.3021
-Random Forest,France,Documentary,0.4217
-Random Forest,France,Drama,0.4553
-Random Forest,France,Family,0.2414
-Random Forest,France,Fantasy,0.2579
-Random Forest,France,Film-Noir,0.4622
-Random Forest,France,Game-Show,0.1822
-Random Forest,France,History,0.3885
-Random Forest,France,Horror,0.2427
-Random Forest,France,Music,0.3533
-Random Forest,France,Musical,0.3036
-Random Forest,France,Mystery,0.3027
-Random Forest,France,News,0.2012
-Random Forest,France,Reality-TV,0.1257
-Random Forest,France,Romance,0.3154
-Random Forest,France,Sci-Fi,0.2631
-Random Forest,France,Short,0.3325
-Random Forest,France,Sport,0.28
-Random Forest,France,Talk-Show,0.1703
-Random Forest,France,Thriller,0.2019
-Random Forest,France,War,0.4235
-Random Forest,France,Western,0.3325
-Random Forest,Germany,Action,0.1389
-Random Forest,Germany,Adventure,0.183
-Random Forest,Germany,Animation,0.1812
-Random Forest,Germany,Biography,0.3707
-Random Forest,Germany,Comedy,0.2841
-Random Forest,Germany,Crime,0.2334
-Random Forest,Germany,Documentary,0.4051
-Random Forest,Germany,Drama,0.3964
-Random Forest,Germany,Family,0.104
-Random Forest,Germany,Fantasy,0.1636
-Random Forest,Germany,Film-Noir,0.4435
-Random Forest,Germany,Game-Show,0.0876
-Random Forest,Germany,History,0.3246
-Random Forest,Germany,Horror,0.1359
-Random Forest,Germany,Music,0.3138
-Random Forest,Germany,Musical,0.1879
-Random Forest,Germany,Mystery,0.2015
-Random Forest,Germany,News,0.1061
-Random Forest,Germany,Reality-TV,0.0662
-Random Forest,Germany,Romance,0.2183
-Random Forest,Germany,Sci-Fi,0.1308
-Random Forest,Germany,Short,0.2123
-Random Forest,Germany,Sport,0.1881
-Random Forest,Germany,Talk-Show,0.0785
-Random Forest,Germany,Thriller,0.1835
-Random Forest,Germany,War,0.3134
-Random Forest,Germany,Western,0.2585
-Random Forest,Greece,Action,0.1393
-Random Forest,Greece,Adventure,0.1845
-Random Forest,Greece,Animation,0.2137
-Random Forest,Greece,Biography,0.3635
-Random Forest,Greece,Comedy,0.2413
-Random Forest,Greece,Crime,0.1848
-Random Forest,Greece,Documentary,0.3662
-Random Forest,Greece,Drama,0.3408
-Random Forest,Greece,Family,0.1236
-Random Forest,Greece,Fantasy,0.171
-Random Forest,Greece,Film-Noir,0.4356
-Random Forest,Greece,Game-Show,0.1113
-Random Forest,Greece,History,0.3006
-Random Forest,Greece,Horror,0.1283
-Random Forest,Greece,Music,0.2981
-Random Forest,Greece,Musical,0.1673
-Random Forest,Greece,Mystery,0.2053
-Random Forest,Greece,News,0.1139
-Random Forest,Greece,Reality-TV,0.0818
-Random Forest,Greece,Romance,0.1798
-Random Forest,Greece,Sci-Fi,0.1294
-Random Forest,Greece,Short,0.2087
-Random Forest,Greece,Sport,0.1878
-Random Forest,Greece,Talk-Show,0.1234
-Random Forest,Greece,Thriller,0.156
-Random Forest,Greece,War,0.3035
-Random Forest,Greece,Western,0.2607
-Random Forest,Hong Kong,Action,0.1684
-Random Forest,Hong Kong,Adventure,0.201
-Random Forest,Hong Kong,Animation,0.2034
-Random Forest,Hong Kong,Biography,0.3847
-Random Forest,Hong Kong,Comedy,0.2189
-Random Forest,Hong Kong,Crime,0.2363
-Random Forest,Hong Kong,Documentary,0.4219
-Random Forest,Hong Kong,Drama,0.3991
-Random Forest,Hong Kong,Family,0.1254
-Random Forest,Hong Kong,Fantasy,0.1765
-Random Forest,Hong Kong,Film-Noir,0.4343
-Random Forest,Hong Kong,Game-Show,0.1023
-Random Forest,Hong Kong,History,0.2965
-Random Forest,Hong Kong,Horror,0.1532
-Random Forest,Hong Kong,Music,0.3038
-Random Forest,Hong Kong,Musical,0.1928
-Random Forest,Hong Kong,Mystery,0.2098
-Random Forest,Hong Kong,News,0.1093
-Random Forest,Hong Kong,Reality-TV,0.0884
-Random Forest,Hong Kong,Romance,0.2125
-Random Forest,Hong Kong,Sci-Fi,0.122
-Random Forest,Hong Kong,Short,0.2179
-Random Forest,Hong Kong,Sport,0.1915
-Random Forest,Hong Kong,Talk-Show,0.1154
-Random Forest,Hong Kong,Thriller,0.2041
-Random Forest,Hong Kong,War,0.2989
-Random Forest,Hong Kong,Western,0.2617
-Random Forest,India,Action,0.1757
-Random Forest,India,Adventure,0.2122
-Random Forest,India,Animation,0.2429
-Random Forest,India,Biography,0.3773
-Random Forest,India,Comedy,0.2779
-Random Forest,India,Crime,0.2444
-Random Forest,India,Documentary,0.3927
-Random Forest,India,Drama,0.2541
-Random Forest,India,Family,0.1653
-Random Forest,India,Fantasy,0.2104
-Random Forest,India,Film-Noir,0.4389
-Random Forest,India,Game-Show,0.1751
-Random Forest,India,History,0.2901
-Random Forest,India,Horror,0.1412
-Random Forest,India,Music,0.3151
-Random Forest,India,Musical,0.2122
-Random Forest,India,Mystery,0.2633
-Random Forest,India,News,0.1673
-Random Forest,India,Reality-TV,0.1074
-Random Forest,India,Romance,0.2282
-Random Forest,India,Sci-Fi,0.167
-Random Forest,India,Short,0.2332
-Random Forest,India,Sport,0.2329
-Random Forest,India,Talk-Show,0.2745
-Random Forest,India,Thriller,0.2637
-Random Forest,India,War,0.3183
-Random Forest,India,Western,0.2748
-Random Forest,Iran,Action,0.1456
-Random Forest,Iran,Adventure,0.2147
-Random Forest,Iran,Animation,0.2339
-Random Forest,Iran,Biography,0.3784
-Random Forest,Iran,Comedy,0.1997
-Random Forest,Iran,Crime,0.2159
-Random Forest,Iran,Documentary,0.3828
-Random Forest,Iran,Drama,0.4479
-Random Forest,Iran,Family,0.1998
-Random Forest,Iran,Fantasy,0.1781
-Random Forest,Iran,Film-Noir,0.4261
-Random Forest,Iran,Game-Show,0.149
-Random Forest,Iran,History,0.3321
-Random Forest,Iran,Horror,0.1452
-Random Forest,Iran,Music,0.2996
-Random Forest,Iran,Musical,0.1861
-Random Forest,Iran,Mystery,0.213
-Random Forest,Iran,News,0.1414
-Random Forest,Iran,Reality-TV,0.0962
-Random Forest,Iran,Romance,0.1911
-Random Forest,Iran,Sci-Fi,0.1399
-Random Forest,Iran,Short,0.2285
-Random Forest,Iran,Sport,0.1958
-Random Forest,Iran,Talk-Show,0.148
-Random Forest,Iran,Thriller,0.1669
-Random Forest,Iran,War,0.3225
-Random Forest,Iran,Western,0.2638
-Random Forest,Italy,Action,0.159
-Random Forest,Italy,Adventure,0.197
-Random Forest,Italy,Animation,0.1892
-Random Forest,Italy,Biography,0.373
-Random Forest,Italy,Comedy,0.186
-Random Forest,Italy,Crime,0.2021
-Random Forest,Italy,Documentary,0.3603
-Random Forest,Italy,Drama,0.3774
-Random Forest,Italy,Family,0.1308
-Random Forest,Italy,Fantasy,0.1604
-Random Forest,Italy,Film-Noir,0.4271
-Random Forest,Italy,Game-Show,0.093
-Random Forest,Italy,History,0.2819
-Random Forest,Italy,Horror,0.1979
-Random Forest,Italy,Music,0.2867
-Random Forest,Italy,Musical,0.1934
-Random Forest,Italy,Mystery,0.193
-Random Forest,Italy,News,0.1062
-Random Forest,Italy,Reality-TV,0.0827
-Random Forest,Italy,Romance,0.2227
-Random Forest,Italy,Sci-Fi,0.1201
-Random Forest,Italy,Short,0.2094
-Random Forest,Italy,Sport,0.1849
-Random Forest,Italy,Talk-Show,0.1084
-Random Forest,Italy,Thriller,0.1533
-Random Forest,Italy,War,0.2877
-Random Forest,Italy,Western,0.2503
-Random Forest,Japan,Action,0.2717
-Random Forest,Japan,Adventure,0.3062
-Random Forest,Japan,Animation,0.2973
-Random Forest,Japan,Biography,0.4141
-Random Forest,Japan,Comedy,0.2407
-Random Forest,Japan,Crime,0.3414
-Random Forest,Japan,Documentary,0.3987
-Random Forest,Japan,Drama,0.4748
-Random Forest,Japan,Family,0.1853
-Random Forest,Japan,Fantasy,0.2333
-Random Forest,Japan,Film-Noir,0.4529
-Random Forest,Japan,Game-Show,0.1343
-Random Forest,Japan,History,0.3258
-Random Forest,Japan,Horror,0.2006
-Random Forest,Japan,Music,0.3568
-Random Forest,Japan,Musical,0.2458
-Random Forest,Japan,Mystery,0.2682
-Random Forest,Japan,News,0.1527
-Random Forest,Japan,Reality-TV,0.175
-Random Forest,Japan,Romance,0.2459
-Random Forest,Japan,Sci-Fi,0.218
-Random Forest,Japan,Short,0.255
-Random Forest,Japan,Sport,0.2457
-Random Forest,Japan,Talk-Show,0.1298
-Random Forest,Japan,Thriller,0.2489
-Random Forest,Japan,War,0.3554
-Random Forest,Japan,Western,0.3038
-Random Forest,Mexico,Action,0.1736
-Random Forest,Mexico,Adventure,0.2193
-Random Forest,Mexico,Animation,0.2183
-Random Forest,Mexico,Biography,0.3802
-Random Forest,Mexico,Comedy,0.257
-Random Forest,Mexico,Crime,0.2174
-Random Forest,Mexico,Documentary,0.3136
-Random Forest,Mexico,Drama,0.3583
-Random Forest,Mexico,Family,0.1323
-Random Forest,Mexico,Fantasy,0.1919
-Random Forest,Mexico,Film-Noir,0.446
-Random Forest,Mexico,Game-Show,0.0939
-Random Forest,Mexico,History,0.3061
-Random Forest,Mexico,Horror,0.1163
-Random Forest,Mexico,Music,0.3008
-Random Forest,Mexico,Musical,0.1998
-Random Forest,Mexico,Mystery,0.2101
-Random Forest,Mexico,News,0.1117
-Random Forest,Mexico,Reality-TV,0.0886
-Random Forest,Mexico,Romance,0.1997
-Random Forest,Mexico,Sci-Fi,0.1275
-Random Forest,Mexico,Short,0.2275
-Random Forest,Mexico,Sport,0.203
-Random Forest,Mexico,Talk-Show,0.1103
-Random Forest,Mexico,Thriller,0.1837
-Random Forest,Mexico,War,0.3196
-Random Forest,Mexico,Western,0.2672
-Random Forest,Netherlands,Action,0.1239
-Random Forest,Netherlands,Adventure,0.156
-Random Forest,Netherlands,Animation,0.2337
-Random Forest,Netherlands,Biography,0.3506
-Random Forest,Netherlands,Comedy,0.1521
-Random Forest,Netherlands,Crime,0.2038
-Random Forest,Netherlands,Documentary,0.3318
-Random Forest,Netherlands,Drama,0.2884
-Random Forest,Netherlands,Family,0.1131
-Random Forest,Netherlands,Fantasy,0.1566
-Random Forest,Netherlands,Film-Noir,0.4147
-Random Forest,Netherlands,Game-Show,0.0927
-Random Forest,Netherlands,History,0.2908
-Random Forest,Netherlands,Horror,0.1124
-Random Forest,Netherlands,Music,0.2852
-Random Forest,Netherlands,Musical,0.1631
-Random Forest,Netherlands,Mystery,0.1885
-Random Forest,Netherlands,News,0.0905
-Random Forest,Netherlands,Reality-TV,0.0813
-Random Forest,Netherlands,Romance,0.1548
-Random Forest,Netherlands,Sci-Fi,0.1227
-Random Forest,Netherlands,Short,0.1984
-Random Forest,Netherlands,Sport,0.1634
-Random Forest,Netherlands,Talk-Show,0.0979
-Random Forest,Netherlands,Thriller,0.1709
-Random Forest,Netherlands,War,0.2982
-Random Forest,Netherlands,Western,0.2432
-Random Forest,Norway,Action,0.1769
-Random Forest,Norway,Adventure,0.2134
-Random Forest,Norway,Animation,0.2272
-Random Forest,Norway,Biography,0.3788
-Random Forest,Norway,Comedy,0.2793
-Random Forest,Norway,Crime,0.2156
-Random Forest,Norway,Documentary,0.4232
-Random Forest,Norway,Drama,0.2238
-Random Forest,Norway,Family,0.1622
-Random Forest,Norway,Fantasy,0.1958
-Random Forest,Norway,Film-Noir,0.4521
-Random Forest,Norway,Game-Show,0.1222
-Random Forest,Norway,History,0.3291
-Random Forest,Norway,Horror,0.1482
-Random Forest,Norway,Music,0.3246
-Random Forest,Norway,Musical,0.2064
-Random Forest,Norway,Mystery,0.2289
-Random Forest,Norway,News,0.1336
-Random Forest,Norway,Reality-TV,0.0915
-Random Forest,Norway,Romance,0.2085
-Random Forest,Norway,Sci-Fi,0.1413
-Random Forest,Norway,Short,0.2351
-Random Forest,Norway,Sport,0.2041
-Random Forest,Norway,Talk-Show,0.1333
-Random Forest,Norway,Thriller,0.2295
-Random Forest,Norway,War,0.3239
-Random Forest,Norway,Western,0.276
-Random Forest,Poland,Action,0.1455
-Random Forest,Poland,Adventure,0.1962
-Random Forest,Poland,Animation,0.2131
-Random Forest,Poland,Biography,0.3789
-Random Forest,Poland,Comedy,0.3503
-Random Forest,Poland,Crime,0.2147
-Random Forest,Poland,Documentary,0.3582
-Random Forest,Poland,Drama,0.4067
-Random Forest,Poland,Family,0.1267
-Random Forest,Poland,Fantasy,0.1814
-Random Forest,Poland,Film-Noir,0.4496
-Random Forest,Poland,Game-Show,0.0853
-Random Forest,Poland,History,0.2945
-Random Forest,Poland,Horror,0.1527
-Random Forest,Poland,Music,0.3032
-Random Forest,Poland,Musical,0.1972
-Random Forest,Poland,Mystery,0.2166
-Random Forest,Poland,News,0.1065
-Random Forest,Poland,Reality-TV,0.0773
-Random Forest,Poland,Romance,0.1722
-Random Forest,Poland,Sci-Fi,0.1327
-Random Forest,Poland,Short,0.2275
-Random Forest,Poland,Sport,0.1946
-Random Forest,Poland,Talk-Show,0.0987
-Random Forest,Poland,Thriller,0.1644
-Random Forest,Poland,War,0.326
-Random Forest,Poland,Western,0.2761
-Random Forest,Russia,Action,0.1223
-Random Forest,Russia,Adventure,0.1658
-Random Forest,Russia,Animation,0.1974
-Random Forest,Russia,Biography,0.3505
-Random Forest,Russia,Comedy,0.212
-Random Forest,Russia,Crime,0.1865
-Random Forest,Russia,Documentary,0.3832
-Random Forest,Russia,Drama,0.2977
-Random Forest,Russia,Family,0.1168
-Random Forest,Russia,Fantasy,0.1564
-Random Forest,Russia,Film-Noir,0.4183
-Random Forest,Russia,Game-Show,0.0845
-Random Forest,Russia,History,0.2652
-Random Forest,Russia,Horror,0.1057
-Random Forest,Russia,Music,0.2834
-Random Forest,Russia,Musical,0.1821
-Random Forest,Russia,Mystery,0.1916
-Random Forest,Russia,News,0.1014
-Random Forest,Russia,Reality-TV,0.0825
-Random Forest,Russia,Romance,0.1656
-Random Forest,Russia,Sci-Fi,0.1329
-Random Forest,Russia,Short,0.228
-Random Forest,Russia,Sport,0.1652
-Random Forest,Russia,Talk-Show,0.0996
-Random Forest,Russia,Thriller,0.1727
-Random Forest,Russia,War,0.2604
-Random Forest,Russia,Western,0.2355
-Random Forest,South Korea,Action,0.2223
-Random Forest,South Korea,Adventure,0.2118
-Random Forest,South Korea,Animation,0.2276
-Random Forest,South Korea,Biography,0.3886
-Random Forest,South Korea,Comedy,0.302
-Random Forest,South Korea,Crime,0.2328
-Random Forest,South Korea,Documentary,0.4291
-Random Forest,South Korea,Drama,0.487
-Random Forest,South Korea,Family,0.156
-Random Forest,South Korea,Fantasy,0.2057
-Random Forest,South Korea,Film-Noir,0.4592
-Random Forest,South Korea,Game-Show,0.2113
-Random Forest,South Korea,History,0.3346
-Random Forest,South Korea,Horror,0.1153
-Random Forest,South Korea,Music,0.3323
-Random Forest,South Korea,Musical,0.2314
-Random Forest,South Korea,Mystery,0.2551
-Random Forest,South Korea,News,0.1723
-Random Forest,South Korea,Reality-TV,0.152
-Random Forest,South Korea,Romance,0.2344
-Random Forest,South Korea,Sci-Fi,0.159
-Random Forest,South Korea,Short,0.2499
-Random Forest,South Korea,Sport,0.2289
-Random Forest,South Korea,Talk-Show,0.1692
-Random Forest,South Korea,Thriller,0.1818
-Random Forest,South Korea,War,0.3352
-Random Forest,South Korea,Western,0.2926
-Random Forest,Spain,Action,0.1422
-Random Forest,Spain,Adventure,0.1561
-Random Forest,Spain,Animation,0.2063
-Random Forest,Spain,Biography,0.3529
-Random Forest,Spain,Comedy,0.2096
-Random Forest,Spain,Crime,0.2203
-Random Forest,Spain,Documentary,0.4231
-Random Forest,Spain,Drama,0.3677
-Random Forest,Spain,Family,0.1397
-Random Forest,Spain,Fantasy,0.173
-Random Forest,Spain,Film-Noir,0.4395
-Random Forest,Spain,Game-Show,0.095
-Random Forest,Spain,History,0.2977
-Random Forest,Spain,Horror,0.1441
-Random Forest,Spain,Music,0.2747
-Random Forest,Spain,Musical,0.1728
-Random Forest,Spain,Mystery,0.2095
-Random Forest,Spain,News,0.1054
-Random Forest,Spain,Reality-TV,0.0866
-Random Forest,Spain,Romance,0.1911
-Random Forest,Spain,Sci-Fi,0.1242
-Random Forest,Spain,Short,0.233
-Random Forest,Spain,Sport,0.1857
-Random Forest,Spain,Talk-Show,0.1097
-Random Forest,Spain,Thriller,0.1437
-Random Forest,Spain,War,0.3077
-Random Forest,Spain,Western,0.2294
-Random Forest,Sweden,Action,0.1534
-Random Forest,Sweden,Adventure,0.1948
-Random Forest,Sweden,Animation,0.1925
-Random Forest,Sweden,Biography,0.3848
-Random Forest,Sweden,Comedy,0.2015
-Random Forest,Sweden,Crime,0.2085
-Random Forest,Sweden,Documentary,0.4376
-Random Forest,Sweden,Drama,0.3231
-Random Forest,Sweden,Family,0.1467
-Random Forest,Sweden,Fantasy,0.1695
-Random Forest,Sweden,Film-Noir,0.4517
-Random Forest,Sweden,Game-Show,0.0698
-Random Forest,Sweden,History,0.3095
-Random Forest,Sweden,Horror,0.172
-Random Forest,Sweden,Music,0.298
-Random Forest,Sweden,Musical,0.189
-Random Forest,Sweden,Mystery,0.2131
-Random Forest,Sweden,News,0.1019
-Random Forest,Sweden,Reality-TV,0.0666
-Random Forest,Sweden,Romance,0.1902
-Random Forest,Sweden,Sci-Fi,0.1426
-Random Forest,Sweden,Short,0.2262
-Random Forest,Sweden,Sport,0.1995
-Random Forest,Sweden,Talk-Show,0.0914
-Random Forest,Sweden,Thriller,0.1542
-Random Forest,Sweden,War,0.3193
-Random Forest,Sweden,Western,0.2662
-Random Forest,Turkey,Action,0.1567
-Random Forest,Turkey,Adventure,0.1888
-Random Forest,Turkey,Animation,0.2097
-Random Forest,Turkey,Biography,0.3629
-Random Forest,Turkey,Comedy,0.2683
-Random Forest,Turkey,Crime,0.2677
-Random Forest,Turkey,Documentary,0.4199
-Random Forest,Turkey,Drama,0.3878
-Random Forest,Turkey,Family,0.1467
-Random Forest,Turkey,Fantasy,0.1868
-Random Forest,Turkey,Film-Noir,0.4417
-Random Forest,Turkey,Game-Show,0.0905
-Random Forest,Turkey,History,0.3022
-Random Forest,Turkey,Horror,0.0781
-Random Forest,Turkey,Music,0.3
-Random Forest,Turkey,Musical,0.1962
-Random Forest,Turkey,Mystery,0.2249
-Random Forest,Turkey,News,0.1126
-Random Forest,Turkey,Reality-TV,0.0836
-Random Forest,Turkey,Romance,0.2076
-Random Forest,Turkey,Sci-Fi,0.1439
-Random Forest,Turkey,Short,0.2226
-Random Forest,Turkey,Sport,0.1891
-Random Forest,Turkey,Talk-Show,0.1064
-Random Forest,Turkey,Thriller,0.1833
-Random Forest,Turkey,War,0.315
-Random Forest,Turkey,Western,0.2639
-Random Forest,United Kingdom,Action,0.1524
-Random Forest,United Kingdom,Adventure,0.2005
-Random Forest,United Kingdom,Animation,0.2443
-Random Forest,United Kingdom,Biography,0.4371
-Random Forest,United Kingdom,Comedy,0.3302
-Random Forest,United Kingdom,Crime,0.2638
-Random Forest,United Kingdom,Documentary,0.4296
-Random Forest,United Kingdom,Drama,0.431
-Random Forest,United Kingdom,Family,0.1859
-Random Forest,United Kingdom,Fantasy,0.2254
-Random Forest,United Kingdom,Film-Noir,0.4471
-Random Forest,United Kingdom,Game-Show,0.1273
-Random Forest,United Kingdom,History,0.3124
-Random Forest,United Kingdom,Horror,0.194
-Random Forest,United Kingdom,Music,0.3118
-Random Forest,United Kingdom,Musical,0.2425
-Random Forest,United Kingdom,Mystery,0.278
-Random Forest,United Kingdom,News,0.1579
-Random Forest,United Kingdom,Reality-TV,0.1054
-Random Forest,United Kingdom,Romance,0.2368
-Random Forest,United Kingdom,Sci-Fi,0.149
-Random Forest,United Kingdom,Short,0.2462
-Random Forest,United Kingdom,Sport,0.2521
-Random Forest,United Kingdom,Talk-Show,0.1275
-Random Forest,United Kingdom,Thriller,0.2322
-Random Forest,United Kingdom,War,0.3505
-Random Forest,United Kingdom,Western,0.2819
-Random Forest,United States,Action,0.1301
-Random Forest,United States,Adventure,0.1927
-Random Forest,United States,Animation,0.2478
-Random Forest,United States,Biography,0.3748
-Random Forest,United States,Comedy,0.2304
-Random Forest,United States,Crime,0.2446
-Random Forest,United States,Documentary,0.4514
-Random Forest,United States,Drama,0.3258
-Random Forest,United States,Family,0.1418
-Random Forest,United States,Fantasy,0.2093
-Random Forest,United States,Film-Noir,0.4859
-Random Forest,United States,Game-Show,0.0828
-Random Forest,United States,History,0.2921
-Random Forest,United States,Horror,0.0954
-Random Forest,United States,Music,0.3325
-Random Forest,United States,Musical,0.2066
-Random Forest,United States,Mystery,0.2671
-Random Forest,United States,News,0.1037
-Random Forest,United States,Reality-TV,0.0841
-Random Forest,United States,Romance,0.1744
-Random Forest,United States,Sci-Fi,0.1195
-Random Forest,United States,Short,0.2121
-Random Forest,United States,Sport,0.1825
-Random Forest,United States,Talk-Show,0.1206
-Random Forest,United States,Thriller,0.1061
-Random Forest,United States,War,0.309
-Random Forest,United States,Western,0.3768
-XGBoost,Argentina,Action,0.0493
-XGBoost,Argentina,Adventure,0.0817
-XGBoost,Argentina,Animation,0.1371
-XGBoost,Argentina,Biography,0.1096
-XGBoost,Argentina,Comedy,0.1581
-XGBoost,Argentina,Crime,0.1471
-XGBoost,Argentina,Documentary,0.3013
-XGBoost,Argentina,Drama,0.2836
-XGBoost,Argentina,Family,0.0497
-XGBoost,Argentina,Fantasy,0.0724
-XGBoost,Argentina,Film-Noir,0.5615
-XGBoost,Argentina,Game-Show,0.0216
-XGBoost,Argentina,History,0.1208
-XGBoost,Argentina,Horror,0.0618
-XGBoost,Argentina,Music,0.1637
-XGBoost,Argentina,Musical,0.0856
-XGBoost,Argentina,Mystery,0.0601
-XGBoost,Argentina,News,0.031
-XGBoost,Argentina,Reality-TV,0.0255
-XGBoost,Argentina,Romance,0.1053
-XGBoost,Argentina,Sci-Fi,0.0595
-XGBoost,Argentina,Short,0.094
-XGBoost,Argentina,Sport,0.0453
-XGBoost,Argentina,Talk-Show,0.0243
-XGBoost,Argentina,Thriller,0.0986
-XGBoost,Argentina,War,0.1068
-XGBoost,Argentina,Western,0.1962
-XGBoost,Australia,Action,0.1038
-XGBoost,Australia,Adventure,0.1419
-XGBoost,Australia,Animation,0.1788
-XGBoost,Australia,Biography,0.1608
-XGBoost,Australia,Comedy,0.2007
-XGBoost,Australia,Crime,0.1634
-XGBoost,Australia,Documentary,0.4057
-XGBoost,Australia,Drama,0.3353
-XGBoost,Australia,Family,0.0837
-XGBoost,Australia,Fantasy,0.1352
-XGBoost,Australia,Film-Noir,0.7199
-XGBoost,Australia,Game-Show,0.0395
-XGBoost,Australia,History,0.1616
-XGBoost,Australia,Horror,0.0885
-XGBoost,Australia,Music,0.1654
-XGBoost,Australia,Musical,0.1241
-XGBoost,Australia,Mystery,0.1613
-XGBoost,Australia,News,0.0503
-XGBoost,Australia,Reality-TV,0.0431
-XGBoost,Australia,Romance,0.1474
-XGBoost,Australia,Sci-Fi,0.0913
-XGBoost,Australia,Short,0.1531
-XGBoost,Australia,Sport,0.1334
-XGBoost,Australia,Talk-Show,0.0312
-XGBoost,Australia,Thriller,0.1322
-XGBoost,Australia,War,0.1726
-XGBoost,Australia,Western,0.2851
-XGBoost,Belgium,Action,0.1087
-XGBoost,Belgium,Adventure,0.1045
-XGBoost,Belgium,Animation,0.2412
-XGBoost,Belgium,Biography,0.175
-XGBoost,Belgium,Comedy,0.2441
-XGBoost,Belgium,Crime,0.1771
-XGBoost,Belgium,Documentary,0.4109
-XGBoost,Belgium,Drama,0.376
-XGBoost,Belgium,Family,0.0842
-XGBoost,Belgium,Fantasy,0.1263
-XGBoost,Belgium,Film-Noir,0.731
-XGBoost,Belgium,Game-Show,0.0397
-XGBoost,Belgium,History,0.1815
-XGBoost,Belgium,Horror,0.093
-XGBoost,Belgium,Music,0.1795
-XGBoost,Belgium,Musical,0.146
-XGBoost,Belgium,Mystery,0.1593
-XGBoost,Belgium,News,0.054
-XGBoost,Belgium,Reality-TV,0.0465
-XGBoost,Belgium,Romance,0.149
-XGBoost,Belgium,Sci-Fi,0.0981
-XGBoost,Belgium,Short,0.1426
-XGBoost,Belgium,Sport,0.144
-XGBoost,Belgium,Talk-Show,0.0467
-XGBoost,Belgium,Thriller,0.1251
-XGBoost,Belgium,War,0.1996
-XGBoost,Belgium,Western,0.3079
-XGBoost,Brazil,Action,0.0668
-XGBoost,Brazil,Adventure,0.1061
-XGBoost,Brazil,Animation,0.1126
-XGBoost,Brazil,Biography,0.0713
-XGBoost,Brazil,Comedy,0.1479
-XGBoost,Brazil,Crime,0.1195
-XGBoost,Brazil,Documentary,0.2109
-XGBoost,Brazil,Drama,0.2484
-XGBoost,Brazil,Family,0.0513
-XGBoost,Brazil,Fantasy,0.1318
-XGBoost,Brazil,Film-Noir,0.6178
-XGBoost,Brazil,Game-Show,0.0133
-XGBoost,Brazil,History,0.0855
-XGBoost,Brazil,Horror,0.0612
-XGBoost,Brazil,Music,0.1109
-XGBoost,Brazil,Musical,0.0365
-XGBoost,Brazil,Mystery,0.0608
-XGBoost,Brazil,News,0.0264
-XGBoost,Brazil,Reality-TV,0.0157
-XGBoost,Brazil,Romance,0.1129
-XGBoost,Brazil,Sci-Fi,0.0579
-XGBoost,Brazil,Short,0.0941
-XGBoost,Brazil,Sport,0.0858
-XGBoost,Brazil,Talk-Show,0.0165
-XGBoost,Brazil,Thriller,0.0967
-XGBoost,Brazil,War,0.1157
-XGBoost,Brazil,Western,0.1959
-XGBoost,Canada,Action,0.0687
-XGBoost,Canada,Adventure,0.1107
-XGBoost,Canada,Animation,0.1508
-XGBoost,Canada,Biography,0.1248
-XGBoost,Canada,Comedy,0.1932
-XGBoost,Canada,Crime,0.1013
-XGBoost,Canada,Documentary,0.3711
-XGBoost,Canada,Drama,0.295
-XGBoost,Canada,Family,0.0635
-XGBoost,Canada,Fantasy,0.092
-XGBoost,Canada,Film-Noir,0.6477
-XGBoost,Canada,Game-Show,0.029
-XGBoost,Canada,History,0.1292
-XGBoost,Canada,Horror,0.073
-XGBoost,Canada,Music,0.1341
-XGBoost,Canada,Musical,0.1081
-XGBoost,Canada,Mystery,0.1365
-XGBoost,Canada,News,0.0408
-XGBoost,Canada,Reality-TV,0.0332
-XGBoost,Canada,Romance,0.1135
-XGBoost,Canada,Sci-Fi,0.0778
-XGBoost,Canada,Short,0.1238
-XGBoost,Canada,Sport,0.1011
-XGBoost,Canada,Talk-Show,0.0526
-XGBoost,Canada,Thriller,0.0749
-XGBoost,Canada,War,0.1292
-XGBoost,Canada,Western,0.2195
-XGBoost,China,Action,0.108
-XGBoost,China,Adventure,0.1671
-XGBoost,China,Animation,0.1637
-XGBoost,China,Biography,0.1408
-XGBoost,China,Comedy,0.2393
-XGBoost,China,Crime,0.1934
-XGBoost,China,Documentary,0.4165
-XGBoost,China,Drama,0.391
-XGBoost,China,Family,0.0917
-XGBoost,China,Fantasy,0.1198
-XGBoost,China,Film-Noir,0.7552
-XGBoost,China,Game-Show,0.0276
-XGBoost,China,History,0.1164
-XGBoost,China,Horror,0.0831
-XGBoost,China,Music,0.1887
-XGBoost,China,Musical,0.1583
-XGBoost,China,Mystery,0.1763
-XGBoost,China,News,0.0488
-XGBoost,China,Reality-TV,0.0322
-XGBoost,China,Romance,0.176
-XGBoost,China,Sci-Fi,0.1037
-XGBoost,China,Short,0.1589
-XGBoost,China,Sport,0.1203
-XGBoost,China,Talk-Show,0.033
-XGBoost,China,Thriller,0.1592
-XGBoost,China,War,0.1551
-XGBoost,China,Western,0.3197
-XGBoost,Denmark,Action,0.1883
-XGBoost,Denmark,Adventure,0.1039
-XGBoost,Denmark,Animation,0.1853
-XGBoost,Denmark,Biography,0.1932
-XGBoost,Denmark,Comedy,0.204
-XGBoost,Denmark,Crime,0.2301
-XGBoost,Denmark,Documentary,0.4328
-XGBoost,Denmark,Drama,0.4239
-XGBoost,Denmark,Family,0.0749
-XGBoost,Denmark,Fantasy,0.1256
-XGBoost,Denmark,Film-Noir,0.7613
-XGBoost,Denmark,Game-Show,0.035
-XGBoost,Denmark,History,0.1901
-XGBoost,Denmark,Horror,0.105
-XGBoost,Denmark,Music,0.197
-XGBoost,Denmark,Musical,0.1711
-XGBoost,Denmark,Mystery,0.1548
-XGBoost,Denmark,News,0.0547
-XGBoost,Denmark,Reality-TV,0.0435
-XGBoost,Denmark,Romance,0.1842
-XGBoost,Denmark,Sci-Fi,0.1077
-XGBoost,Denmark,Short,0.134
-XGBoost,Denmark,Sport,0.1551
-XGBoost,Denmark,Talk-Show,0.0406
-XGBoost,Denmark,Thriller,0.1722
-XGBoost,Denmark,War,0.2077
-XGBoost,Denmark,Western,0.3344
-XGBoost,Egypt,Action,0.0642
-XGBoost,Egypt,Adventure,0.0648
-XGBoost,Egypt,Animation,0.076
-XGBoost,Egypt,Biography,0.077
-XGBoost,Egypt,Comedy,0.1061
-XGBoost,Egypt,Crime,0.0701
-XGBoost,Egypt,Documentary,0.1963
-XGBoost,Egypt,Drama,0.1788
-XGBoost,Egypt,Family,0.0322
-XGBoost,Egypt,Fantasy,0.0468
-XGBoost,Egypt,Film-Noir,0.4445
-XGBoost,Egypt,Game-Show,0.0148
-XGBoost,Egypt,History,0.0538
-XGBoost,Egypt,Horror,0.0319
-XGBoost,Egypt,Music,0.0642
-XGBoost,Egypt,Musical,0.0171
-XGBoost,Egypt,Mystery,0.0998
-XGBoost,Egypt,News,0.0181
-XGBoost,Egypt,Reality-TV,0.0171
-XGBoost,Egypt,Romance,0.0662
-XGBoost,Egypt,Sci-Fi,0.0317
-XGBoost,Egypt,Short,0.0497
-XGBoost,Egypt,Sport,0.0481
-XGBoost,Egypt,Talk-Show,0.0192
-XGBoost,Egypt,Thriller,0.0332
-XGBoost,Egypt,War,0.0574
-XGBoost,Egypt,Western,0.1148
-XGBoost,Finland,Action,0.0524
-XGBoost,Finland,Adventure,0.0742
-XGBoost,Finland,Animation,0.1132
-XGBoost,Finland,Biography,0.0963
-XGBoost,Finland,Comedy,0.1429
-XGBoost,Finland,Crime,0.0993
-XGBoost,Finland,Documentary,0.3203
-XGBoost,Finland,Drama,0.2471
-XGBoost,Finland,Family,0.032
-XGBoost,Finland,Fantasy,0.1027
-XGBoost,Finland,Film-Noir,0.5287
-XGBoost,Finland,Game-Show,0.0164
-XGBoost,Finland,History,0.0945
-XGBoost,Finland,Horror,0.081
-XGBoost,Finland,Music,0.1423
-XGBoost,Finland,Musical,0.0753
-XGBoost,Finland,Mystery,0.107
-XGBoost,Finland,News,0.0257
-XGBoost,Finland,Reality-TV,0.0192
-XGBoost,Finland,Romance,0.1223
-XGBoost,Finland,Sci-Fi,0.0506
-XGBoost,Finland,Short,0.1431
-XGBoost,Finland,Sport,0.0758
-XGBoost,Finland,Talk-Show,0.0204
-XGBoost,Finland,Thriller,0.0462
-XGBoost,Finland,War,0.1213
-XGBoost,Finland,Western,0.1596
-XGBoost,France,Action,0.1339
-XGBoost,France,Adventure,0.1771
-XGBoost,France,Animation,0.2394
-XGBoost,France,Biography,0.2012
-XGBoost,France,Comedy,0.2635
-XGBoost,France,Crime,0.2177
-XGBoost,France,Documentary,0.4386
-XGBoost,France,Drama,0.403
-XGBoost,France,Family,0.1103
-XGBoost,France,Fantasy,0.1711
-XGBoost,France,Film-Noir,0.7269
-XGBoost,France,Game-Show,0.0384
-XGBoost,France,History,0.2049
-XGBoost,France,Horror,0.1274
-XGBoost,France,Music,0.2103
-XGBoost,France,Musical,0.2313
-XGBoost,France,Mystery,0.2049
-XGBoost,France,News,0.0582
-XGBoost,France,Reality-TV,0.0416
-XGBoost,France,Romance,0.243
-XGBoost,France,Sci-Fi,0.1274
-XGBoost,France,Short,0.2876
-XGBoost,France,Sport,0.1665
-XGBoost,France,Talk-Show,0.0431
-XGBoost,France,Thriller,0.1739
-XGBoost,France,War,0.2536
-XGBoost,France,Western,0.3428
-XGBoost,Germany,Action,0.1193
-XGBoost,Germany,Adventure,0.0996
-XGBoost,Germany,Animation,0.1654
-XGBoost,Germany,Biography,0.1816
-XGBoost,Germany,Comedy,0.2536
-XGBoost,Germany,Crime,0.1842
-XGBoost,Germany,Documentary,0.4048
-XGBoost,Germany,Drama,0.3957
-XGBoost,Germany,Family,0.0723
-XGBoost,Germany,Fantasy,0.1462
-XGBoost,Germany,Film-Noir,0.7428
-XGBoost,Germany,Game-Show,0.044
-XGBoost,Germany,History,0.1905
-XGBoost,Germany,Horror,0.0978
-XGBoost,Germany,Music,0.2098
-XGBoost,Germany,Musical,0.1522
-XGBoost,Germany,Mystery,0.1693
-XGBoost,Germany,News,0.0613
-XGBoost,Germany,Reality-TV,0.0498
-XGBoost,Germany,Romance,0.1755
-XGBoost,Germany,Sci-Fi,0.0959
-XGBoost,Germany,Short,0.1345
-XGBoost,Germany,Sport,0.1499
-XGBoost,Germany,Talk-Show,0.0428
-XGBoost,Germany,Thriller,0.1524
-XGBoost,Germany,War,0.1883
-XGBoost,Germany,Western,0.3372
-XGBoost,Greece,Action,0.0721
-XGBoost,Greece,Adventure,0.0884
-XGBoost,Greece,Animation,0.1498
-XGBoost,Greece,Biography,0.1298
-XGBoost,Greece,Comedy,0.2599
-XGBoost,Greece,Crime,0.1168
-XGBoost,Greece,Documentary,0.261
-XGBoost,Greece,Drama,0.3184
-XGBoost,Greece,Family,0.0643
-XGBoost,Greece,Fantasy,0.1083
-XGBoost,Greece,Film-Noir,0.6617
-XGBoost,Greece,Game-Show,0.0281
-XGBoost,Greece,History,0.1294
-XGBoost,Greece,Horror,0.0666
-XGBoost,Greece,Music,0.1364
-XGBoost,Greece,Musical,0.0675
-XGBoost,Greece,Mystery,0.1177
-XGBoost,Greece,News,0.0389
-XGBoost,Greece,Reality-TV,0.0322
-XGBoost,Greece,Romance,0.1236
-XGBoost,Greece,Sci-Fi,0.0711
-XGBoost,Greece,Short,0.0984
-XGBoost,Greece,Sport,0.1052
-XGBoost,Greece,Talk-Show,0.0357
-XGBoost,Greece,Thriller,0.076
-XGBoost,Greece,War,0.1235
-XGBoost,Greece,Western,0.2387
-XGBoost,Hong Kong,Action,0.143
-XGBoost,Hong Kong,Adventure,0.139
-XGBoost,Hong Kong,Animation,0.1807
-XGBoost,Hong Kong,Biography,0.1547
-XGBoost,Hong Kong,Comedy,0.1941
-XGBoost,Hong Kong,Crime,0.1835
-XGBoost,Hong Kong,Documentary,0.4108
-XGBoost,Hong Kong,Drama,0.3519
-XGBoost,Hong Kong,Family,0.0816
-XGBoost,Hong Kong,Fantasy,0.1255
-XGBoost,Hong Kong,Film-Noir,0.7485
-XGBoost,Hong Kong,Game-Show,0.0237
-XGBoost,Hong Kong,History,0.1419
-XGBoost,Hong Kong,Horror,0.0973
-XGBoost,Hong Kong,Music,0.1899
-XGBoost,Hong Kong,Musical,0.1559
-XGBoost,Hong Kong,Mystery,0.1837
-XGBoost,Hong Kong,News,0.0456
-XGBoost,Hong Kong,Reality-TV,0.0265
-XGBoost,Hong Kong,Romance,0.169
-XGBoost,Hong Kong,Sci-Fi,0.0597
-XGBoost,Hong Kong,Short,0.1575
-XGBoost,Hong Kong,Sport,0.082
-XGBoost,Hong Kong,Talk-Show,0.0278
-XGBoost,Hong Kong,Thriller,0.1498
-XGBoost,Hong Kong,War,0.1849
-XGBoost,Hong Kong,Western,0.3149
-XGBoost,India,Action,0.1139
-XGBoost,India,Adventure,0.1359
-XGBoost,India,Animation,0.1642
-XGBoost,India,Biography,0.1485
-XGBoost,India,Comedy,0.2735
-XGBoost,India,Crime,0.2297
-XGBoost,India,Documentary,0.3211
-XGBoost,India,Drama,0.3329
-XGBoost,India,Family,0.0883
-XGBoost,India,Fantasy,0.1379
-XGBoost,India,Film-Noir,0.7121
-XGBoost,India,Game-Show,0.0664
-XGBoost,India,History,0.1608
-XGBoost,India,Horror,0.071
-XGBoost,India,Music,0.1159
-XGBoost,India,Musical,0.1357
-XGBoost,India,Mystery,0.1745
-XGBoost,India,News,0.0693
-XGBoost,India,Reality-TV,0.0548
-XGBoost,India,Romance,0.1366
-XGBoost,India,Sci-Fi,0.1029
-XGBoost,India,Short,0.0818
-XGBoost,India,Sport,0.2436
-XGBoost,India,Talk-Show,0.4251
-XGBoost,India,Thriller,0.1401
-XGBoost,India,War,0.1946
-XGBoost,India,Western,0.2952
-XGBoost,Iran,Action,0.097
-XGBoost,Iran,Adventure,0.1769
-XGBoost,Iran,Animation,0.2771
-XGBoost,Iran,Biography,0.1833
-XGBoost,Iran,Comedy,0.2004
-XGBoost,Iran,Crime,0.1548
-XGBoost,Iran,Documentary,0.2459
-XGBoost,Iran,Drama,0.44
-XGBoost,Iran,Family,0.2498
-XGBoost,Iran,Fantasy,0.1343
-XGBoost,Iran,Film-Noir,0.7334
-XGBoost,Iran,Game-Show,0.0574
-XGBoost,Iran,History,0.2964
-XGBoost,Iran,Horror,0.1022
-XGBoost,Iran,Music,0.1747
-XGBoost,Iran,Musical,0.1519
-XGBoost,Iran,Mystery,0.1554
-XGBoost,Iran,News,0.0637
-XGBoost,Iran,Reality-TV,0.0669
-XGBoost,Iran,Romance,0.1506
-XGBoost,Iran,Sci-Fi,0.1046
-XGBoost,Iran,Short,0.2336
-XGBoost,Iran,Sport,0.156
-XGBoost,Iran,Talk-Show,0.0632
-XGBoost,Iran,Thriller,0.1578
-XGBoost,Iran,War,0.19
-XGBoost,Iran,Western,0.315
-XGBoost,Italy,Action,0.1023
-XGBoost,Italy,Adventure,0.1306
-XGBoost,Italy,Animation,0.1846
-XGBoost,Italy,Biography,0.1559
-XGBoost,Italy,Comedy,0.213
-XGBoost,Italy,Crime,0.1586
-XGBoost,Italy,Documentary,0.339
-XGBoost,Italy,Drama,0.3381
-XGBoost,Italy,Family,0.0703
-XGBoost,Italy,Fantasy,0.1325
-XGBoost,Italy,Film-Noir,0.6899
-XGBoost,Italy,Game-Show,0.0353
-XGBoost,Italy,History,0.1476
-XGBoost,Italy,Horror,0.1179
-XGBoost,Italy,Music,0.1608
-XGBoost,Italy,Musical,0.1348
-XGBoost,Italy,Mystery,0.1642
-XGBoost,Italy,News,0.048
-XGBoost,Italy,Reality-TV,0.0407
-XGBoost,Italy,Romance,0.1612
-XGBoost,Italy,Sci-Fi,0.0516
-XGBoost,Italy,Short,0.1317
-XGBoost,Italy,Sport,0.1141
-XGBoost,Italy,Talk-Show,0.0408
-XGBoost,Italy,Thriller,0.1381
-XGBoost,Italy,War,0.1571
-XGBoost,Italy,Western,0.2775
-XGBoost,Japan,Action,0.1879
-XGBoost,Japan,Adventure,0.226
-XGBoost,Japan,Animation,0.2494
-XGBoost,Japan,Biography,0.2394
-XGBoost,Japan,Comedy,0.2615
-XGBoost,Japan,Crime,0.2636
-XGBoost,Japan,Documentary,0.4694
-XGBoost,Japan,Drama,0.4429
-XGBoost,Japan,Family,0.1137
-XGBoost,Japan,Fantasy,0.1995
-XGBoost,Japan,Film-Noir,0.8085
-XGBoost,Japan,Game-Show,0.041
-XGBoost,Japan,History,0.2323
-XGBoost,Japan,Horror,0.1357
-XGBoost,Japan,Music,0.2426
-XGBoost,Japan,Musical,0.2141
-XGBoost,Japan,Mystery,0.2269
-XGBoost,Japan,News,0.0686
-XGBoost,Japan,Reality-TV,0.1178
-XGBoost,Japan,Romance,0.2081
-XGBoost,Japan,Sci-Fi,0.1317
-XGBoost,Japan,Short,0.1929
-XGBoost,Japan,Sport,0.1824
-XGBoost,Japan,Talk-Show,0.043
-XGBoost,Japan,Thriller,0.2011
-XGBoost,Japan,War,0.2452
-XGBoost,Japan,Western,0.3928
-XGBoost,Mexico,Action,0.1106
-XGBoost,Mexico,Adventure,0.2028
-XGBoost,Mexico,Animation,0.174
-XGBoost,Mexico,Biography,0.154
-XGBoost,Mexico,Comedy,0.2107
-XGBoost,Mexico,Crime,0.1561
-XGBoost,Mexico,Documentary,0.2851
-XGBoost,Mexico,Drama,0.3507
-XGBoost,Mexico,Family,0.078
-XGBoost,Mexico,Fantasy,0.1593
-XGBoost,Mexico,Film-Noir,0.7081
-XGBoost,Mexico,Game-Show,0.0279
-XGBoost,Mexico,History,0.1786
-XGBoost,Mexico,Horror,0.1023
-XGBoost,Mexico,Music,0.1364
-XGBoost,Mexico,Musical,0.1089
-XGBoost,Mexico,Mystery,0.1585
-XGBoost,Mexico,News,0.0438
-XGBoost,Mexico,Reality-TV,0.0323
-XGBoost,Mexico,Romance,0.1251
-XGBoost,Mexico,Sci-Fi,0.0746
-XGBoost,Mexico,Short,0.1345
-XGBoost,Mexico,Sport,0.1237
-XGBoost,Mexico,Talk-Show,0.0333
-XGBoost,Mexico,Thriller,0.1255
-XGBoost,Mexico,War,0.1591
-XGBoost,Mexico,Western,0.274
-XGBoost,Netherlands,Action,0.0762
-XGBoost,Netherlands,Adventure,0.0793
-XGBoost,Netherlands,Animation,0.2887
-XGBoost,Netherlands,Biography,0.1107
-XGBoost,Netherlands,Comedy,0.1248
-XGBoost,Netherlands,Crime,0.1418
-XGBoost,Netherlands,Documentary,0.3353
-XGBoost,Netherlands,Drama,0.3135
-XGBoost,Netherlands,Family,0.0703
-XGBoost,Netherlands,Fantasy,0.1056
-XGBoost,Netherlands,Film-Noir,0.6579
-XGBoost,Netherlands,Game-Show,0.0225
-XGBoost,Netherlands,History,0.1397
-XGBoost,Netherlands,Horror,0.0661
-XGBoost,Netherlands,Music,0.1306
-XGBoost,Netherlands,Musical,0.1053
-XGBoost,Netherlands,Mystery,0.1241
-XGBoost,Netherlands,News,0.0346
-XGBoost,Netherlands,Reality-TV,0.0268
-XGBoost,Netherlands,Romance,0.1017
-XGBoost,Netherlands,Sci-Fi,0.0688
-XGBoost,Netherlands,Short,0.1069
-XGBoost,Netherlands,Sport,0.1012
-XGBoost,Netherlands,Talk-Show,0.0249
-XGBoost,Netherlands,Thriller,0.1218
-XGBoost,Netherlands,War,0.1389
-XGBoost,Netherlands,Western,0.2279
-XGBoost,Norway,Action,0.0969
-XGBoost,Norway,Adventure,0.1709
-XGBoost,Norway,Animation,0.2252
-XGBoost,Norway,Biography,0.1909
-XGBoost,Norway,Comedy,0.3117
-XGBoost,Norway,Crime,0.1927
-XGBoost,Norway,Documentary,0.3617
-XGBoost,Norway,Drama,0.3854
-XGBoost,Norway,Family,0.1124
-XGBoost,Norway,Fantasy,0.1824
-XGBoost,Norway,Film-Noir,0.7568
-XGBoost,Norway,Game-Show,0.0503
-XGBoost,Norway,History,0.2035
-XGBoost,Norway,Horror,0.1031
-XGBoost,Norway,Music,0.2022
-XGBoost,Norway,Musical,0.1606
-XGBoost,Norway,Mystery,0.1499
-XGBoost,Norway,News,0.0657
-XGBoost,Norway,Reality-TV,0.0577
-XGBoost,Norway,Romance,0.1683
-XGBoost,Norway,Sci-Fi,0.1093
-XGBoost,Norway,Short,0.1622
-XGBoost,Norway,Sport,0.1475
-XGBoost,Norway,Talk-Show,0.0504
-XGBoost,Norway,Thriller,0.2148
-XGBoost,Norway,War,0.193
-XGBoost,Norway,Western,0.3308
-XGBoost,Poland,Action,0.0762
-XGBoost,Poland,Adventure,0.1357
-XGBoost,Poland,Animation,0.1893
-XGBoost,Poland,Biography,0.1759
-XGBoost,Poland,Comedy,0.2696
-XGBoost,Poland,Crime,0.1764
-XGBoost,Poland,Documentary,0.442
-XGBoost,Poland,Drama,0.3984
-XGBoost,Poland,Family,0.0894
-XGBoost,Poland,Fantasy,0.1622
-XGBoost,Poland,Film-Noir,0.7384
-XGBoost,Poland,Game-Show,0.036
-XGBoost,Poland,History,0.1381
-XGBoost,Poland,Horror,0.0948
-XGBoost,Poland,Music,0.1811
-XGBoost,Poland,Musical,0.1551
-XGBoost,Poland,Mystery,0.1729
-XGBoost,Poland,News,0.0521
-XGBoost,Poland,Reality-TV,0.042
-XGBoost,Poland,Romance,0.1138
-XGBoost,Poland,Sci-Fi,0.0989
-XGBoost,Poland,Short,0.1495
-XGBoost,Poland,Sport,0.144
-XGBoost,Poland,Talk-Show,0.0439
-XGBoost,Poland,Thriller,0.1385
-XGBoost,Poland,War,0.1764
-XGBoost,Poland,Western,0.3075
-XGBoost,Russia,Action,0.0493
-XGBoost,Russia,Adventure,0.0466
-XGBoost,Russia,Animation,0.0986
-XGBoost,Russia,Biography,0.082
-XGBoost,Russia,Comedy,0.1144
-XGBoost,Russia,Crime,0.0651
-XGBoost,Russia,Documentary,0.3096
-XGBoost,Russia,Drama,0.2033
-XGBoost,Russia,Family,0.0242
-XGBoost,Russia,Fantasy,0.0692
-XGBoost,Russia,Film-Noir,0.5679
-XGBoost,Russia,Game-Show,0.0098
-XGBoost,Russia,History,0.0797
-XGBoost,Russia,Horror,0.0183
-XGBoost,Russia,Music,0.0902
-XGBoost,Russia,Musical,0.1309
-XGBoost,Russia,Mystery,0.0866
-XGBoost,Russia,News,0.0198
-XGBoost,Russia,Reality-TV,0.0116
-XGBoost,Russia,Romance,0.0674
-XGBoost,Russia,Sci-Fi,0.0506
-XGBoost,Russia,Short,0.0942
-XGBoost,Russia,Sport,0.0498
-XGBoost,Russia,Talk-Show,0.0133
-XGBoost,Russia,Thriller,0.078
-XGBoost,Russia,War,0.069
-XGBoost,Russia,Western,0.1633
-XGBoost,South Korea,Action,0.1203
-XGBoost,South Korea,Adventure,0.0841
-XGBoost,South Korea,Animation,0.1868
-XGBoost,South Korea,Biography,0.1866
-XGBoost,South Korea,Comedy,0.2648
-XGBoost,South Korea,Crime,0.1801
-XGBoost,South Korea,Documentary,0.4496
-XGBoost,South Korea,Drama,0.3622
-XGBoost,South Korea,Family,0.0935
-XGBoost,South Korea,Fantasy,0.1579
-XGBoost,South Korea,Film-Noir,0.7475
-XGBoost,South Korea,Game-Show,0.226
-XGBoost,South Korea,History,0.196
-XGBoost,South Korea,Horror,0.0735
-XGBoost,South Korea,Music,0.1915
-XGBoost,South Korea,Musical,0.156
-XGBoost,South Korea,Mystery,0.1723
-XGBoost,South Korea,News,0.0592
-XGBoost,South Korea,Reality-TV,0.0657
-XGBoost,South Korea,Romance,0.1964
-XGBoost,South Korea,Sci-Fi,0.1001
-XGBoost,South Korea,Short,0.1586
-XGBoost,South Korea,Sport,0.1541
-XGBoost,South Korea,Talk-Show,0.0521
-XGBoost,South Korea,Thriller,0.1547
-XGBoost,South Korea,War,0.194
-XGBoost,South Korea,Western,0.3169
-XGBoost,Spain,Action,0.1217
-XGBoost,Spain,Adventure,0.1153
-XGBoost,Spain,Animation,0.1906
-XGBoost,Spain,Biography,0.1313
-XGBoost,Spain,Comedy,0.1937
-XGBoost,Spain,Crime,0.1529
-XGBoost,Spain,Documentary,0.3826
-XGBoost,Spain,Drama,0.3374
-XGBoost,Spain,Family,0.0896
-XGBoost,Spain,Fantasy,0.1308
-XGBoost,Spain,Film-Noir,0.7058
-XGBoost,Spain,Game-Show,0.039
-XGBoost,Spain,History,0.1808
-XGBoost,Spain,Horror,0.0902
-XGBoost,Spain,Music,0.1405
-XGBoost,Spain,Musical,0.1193
-XGBoost,Spain,Mystery,0.1767
-XGBoost,Spain,News,0.049
-XGBoost,Spain,Reality-TV,0.0449
-XGBoost,Spain,Romance,0.1499
-XGBoost,Spain,Sci-Fi,0.0615
-XGBoost,Spain,Short,0.1365
-XGBoost,Spain,Sport,0.1295
-XGBoost,Spain,Talk-Show,0.0451
-XGBoost,Spain,Thriller,0.1662
-XGBoost,Spain,War,0.1601
-XGBoost,Spain,Western,0.2772
-XGBoost,Sweden,Action,0.1211
-XGBoost,Sweden,Adventure,0.1551
-XGBoost,Sweden,Animation,0.1827
-XGBoost,Sweden,Biography,0.1782
-XGBoost,Sweden,Comedy,0.2422
-XGBoost,Sweden,Crime,0.1721
-XGBoost,Sweden,Documentary,0.4184
-XGBoost,Sweden,Drama,0.3738
-XGBoost,Sweden,Family,0.0933
-XGBoost,Sweden,Fantasy,0.1511
-XGBoost,Sweden,Film-Noir,0.7406
-XGBoost,Sweden,Game-Show,0.0391
-XGBoost,Sweden,History,0.1837
-XGBoost,Sweden,Horror,0.1111
-XGBoost,Sweden,Music,0.1821
-XGBoost,Sweden,Musical,0.149
-XGBoost,Sweden,Mystery,0.177
-XGBoost,Sweden,News,0.0537
-XGBoost,Sweden,Reality-TV,0.0431
-XGBoost,Sweden,Romance,0.1486
-XGBoost,Sweden,Sci-Fi,0.0922
-XGBoost,Sweden,Short,0.1586
-XGBoost,Sweden,Sport,0.1465
-XGBoost,Sweden,Talk-Show,0.0458
-XGBoost,Sweden,Thriller,0.1335
-XGBoost,Sweden,War,0.1982
-XGBoost,Sweden,Western,0.3126
-XGBoost,Turkey,Action,0.0982
-XGBoost,Turkey,Adventure,0.1319
-XGBoost,Turkey,Animation,0.1321
-XGBoost,Turkey,Biography,0.1581
-XGBoost,Turkey,Comedy,0.2448
-XGBoost,Turkey,Crime,0.1769
-XGBoost,Turkey,Documentary,0.367
-XGBoost,Turkey,Drama,0.366
-XGBoost,Turkey,Family,0.0808
-XGBoost,Turkey,Fantasy,0.1399
-XGBoost,Turkey,Film-Noir,0.7067
-XGBoost,Turkey,Game-Show,0.0362
-XGBoost,Turkey,History,0.205
-XGBoost,Turkey,Horror,0.0345
-XGBoost,Turkey,Music,0.1623
-XGBoost,Turkey,Musical,0.1343
-XGBoost,Turkey,Mystery,0.2021
-XGBoost,Turkey,News,0.0467
-XGBoost,Turkey,Reality-TV,0.041
-XGBoost,Turkey,Romance,0.1516
-XGBoost,Turkey,Sci-Fi,0.0882
-XGBoost,Turkey,Short,0.1329
-XGBoost,Turkey,Sport,0.1294
-XGBoost,Turkey,Talk-Show,0.0513
-XGBoost,Turkey,Thriller,0.1689
-XGBoost,Turkey,War,0.1492
-XGBoost,Turkey,Western,0.2782
-XGBoost,United Kingdom,Action,0.1191
-XGBoost,United Kingdom,Adventure,0.1881
-XGBoost,United Kingdom,Animation,0.2186
-XGBoost,United Kingdom,Biography,0.209
-XGBoost,United Kingdom,Comedy,0.3138
-XGBoost,United Kingdom,Crime,0.192
-XGBoost,United Kingdom,Documentary,0.4458
-XGBoost,United Kingdom,Drama,0.413
-XGBoost,United Kingdom,Family,0.1123
-XGBoost,United Kingdom,Fantasy,0.1857
-XGBoost,United Kingdom,Film-Noir,0.6402
-XGBoost,United Kingdom,Game-Show,0.0586
-XGBoost,United Kingdom,History,0.1983
-XGBoost,United Kingdom,Horror,0.1163
-XGBoost,United Kingdom,Music,0.1915
-XGBoost,United Kingdom,Musical,0.1685
-XGBoost,United Kingdom,Mystery,0.2125
-XGBoost,United Kingdom,News,0.0778
-XGBoost,United Kingdom,Reality-TV,0.0676
-XGBoost,United Kingdom,Romance,0.1933
-XGBoost,United Kingdom,Sci-Fi,0.1251
-XGBoost,United Kingdom,Short,0.1551
-XGBoost,United Kingdom,Sport,0.182
-XGBoost,United Kingdom,Talk-Show,0.0511
-XGBoost,United Kingdom,Thriller,0.1858
-XGBoost,United Kingdom,War,0.2069
-XGBoost,United Kingdom,Western,0.2041
-XGBoost,United States,Action,0.0985
-XGBoost,United States,Adventure,0.1555
-XGBoost,United States,Animation,0.2251
-XGBoost,United States,Biography,0.1716
-XGBoost,United States,Comedy,0.2339
-XGBoost,United States,Crime,0.1551
-XGBoost,United States,Documentary,0.4509
-XGBoost,United States,Drama,0.3048
-XGBoost,United States,Family,0.0974
-XGBoost,United States,Fantasy,0.1397
-XGBoost,United States,Film-Noir,0.7253
-XGBoost,United States,Game-Show,0.037
-XGBoost,United States,History,0.1654
-XGBoost,United States,Horror,0.0661
-XGBoost,United States,Music,0.1642
-XGBoost,United States,Musical,0.1299
-XGBoost,United States,Mystery,0.1815
-XGBoost,United States,News,0.0383
-XGBoost,United States,Reality-TV,0.0561
-XGBoost,United States,Romance,0.1603
-XGBoost,United States,Sci-Fi,0.0931
-XGBoost,United States,Short,0.15
-XGBoost,United States,Sport,0.1352
-XGBoost,United States,Talk-Show,0.0911
-XGBoost,United States,Thriller,0.0983
-XGBoost,United States,War,0.1586
-XGBoost,United States,Western,0.3684
+Regresion Logistica,Argentina,Action,0.0943
+Regresion Logistica,Argentina,Adventure,0.0956
+Regresion Logistica,Argentina,Animation,0.0713
+Regresion Logistica,Argentina,Biography,0.1328
+Regresion Logistica,Argentina,Comedy,0.0958
+Regresion Logistica,Argentina,Crime,0.0898
+Regresion Logistica,Argentina,Documentary,0.0881
+Regresion Logistica,Argentina,Drama,0.129
+Regresion Logistica,Argentina,Family,0.0434
+Regresion Logistica,Argentina,Fantasy,0.0941
+Regresion Logistica,Argentina,Film-Noir,0.0462
+Regresion Logistica,Argentina,Game-Show,0.0333
+Regresion Logistica,Argentina,History,0.0787
+Regresion Logistica,Argentina,Horror,0.0704
+Regresion Logistica,Argentina,Music,0.0852
+Regresion Logistica,Argentina,Musical,0.0594
+Regresion Logistica,Argentina,Mystery,0.1036
+Regresion Logistica,Argentina,News,0.0328
+Regresion Logistica,Argentina,Reality-TV,0.0168
+Regresion Logistica,Argentina,Romance,0.0867
+Regresion Logistica,Argentina,Sci-Fi,0.0832
+Regresion Logistica,Argentina,Short,0.0237
+Regresion Logistica,Argentina,Sport,0.0776
+Regresion Logistica,Argentina,Talk-Show,0.0193
+Regresion Logistica,Argentina,Thriller,0.089
+Regresion Logistica,Argentina,War,0.0869
+Regresion Logistica,Argentina,Western,0.072
+Regresion Logistica,Australia,Action,0.2165
+Regresion Logistica,Australia,Adventure,0.217
+Regresion Logistica,Australia,Animation,0.1675
+Regresion Logistica,Australia,Biography,0.2851
+Regresion Logistica,Australia,Comedy,0.2177
+Regresion Logistica,Australia,Crime,0.2065
+Regresion Logistica,Australia,Documentary,0.1992
+Regresion Logistica,Australia,Drama,0.2777
+Regresion Logistica,Australia,Family,0.1088
+Regresion Logistica,Australia,Fantasy,0.2153
+Regresion Logistica,Australia,Film-Noir,0.1116
+Regresion Logistica,Australia,Game-Show,0.0883
+Regresion Logistica,Australia,History,0.183
+Regresion Logistica,Australia,Horror,0.1688
+Regresion Logistica,Australia,Music,0.1976
+Regresion Logistica,Australia,Musical,0.1448
+Regresion Logistica,Australia,Mystery,0.2331
+Regresion Logistica,Australia,News,0.0844
+Regresion Logistica,Australia,Reality-TV,0.0465
+Regresion Logistica,Australia,Romance,0.2012
+Regresion Logistica,Australia,Sci-Fi,0.1955
+Regresion Logistica,Australia,Short,0.0605
+Regresion Logistica,Australia,Sport,0.182
+Regresion Logistica,Australia,Talk-Show,0.053
+Regresion Logistica,Australia,Thriller,0.2074
+Regresion Logistica,Australia,War,0.1989
+Regresion Logistica,Australia,Western,0.1697
+Regresion Logistica,Belgium,Action,0.1915
+Regresion Logistica,Belgium,Adventure,0.192
+Regresion Logistica,Belgium,Animation,0.1474
+Regresion Logistica,Belgium,Biography,0.2537
+Regresion Logistica,Belgium,Comedy,0.1924
+Regresion Logistica,Belgium,Crime,0.1821
+Regresion Logistica,Belgium,Documentary,0.1749
+Regresion Logistica,Belgium,Drama,0.2471
+Regresion Logistica,Belgium,Family,0.095
+Regresion Logistica,Belgium,Fantasy,0.1904
+Regresion Logistica,Belgium,Film-Noir,0.0962
+Regresion Logistica,Belgium,Game-Show,0.077
+Regresion Logistica,Belgium,History,0.1609
+Regresion Logistica,Belgium,Horror,0.1478
+Regresion Logistica,Belgium,Music,0.1739
+Regresion Logistica,Belgium,Musical,0.1264
+Regresion Logistica,Belgium,Mystery,0.2065
+Regresion Logistica,Belgium,News,0.0736
+Regresion Logistica,Belgium,Reality-TV,0.0404
+Regresion Logistica,Belgium,Romance,0.1772
+Regresion Logistica,Belgium,Sci-Fi,0.1724
+Regresion Logistica,Belgium,Short,0.052
+Regresion Logistica,Belgium,Sport,0.16
+Regresion Logistica,Belgium,Talk-Show,0.0461
+Regresion Logistica,Belgium,Thriller,0.1828
+Regresion Logistica,Belgium,War,0.1745
+Regresion Logistica,Belgium,Western,0.1483
+Regresion Logistica,Brazil,Action,0.0792
+Regresion Logistica,Brazil,Adventure,0.0801
+Regresion Logistica,Brazil,Animation,0.0596
+Regresion Logistica,Brazil,Biography,0.1114
+Regresion Logistica,Brazil,Comedy,0.0803
+Regresion Logistica,Brazil,Crime,0.0752
+Regresion Logistica,Brazil,Documentary,0.0732
+Regresion Logistica,Brazil,Drama,0.1082
+Regresion Logistica,Brazil,Family,0.0363
+Regresion Logistica,Brazil,Fantasy,0.079
+Regresion Logistica,Brazil,Film-Noir,0.0379
+Regresion Logistica,Brazil,Game-Show,0.028
+Regresion Logistica,Brazil,History,0.0656
+Regresion Logistica,Brazil,Horror,0.0587
+Regresion Logistica,Brazil,Music,0.0712
+Regresion Logistica,Brazil,Musical,0.0494
+Regresion Logistica,Brazil,Mystery,0.0869
+Regresion Logistica,Brazil,News,0.0275
+Regresion Logistica,Brazil,Reality-TV,0.0141
+Regresion Logistica,Brazil,Romance,0.0725
+Regresion Logistica,Brazil,Sci-Fi,0.0698
+Regresion Logistica,Brazil,Short,0.0195
+Regresion Logistica,Brazil,Sport,0.0648
+Regresion Logistica,Brazil,Talk-Show,0.0163
+Regresion Logistica,Brazil,Thriller,0.0746
+Regresion Logistica,Brazil,War,0.0722
+Regresion Logistica,Brazil,Western,0.0598
+Regresion Logistica,Canada,Action,0.2298
+Regresion Logistica,Canada,Adventure,0.2304
+Regresion Logistica,Canada,Animation,0.1783
+Regresion Logistica,Canada,Biography,0.3021
+Regresion Logistica,Canada,Comedy,0.2313
+Regresion Logistica,Canada,Crime,0.2197
+Regresion Logistica,Canada,Documentary,0.2127
+Regresion Logistica,Canada,Drama,0.2944
+Regresion Logistica,Canada,Family,0.1162
+Regresion Logistica,Canada,Fantasy,0.2286
+Regresion Logistica,Canada,Film-Noir,0.1206
+Regresion Logistica,Canada,Game-Show,0.0941
+Regresion Logistica,Canada,History,0.1951
+Regresion Logistica,Canada,Horror,0.1802
+Regresion Logistica,Canada,Music,0.2105
+Regresion Logistica,Canada,Musical,0.1548
+Regresion Logistica,Canada,Mystery,0.2474
+Regresion Logistica,Canada,News,0.0901
+Regresion Logistica,Canada,Reality-TV,0.0495
+Regresion Logistica,Canada,Romance,0.2142
+Regresion Logistica,Canada,Sci-Fi,0.2077
+Regresion Logistica,Canada,Short,0.0653
+Regresion Logistica,Canada,Sport,0.1938
+Regresion Logistica,Canada,Talk-Show,0.0565
+Regresion Logistica,Canada,Thriller,0.2206
+Regresion Logistica,Canada,War,0.2124
+Regresion Logistica,Canada,Western,0.1816
+Regresion Logistica,China,Action,0.2141
+Regresion Logistica,China,Adventure,0.2154
+Regresion Logistica,China,Animation,0.1655
+Regresion Logistica,China,Biography,0.286
+Regresion Logistica,China,Comedy,0.2164
+Regresion Logistica,China,Crime,0.2052
+Regresion Logistica,China,Documentary,0.2007
+Regresion Logistica,China,Drama,0.2785
+Regresion Logistica,China,Family,0.1063
+Regresion Logistica,China,Fantasy,0.2132
+Regresion Logistica,China,Film-Noir,0.1135
+Regresion Logistica,China,Game-Show,0.0846
+Regresion Logistica,China,History,0.1822
+Regresion Logistica,China,Horror,0.1671
+Regresion Logistica,China,Music,0.1965
+Regresion Logistica,China,Musical,0.1432
+Regresion Logistica,China,Mystery,0.2317
+Regresion Logistica,China,News,0.0817
+Regresion Logistica,China,Reality-TV,0.0439
+Regresion Logistica,China,Romance,0.1997
+Regresion Logistica,China,Sci-Fi,0.1925
+Regresion Logistica,China,Short,0.0603
+Regresion Logistica,China,Sport,0.1804
+Regresion Logistica,China,Talk-Show,0.0502
+Regresion Logistica,China,Thriller,0.2053
+Regresion Logistica,China,War,0.1998
+Regresion Logistica,China,Western,0.1699
+Regresion Logistica,Denmark,Action,0.1702
+Regresion Logistica,Denmark,Adventure,0.1711
+Regresion Logistica,Denmark,Animation,0.1304
+Regresion Logistica,Denmark,Biography,0.2291
+Regresion Logistica,Denmark,Comedy,0.1716
+Regresion Logistica,Denmark,Crime,0.1621
+Regresion Logistica,Denmark,Documentary,0.1568
+Regresion Logistica,Denmark,Drama,0.223
+Regresion Logistica,Denmark,Family,0.0828
+Regresion Logistica,Denmark,Fantasy,0.1694
+Regresion Logistica,Denmark,Film-Noir,0.0856
+Regresion Logistica,Denmark,Game-Show,0.066
+Regresion Logistica,Denmark,History,0.1429
+Regresion Logistica,Denmark,Horror,0.1305
+Regresion Logistica,Denmark,Music,0.1546
+Regresion Logistica,Denmark,Musical,0.1112
+Regresion Logistica,Denmark,Mystery,0.1845
+Regresion Logistica,Denmark,News,0.0637
+Regresion Logistica,Denmark,Reality-TV,0.0342
+Regresion Logistica,Denmark,Romance,0.1574
+Regresion Logistica,Denmark,Sci-Fi,0.1525
+Regresion Logistica,Denmark,Short,0.0455
+Regresion Logistica,Denmark,Sport,0.1418
+Regresion Logistica,Denmark,Talk-Show,0.0391
+Regresion Logistica,Denmark,Thriller,0.1622
+Regresion Logistica,Denmark,War,0.156
+Regresion Logistica,Denmark,Western,0.1318
+Regresion Logistica,Egypt,Action,0.0564
+Regresion Logistica,Egypt,Adventure,0.057
+Regresion Logistica,Egypt,Animation,0.0422
+Regresion Logistica,Egypt,Biography,0.0793
+Regresion Logistica,Egypt,Comedy,0.057
+Regresion Logistica,Egypt,Crime,0.0532
+Regresion Logistica,Egypt,Documentary,0.0513
+Regresion Logistica,Egypt,Drama,0.077
+Regresion Logistica,Egypt,Family,0.0256
+Regresion Logistica,Egypt,Fantasy,0.0562
+Regresion Logistica,Egypt,Film-Noir,0.0261
+Regresion Logistica,Egypt,Game-Show,0.0199
+Regresion Logistica,Egypt,History,0.0463
+Regresion Logistica,Egypt,Horror,0.0414
+Regresion Logistica,Egypt,Music,0.0503
+Regresion Logistica,Egypt,Musical,0.0348
+Regresion Logistica,Egypt,Mystery,0.0618
+Regresion Logistica,Egypt,News,0.0195
+Regresion Logistica,Egypt,Reality-TV,0.0101
+Regresion Logistica,Egypt,Romance,0.0513
+Regresion Logistica,Egypt,Sci-Fi,0.0496
+Regresion Logistica,Egypt,Short,0.0135
+Regresion Logistica,Egypt,Sport,0.0458
+Regresion Logistica,Egypt,Talk-Show,0.0116
+Regresion Logistica,Egypt,Thriller,0.0529
+Regresion Logistica,Egypt,War,0.0507
+Regresion Logistica,Egypt,Western,0.0419
+Regresion Logistica,Finland,Action,0.0898
+Regresion Logistica,Finland,Adventure,0.0907
+Regresion Logistica,Finland,Animation,0.0678
+Regresion Logistica,Finland,Biography,0.1251
+Regresion Logistica,Finland,Comedy,0.0909
+Regresion Logistica,Finland,Crime,0.0851
+Regresion Logistica,Finland,Documentary,0.0825
+Regresion Logistica,Finland,Drama,0.1216
+Regresion Logistica,Finland,Family,0.0415
+Regresion Logistica,Finland,Fantasy,0.0895
+Regresion Logistica,Finland,Film-Noir,0.0428
+Regresion Logistica,Finland,Game-Show,0.0324
+Regresion Logistica,Finland,History,0.0744
+Regresion Logistica,Finland,Horror,0.0668
+Regresion Logistica,Finland,Music,0.0807
+Regresion Logistica,Finland,Musical,0.0564
+Regresion Logistica,Finland,Mystery,0.0983
+Regresion Logistica,Finland,News,0.0317
+Regresion Logistica,Finland,Reality-TV,0.0165
+Regresion Logistica,Finland,Romance,0.0822
+Regresion Logistica,Finland,Sci-Fi,0.0794
+Regresion Logistica,Finland,Short,0.0223
+Regresion Logistica,Finland,Sport,0.0736
+Regresion Logistica,Finland,Talk-Show,0.0189
+Regresion Logistica,Finland,Thriller,0.0847
+Regresion Logistica,Finland,War,0.0815
+Regresion Logistica,Finland,Western,0.0678
+Regresion Logistica,France,Action,0.2136
+Regresion Logistica,France,Adventure,0.214
+Regresion Logistica,France,Animation,0.1651
+Regresion Logistica,France,Biography,0.2808
+Regresion Logistica,France,Comedy,0.2146
+Regresion Logistica,France,Crime,0.2034
+Regresion Logistica,France,Documentary,0.1957
+Regresion Logistica,France,Drama,0.2736
+Regresion Logistica,France,Family,0.1073
+Regresion Logistica,France,Fantasy,0.2123
+Regresion Logistica,France,Film-Noir,0.1093
+Regresion Logistica,France,Game-Show,0.0874
+Regresion Logistica,France,History,0.1802
+Regresion Logistica,France,Horror,0.1662
+Regresion Logistica,France,Music,0.1946
+Regresion Logistica,France,Musical,0.1426
+Regresion Logistica,France,Mystery,0.2298
+Regresion Logistica,France,News,0.0834
+Regresion Logistica,France,Reality-TV,0.0461
+Regresion Logistica,France,Romance,0.1982
+Regresion Logistica,France,Sci-Fi,0.1929
+Regresion Logistica,France,Short,0.0593
+Regresion Logistica,France,Sport,0.1793
+Regresion Logistica,France,Talk-Show,0.0525
+Regresion Logistica,France,Thriller,0.2045
+Regresion Logistica,France,War,0.1955
+Regresion Logistica,France,Western,0.1668
+Regresion Logistica,Germany,Action,0.2204
+Regresion Logistica,Germany,Adventure,0.221
+Regresion Logistica,Germany,Animation,0.1706
+Regresion Logistica,Germany,Biography,0.2907
+Regresion Logistica,Germany,Comedy,0.2218
+Regresion Logistica,Germany,Crime,0.2105
+Regresion Logistica,Germany,Documentary,0.2037
+Regresion Logistica,Germany,Drama,0.2831
+Regresion Logistica,Germany,Family,0.1107
+Regresion Logistica,Germany,Fantasy,0.2192
+Regresion Logistica,Germany,Film-Noir,0.1147
+Regresion Logistica,Germany,Game-Show,0.0896
+Regresion Logistica,Germany,History,0.1867
+Regresion Logistica,Germany,Horror,0.1721
+Regresion Logistica,Germany,Music,0.2015
+Regresion Logistica,Germany,Musical,0.1477
+Regresion Logistica,Germany,Mystery,0.2375
+Regresion Logistica,Germany,News,0.0858
+Regresion Logistica,Germany,Reality-TV,0.047
+Regresion Logistica,Germany,Romance,0.2051
+Regresion Logistica,Germany,Sci-Fi,0.1989
+Regresion Logistica,Germany,Short,0.0619
+Regresion Logistica,Germany,Sport,0.1855
+Regresion Logistica,Germany,Talk-Show,0.0537
+Regresion Logistica,Germany,Thriller,0.2113
+Regresion Logistica,Germany,War,0.2033
+Regresion Logistica,Germany,Western,0.1735
+Regresion Logistica,Greece,Action,0.0903
+Regresion Logistica,Greece,Adventure,0.091
+Regresion Logistica,Greece,Animation,0.0681
+Regresion Logistica,Greece,Biography,0.1247
+Regresion Logistica,Greece,Comedy,0.0911
+Regresion Logistica,Greece,Crime,0.0853
+Regresion Logistica,Greece,Documentary,0.082
+Regresion Logistica,Greece,Drama,0.1213
+Regresion Logistica,Greece,Family,0.042
+Regresion Logistica,Greece,Fantasy,0.0899
+Regresion Logistica,Greece,Film-Noir,0.0425
+Regresion Logistica,Greece,Game-Show,0.0331
+Regresion Logistica,Greece,History,0.0745
+Regresion Logistica,Greece,Horror,0.0671
+Regresion Logistica,Greece,Music,0.0809
+Regresion Logistica,Greece,Musical,0.0567
+Regresion Logistica,Greece,Mystery,0.0985
+Regresion Logistica,Greece,News,0.0321
+Regresion Logistica,Greece,Reality-TV,0.017
+Regresion Logistica,Greece,Romance,0.0825
+Regresion Logistica,Greece,Sci-Fi,0.08
+Regresion Logistica,Greece,Short,0.0223
+Regresion Logistica,Greece,Sport,0.0739
+Regresion Logistica,Greece,Talk-Show,0.0194
+Regresion Logistica,Greece,Thriller,0.0851
+Regresion Logistica,Greece,War,0.0812
+Regresion Logistica,Greece,Western,0.0677
+Regresion Logistica,Hong Kong,Action,0.1316
+Regresion Logistica,Hong Kong,Adventure,0.1326
+Regresion Logistica,Hong Kong,Animation,0.1
+Regresion Logistica,Hong Kong,Biography,0.1803
+Regresion Logistica,Hong Kong,Comedy,0.1329
+Regresion Logistica,Hong Kong,Crime,0.1251
+Regresion Logistica,Hong Kong,Documentary,0.1213
+Regresion Logistica,Hong Kong,Drama,0.1754
+Regresion Logistica,Hong Kong,Family,0.0624
+Regresion Logistica,Hong Kong,Fantasy,0.131
+Regresion Logistica,Hong Kong,Film-Noir,0.0647
+Regresion Logistica,Hong Kong,Game-Show,0.0491
+Regresion Logistica,Hong Kong,History,0.1099
+Regresion Logistica,Hong Kong,Horror,0.0995
+Regresion Logistica,Hong Kong,Music,0.119
+Regresion Logistica,Hong Kong,Musical,0.0843
+Regresion Logistica,Hong Kong,Mystery,0.1434
+Regresion Logistica,Hong Kong,News,0.0477
+Regresion Logistica,Hong Kong,Reality-TV,0.0252
+Regresion Logistica,Hong Kong,Romance,0.1212
+Regresion Logistica,Hong Kong,Sci-Fi,0.1171
+Regresion Logistica,Hong Kong,Short,0.0339
+Regresion Logistica,Hong Kong,Sport,0.1088
+Regresion Logistica,Hong Kong,Talk-Show,0.0288
+Regresion Logistica,Hong Kong,Thriller,0.1247
+Regresion Logistica,Hong Kong,War,0.1203
+Regresion Logistica,Hong Kong,Western,0.1008
+Regresion Logistica,India,Action,0.1323
+Regresion Logistica,India,Adventure,0.1324
+Regresion Logistica,India,Animation,0.1006
+Regresion Logistica,India,Biography,0.1763
+Regresion Logistica,India,Comedy,0.1323
+Regresion Logistica,India,Crime,0.1245
+Regresion Logistica,India,Documentary,0.1175
+Regresion Logistica,India,Drama,0.1716
+Regresion Logistica,India,Family,0.064
+Regresion Logistica,India,Fantasy,0.1314
+Regresion Logistica,India,Film-Noir,0.0617
+Regresion Logistica,India,Game-Show,0.0524
+Regresion Logistica,India,History,0.109
+Regresion Logistica,India,Horror,0.0997
+Regresion Logistica,India,Music,0.1183
+Regresion Logistica,India,Musical,0.0846
+Regresion Logistica,India,Mystery,0.1427
+Regresion Logistica,India,News,0.0499
+Regresion Logistica,India,Reality-TV,0.0276
+Regresion Logistica,India,Romance,0.1208
+Regresion Logistica,India,Sci-Fi,0.1187
+Regresion Logistica,India,Short,0.0335
+Regresion Logistica,India,Sport,0.1088
+Regresion Logistica,India,Talk-Show,0.0314
+Regresion Logistica,India,Thriller,0.1252
+Regresion Logistica,India,War,0.1172
+Regresion Logistica,India,Western,0.0988
+Regresion Logistica,Iran,Action,0.116
+Regresion Logistica,Iran,Adventure,0.1172
+Regresion Logistica,Iran,Animation,0.0879
+Regresion Logistica,Iran,Biography,0.161
+Regresion Logistica,Iran,Comedy,0.1175
+Regresion Logistica,Iran,Crime,0.1104
+Regresion Logistica,Iran,Documentary,0.1077
+Regresion Logistica,Iran,Drama,0.1565
+Regresion Logistica,Iran,Family,0.0542
+Regresion Logistica,Iran,Fantasy,0.1156
+Regresion Logistica,Iran,Film-Noir,0.0571
+Regresion Logistica,Iran,Game-Show,0.0421
+Regresion Logistica,Iran,History,0.0969
+Regresion Logistica,Iran,Horror,0.0872
+Regresion Logistica,Iran,Music,0.1049
+Regresion Logistica,Iran,Musical,0.0738
+Regresion Logistica,Iran,Mystery,0.1269
+Regresion Logistica,Iran,News,0.0413
+Regresion Logistica,Iran,Reality-TV,0.0214
+Regresion Logistica,Iran,Romance,0.1068
+Regresion Logistica,Iran,Sci-Fi,0.1028
+Regresion Logistica,Iran,Short,0.0296
+Regresion Logistica,Iran,Sport,0.0957
+Regresion Logistica,Iran,Talk-Show,0.0246
+Regresion Logistica,Iran,Thriller,0.1098
+Regresion Logistica,Iran,War,0.1066
+Regresion Logistica,Iran,Western,0.0889
+Regresion Logistica,Italy,Action,0.1382
+Regresion Logistica,Italy,Adventure,0.1393
+Regresion Logistica,Italy,Animation,0.1052
+Regresion Logistica,Italy,Biography,0.1889
+Regresion Logistica,Italy,Comedy,0.1396
+Regresion Logistica,Italy,Crime,0.1315
+Regresion Logistica,Italy,Documentary,0.1275
+Regresion Logistica,Italy,Drama,0.1837
+Regresion Logistica,Italy,Family,0.0658
+Regresion Logistica,Italy,Fantasy,0.1376
+Regresion Logistica,Italy,Film-Noir,0.0683
+Regresion Logistica,Italy,Game-Show,0.0519
+Regresion Logistica,Italy,History,0.1155
+Regresion Logistica,Italy,Horror,0.1047
+Regresion Logistica,Italy,Music,0.1251
+Regresion Logistica,Italy,Musical,0.0889
+Regresion Logistica,Italy,Mystery,0.1505
+Regresion Logistica,Italy,News,0.0504
+Regresion Logistica,Italy,Reality-TV,0.0266
+Regresion Logistica,Italy,Romance,0.1274
+Regresion Logistica,Italy,Sci-Fi,0.1231
+Regresion Logistica,Italy,Short,0.0359
+Regresion Logistica,Italy,Sport,0.1144
+Regresion Logistica,Italy,Talk-Show,0.0305
+Regresion Logistica,Italy,Thriller,0.1312
+Regresion Logistica,Italy,War,0.1264
+Regresion Logistica,Italy,Western,0.1061
+Regresion Logistica,Japan,Action,0.1448
+Regresion Logistica,Japan,Adventure,0.1453
+Regresion Logistica,Japan,Animation,0.1104
+Regresion Logistica,Japan,Biography,0.1945
+Regresion Logistica,Japan,Comedy,0.1455
+Regresion Logistica,Japan,Crime,0.137
+Regresion Logistica,Japan,Documentary,0.131
+Regresion Logistica,Japan,Drama,0.1893
+Regresion Logistica,Japan,Family,0.0699
+Regresion Logistica,Japan,Fantasy,0.144
+Regresion Logistica,Japan,Film-Noir,0.0698
+Regresion Logistica,Japan,Game-Show,0.0564
+Regresion Logistica,Japan,History,0.1203
+Regresion Logistica,Japan,Horror,0.1098
+Regresion Logistica,Japan,Music,0.1304
+Regresion Logistica,Japan,Musical,0.0933
+Regresion Logistica,Japan,Mystery,0.1567
+Regresion Logistica,Japan,News,0.0541
+Regresion Logistica,Japan,Reality-TV,0.0294
+Regresion Logistica,Japan,Romance,0.133
+Regresion Logistica,Japan,Sci-Fi,0.1296
+Regresion Logistica,Japan,Short,0.0374
+Regresion Logistica,Japan,Sport,0.1197
+Regresion Logistica,Japan,Talk-Show,0.0335
+Regresion Logistica,Japan,Thriller,0.1374
+Regresion Logistica,Japan,War,0.1304
+Regresion Logistica,Japan,Western,0.1099
+Regresion Logistica,Mexico,Action,0.1701
+Regresion Logistica,Mexico,Adventure,0.1713
+Regresion Logistica,Mexico,Animation,0.1303
+Regresion Logistica,Mexico,Biography,0.2308
+Regresion Logistica,Mexico,Comedy,0.172
+Regresion Logistica,Mexico,Crime,0.1625
+Regresion Logistica,Mexico,Documentary,0.1585
+Regresion Logistica,Mexico,Drama,0.2245
+Regresion Logistica,Mexico,Family,0.0823
+Regresion Logistica,Mexico,Fantasy,0.1694
+Regresion Logistica,Mexico,Film-Noir,0.0869
+Regresion Logistica,Mexico,Game-Show,0.0648
+Regresion Logistica,Mexico,History,0.1434
+Regresion Logistica,Mexico,Horror,0.1305
+Regresion Logistica,Mexico,Music,0.155
+Regresion Logistica,Mexico,Musical,0.1112
+Regresion Logistica,Mexico,Mystery,0.1848
+Regresion Logistica,Mexico,News,0.063
+Regresion Logistica,Mexico,Reality-TV,0.0333
+Regresion Logistica,Mexico,Romance,0.1577
+Regresion Logistica,Mexico,Sci-Fi,0.152
+Regresion Logistica,Mexico,Short,0.0457
+Regresion Logistica,Mexico,Sport,0.1419
+Regresion Logistica,Mexico,Talk-Show,0.0382
+Regresion Logistica,Mexico,Thriller,0.1621
+Regresion Logistica,Mexico,War,0.1574
+Regresion Logistica,Mexico,Western,0.1327
+Regresion Logistica,Netherlands,Action,0.1248
+Regresion Logistica,Netherlands,Adventure,0.1253
+Regresion Logistica,Netherlands,Animation,0.0947
+Regresion Logistica,Netherlands,Biography,0.1687
+Regresion Logistica,Netherlands,Comedy,0.1253
+Regresion Logistica,Netherlands,Crime,0.1179
+Regresion Logistica,Netherlands,Documentary,0.1125
+Regresion Logistica,Netherlands,Drama,0.1641
+Regresion Logistica,Netherlands,Family,0.0596
+Regresion Logistica,Netherlands,Fantasy,0.124
+Regresion Logistica,Netherlands,Film-Noir,0.0592
+Regresion Logistica,Netherlands,Game-Show,0.0479
+Regresion Logistica,Netherlands,History,0.1032
+Regresion Logistica,Netherlands,Horror,0.0939
+Regresion Logistica,Netherlands,Music,0.1119
+Regresion Logistica,Netherlands,Musical,0.0796
+Regresion Logistica,Netherlands,Mystery,0.1352
+Regresion Logistica,Netherlands,News,0.046
+Regresion Logistica,Netherlands,Reality-TV,0.0249
+Regresion Logistica,Netherlands,Romance,0.1142
+Regresion Logistica,Netherlands,Sci-Fi,0.1114
+Regresion Logistica,Netherlands,Short,0.0316
+Regresion Logistica,Netherlands,Sport,0.1027
+Regresion Logistica,Netherlands,Talk-Show,0.0284
+Regresion Logistica,Netherlands,Thriller,0.118
+Regresion Logistica,Netherlands,War,0.1119
+Regresion Logistica,Netherlands,Western,0.0939
+Regresion Logistica,Norway,Action,0.1467
+Regresion Logistica,Norway,Adventure,0.1466
+Regresion Logistica,Norway,Animation,0.1119
+Regresion Logistica,Norway,Biography,0.1941
+Regresion Logistica,Norway,Comedy,0.1466
+Regresion Logistica,Norway,Crime,0.1381
+Regresion Logistica,Norway,Documentary,0.1302
+Regresion Logistica,Norway,Drama,0.189
+Regresion Logistica,Norway,Family,0.0717
+Regresion Logistica,Norway,Fantasy,0.1456
+Regresion Logistica,Norway,Film-Noir,0.0688
+Regresion Logistica,Norway,Game-Show,0.059
+Regresion Logistica,Norway,History,0.1211
+Regresion Logistica,Norway,Horror,0.111
+Regresion Logistica,Norway,Music,0.1313
+Regresion Logistica,Norway,Musical,0.0945
+Regresion Logistica,Norway,Mystery,0.1579
+Regresion Logistica,Norway,News,0.056
+Regresion Logistica,Norway,Reality-TV,0.0312
+Regresion Logistica,Norway,Romance,0.1341
+Regresion Logistica,Norway,Sci-Fi,0.1319
+Regresion Logistica,Norway,Short,0.0376
+Regresion Logistica,Norway,Sport,0.121
+Regresion Logistica,Norway,Talk-Show,0.0355
+Regresion Logistica,Norway,Thriller,0.1389
+Regresion Logistica,Norway,War,0.13
+Regresion Logistica,Norway,Western,0.1099
+Regresion Logistica,Poland,Action,0.1006
+Regresion Logistica,Poland,Adventure,0.1015
+Regresion Logistica,Poland,Animation,0.076
+Regresion Logistica,Poland,Biography,0.1394
+Regresion Logistica,Poland,Comedy,0.1017
+Regresion Logistica,Poland,Crime,0.0954
+Regresion Logistica,Poland,Documentary,0.0923
+Regresion Logistica,Poland,Drama,0.1355
+Regresion Logistica,Poland,Family,0.0469
+Regresion Logistica,Poland,Fantasy,0.1002
+Regresion Logistica,Poland,Film-Noir,0.0483
+Regresion Logistica,Poland,Game-Show,0.0367
+Regresion Logistica,Poland,History,0.0834
+Regresion Logistica,Poland,Horror,0.0751
+Regresion Logistica,Poland,Music,0.0905
+Regresion Logistica,Poland,Musical,0.0635
+Regresion Logistica,Poland,Mystery,0.1099
+Regresion Logistica,Poland,News,0.0358
+Regresion Logistica,Poland,Reality-TV,0.0187
+Regresion Logistica,Poland,Romance,0.0922
+Regresion Logistica,Poland,Sci-Fi,0.0891
+Regresion Logistica,Poland,Short,0.0252
+Regresion Logistica,Poland,Sport,0.0826
+Regresion Logistica,Poland,Talk-Show,0.0215
+Regresion Logistica,Poland,Thriller,0.095
+Regresion Logistica,Poland,War,0.0914
+Regresion Logistica,Poland,Western,0.0761
+Regresion Logistica,Russia,Action,0.0744
+Regresion Logistica,Russia,Adventure,0.0755
+Regresion Logistica,Russia,Animation,0.056
+Regresion Logistica,Russia,Biography,0.1057
+Regresion Logistica,Russia,Comedy,0.0757
+Regresion Logistica,Russia,Crime,0.0708
+Regresion Logistica,Russia,Documentary,0.0695
+Regresion Logistica,Russia,Drama,0.1027
+Regresion Logistica,Russia,Family,0.0338
+Regresion Logistica,Russia,Fantasy,0.0743
+Regresion Logistica,Russia,Film-Noir,0.036
+Regresion Logistica,Russia,Game-Show,0.0258
+Regresion Logistica,Russia,History,0.0619
+Regresion Logistica,Russia,Horror,0.0551
+Regresion Logistica,Russia,Music,0.0671
+Regresion Logistica,Russia,Musical,0.0464
+Regresion Logistica,Russia,Mystery,0.082
+Regresion Logistica,Russia,News,0.0255
+Regresion Logistica,Russia,Reality-TV,0.013
+Regresion Logistica,Russia,Romance,0.0682
+Regresion Logistica,Russia,Sci-Fi,0.0654
+Regresion Logistica,Russia,Short,0.0183
+Regresion Logistica,Russia,Sport,0.061
+Regresion Logistica,Russia,Talk-Show,0.0149
+Regresion Logistica,Russia,Thriller,0.0701
+Regresion Logistica,Russia,War,0.0684
+Regresion Logistica,Russia,Western,0.0565
+Regresion Logistica,South Korea,Action,0.1584
+Regresion Logistica,South Korea,Adventure,0.1585
+Regresion Logistica,South Korea,Animation,0.121
+Regresion Logistica,South Korea,Biography,0.2101
+Regresion Logistica,South Korea,Comedy,0.1586
+Regresion Logistica,South Korea,Crime,0.1496
+Regresion Logistica,South Korea,Documentary,0.142
+Regresion Logistica,South Korea,Drama,0.2046
+Regresion Logistica,South Korea,Family,0.0775
+Regresion Logistica,South Korea,Fantasy,0.1573
+Regresion Logistica,South Korea,Film-Noir,0.076
+Regresion Logistica,South Korea,Game-Show,0.0634
+Regresion Logistica,South Korea,History,0.1315
+Regresion Logistica,South Korea,Horror,0.1205
+Regresion Logistica,South Korea,Music,0.1424
+Regresion Logistica,South Korea,Musical,0.1027
+Regresion Logistica,South Korea,Mystery,0.1707
+Regresion Logistica,South Korea,News,0.0603
+Regresion Logistica,South Korea,Reality-TV,0.0334
+Regresion Logistica,South Korea,Romance,0.1454
+Regresion Logistica,South Korea,Sci-Fi,0.1423
+Regresion Logistica,South Korea,Short,0.0413
+Regresion Logistica,South Korea,Sport,0.1311
+Regresion Logistica,South Korea,Talk-Show,0.038
+Regresion Logistica,South Korea,Thriller,0.1504
+Regresion Logistica,South Korea,War,0.1417
+Regresion Logistica,South Korea,Western,0.1199
+Regresion Logistica,Spain,Action,0.1515
+Regresion Logistica,Spain,Adventure,0.1526
+Regresion Logistica,Spain,Animation,0.1156
+Regresion Logistica,Spain,Biography,0.2064
+Regresion Logistica,Spain,Comedy,0.1531
+Regresion Logistica,Spain,Crime,0.1444
+Regresion Logistica,Spain,Documentary,0.1403
+Regresion Logistica,Spain,Drama,0.2008
+Regresion Logistica,Spain,Family,0.0726
+Regresion Logistica,Spain,Fantasy,0.1509
+Regresion Logistica,Spain,Film-Noir,0.0759
+Regresion Logistica,Spain,Game-Show,0.0573
+Regresion Logistica,Spain,History,0.1271
+Regresion Logistica,Spain,Horror,0.1154
+Regresion Logistica,Spain,Music,0.1375
+Regresion Logistica,Spain,Musical,0.0981
+Regresion Logistica,Spain,Mystery,0.1648
+Regresion Logistica,Spain,News,0.0556
+Regresion Logistica,Spain,Reality-TV,0.0294
+Regresion Logistica,Spain,Romance,0.14
+Regresion Logistica,Spain,Sci-Fi,0.1351
+Regresion Logistica,Spain,Short,0.0399
+Regresion Logistica,Spain,Sport,0.1258
+Regresion Logistica,Spain,Talk-Show,0.0337
+Regresion Logistica,Spain,Thriller,0.144
+Regresion Logistica,Spain,War,0.1392
+Regresion Logistica,Spain,Western,0.1171
+Regresion Logistica,Sweden,Action,0.1547
+Regresion Logistica,Sweden,Adventure,0.1549
+Regresion Logistica,Sweden,Animation,0.1182
+Regresion Logistica,Sweden,Biography,0.2053
+Regresion Logistica,Sweden,Comedy,0.1549
+Regresion Logistica,Sweden,Crime,0.1461
+Regresion Logistica,Sweden,Documentary,0.1385
+Regresion Logistica,Sweden,Drama,0.1999
+Regresion Logistica,Sweden,Family,0.0757
+Regresion Logistica,Sweden,Fantasy,0.1537
+Regresion Logistica,Sweden,Film-Noir,0.0739
+Regresion Logistica,Sweden,Game-Show,0.0619
+Regresion Logistica,Sweden,History,0.1283
+Regresion Logistica,Sweden,Horror,0.1176
+Regresion Logistica,Sweden,Music,0.139
+Regresion Logistica,Sweden,Musical,0.1001
+Regresion Logistica,Sweden,Mystery,0.1667
+Regresion Logistica,Sweden,News,0.0589
+Regresion Logistica,Sweden,Reality-TV,0.0326
+Regresion Logistica,Sweden,Romance,0.1419
+Regresion Logistica,Sweden,Sci-Fi,0.1391
+Regresion Logistica,Sweden,Short,0.0401
+Regresion Logistica,Sweden,Sport,0.128
+Regresion Logistica,Sweden,Talk-Show,0.0371
+Regresion Logistica,Sweden,Thriller,0.1468
+Regresion Logistica,Sweden,War,0.1382
+Regresion Logistica,Sweden,Western,0.1169
+Regresion Logistica,Turkey,Action,0.1766
+Regresion Logistica,Turkey,Adventure,0.1772
+Regresion Logistica,Turkey,Animation,0.1354
+Regresion Logistica,Turkey,Biography,0.2356
+Regresion Logistica,Turkey,Comedy,0.1776
+Regresion Logistica,Turkey,Crime,0.1678
+Regresion Logistica,Turkey,Documentary,0.1614
+Regresion Logistica,Turkey,Drama,0.2294
+Regresion Logistica,Turkey,Family,0.0866
+Regresion Logistica,Turkey,Fantasy,0.1756
+Regresion Logistica,Turkey,Film-Noir,0.088
+Regresion Logistica,Turkey,Game-Show,0.0698
+Regresion Logistica,Turkey,History,0.148
+Regresion Logistica,Turkey,Horror,0.1356
+Regresion Logistica,Turkey,Music,0.1601
+Regresion Logistica,Turkey,Musical,0.1157
+Regresion Logistica,Turkey,Mystery,0.1908
+Regresion Logistica,Turkey,News,0.067
+Regresion Logistica,Turkey,Reality-TV,0.0365
+Regresion Logistica,Turkey,Romance,0.1631
+Regresion Logistica,Turkey,Sci-Fi,0.1586
+Regresion Logistica,Turkey,Short,0.0473
+Regresion Logistica,Turkey,Sport,0.1471
+Regresion Logistica,Turkey,Talk-Show,0.0416
+Regresion Logistica,Turkey,Thriller,0.1683
+Regresion Logistica,Turkey,War,0.1608
+Regresion Logistica,Turkey,Western,0.1362
+Regresion Logistica,United Kingdom,Action,0.2588
+Regresion Logistica,United Kingdom,Adventure,0.2586
+Regresion Logistica,United Kingdom,Animation,0.2021
+Regresion Logistica,United Kingdom,Biography,0.3334
+Regresion Logistica,United Kingdom,Comedy,0.2594
+Regresion Logistica,United Kingdom,Crime,0.2469
+Regresion Logistica,United Kingdom,Documentary,0.2371
+Regresion Logistica,United Kingdom,Drama,0.3252
+Regresion Logistica,United Kingdom,Family,0.1342
+Regresion Logistica,United Kingdom,Fantasy,0.2571
+Regresion Logistica,United Kingdom,Film-Noir,0.1359
+Regresion Logistica,United Kingdom,Game-Show,0.1112
+Regresion Logistica,United Kingdom,History,0.2199
+Regresion Logistica,United Kingdom,Horror,0.2047
+Regresion Logistica,United Kingdom,Music,0.2369
+Regresion Logistica,United Kingdom,Musical,0.1767
+Regresion Logistica,United Kingdom,Mystery,0.2768
+Regresion Logistica,United Kingdom,News,0.1052
+Regresion Logistica,United Kingdom,Reality-TV,0.0596
+Regresion Logistica,United Kingdom,Romance,0.2413
+Regresion Logistica,United Kingdom,Sci-Fi,0.2355
+Regresion Logistica,United Kingdom,Short,0.0752
+Regresion Logistica,United Kingdom,Sport,0.2192
+Regresion Logistica,United Kingdom,Talk-Show,0.0677
+Regresion Logistica,United Kingdom,Thriller,0.249
+Regresion Logistica,United Kingdom,War,0.2375
+Regresion Logistica,United Kingdom,Western,0.2046
+Regresion Logistica,United States,Action,0.2794
+Regresion Logistica,United States,Adventure,0.2797
+Regresion Logistica,United States,Animation,0.2191
+Regresion Logistica,United States,Biography,0.3605
+Regresion Logistica,United States,Comedy,0.2809
+Regresion Logistica,United States,Crime,0.268
+Regresion Logistica,United States,Documentary,0.2598
+Regresion Logistica,United States,Drama,0.3516
+Regresion Logistica,United States,Family,0.1459
+Regresion Logistica,United States,Fantasy,0.2778
+Regresion Logistica,United States,Film-Noir,0.1522
+Regresion Logistica,United States,Game-Show,0.1198
+Regresion Logistica,United States,History,0.2395
+Regresion Logistica,United States,Horror,0.2232
+Regresion Logistica,United States,Music,0.2577
+Regresion Logistica,United States,Musical,0.1931
+Regresion Logistica,United States,Mystery,0.2993
+Regresion Logistica,United States,News,0.1138
+Regresion Logistica,United States,Reality-TV,0.0639
+Regresion Logistica,United States,Romance,0.262
+Regresion Logistica,United States,Sci-Fi,0.2544
+Regresion Logistica,United States,Short,0.0837
+Regresion Logistica,United States,Sport,0.2382
+Regresion Logistica,United States,Talk-Show,0.0727
+Regresion Logistica,United States,Thriller,0.2698
+Regresion Logistica,United States,War,0.2602
+Regresion Logistica,United States,Western,0.2246
+Random Forest,Argentina,Action,0.1325
+Random Forest,Argentina,Adventure,0.128
+Random Forest,Argentina,Animation,0.1053
+Random Forest,Argentina,Biography,0.2138
+Random Forest,Argentina,Comedy,0.0939
+Random Forest,Argentina,Crime,0.1617
+Random Forest,Argentina,Documentary,0.161
+Random Forest,Argentina,Drama,0.1368
+Random Forest,Argentina,Family,0.0744
+Random Forest,Argentina,Fantasy,0.1317
+Random Forest,Argentina,Film-Noir,0.1451
+Random Forest,Argentina,Game-Show,0.0232
+Random Forest,Argentina,History,0.1467
+Random Forest,Argentina,Horror,0.1825
+Random Forest,Argentina,Music,0.1964
+Random Forest,Argentina,Musical,0.1293
+Random Forest,Argentina,Mystery,0.1551
+Random Forest,Argentina,News,0.0498
+Random Forest,Argentina,Reality-TV,0.0176
+Random Forest,Argentina,Romance,0.1085
+Random Forest,Argentina,Sci-Fi,0.1305
+Random Forest,Argentina,Short,0.1068
+Random Forest,Argentina,Sport,0.1336
+Random Forest,Argentina,Talk-Show,0.0225
+Random Forest,Argentina,Thriller,0.1824
+Random Forest,Argentina,War,0.1251
+Random Forest,Argentina,Western,0.1143
+Random Forest,Australia,Action,0.1943
+Random Forest,Australia,Adventure,0.1634
+Random Forest,Australia,Animation,0.119
+Random Forest,Australia,Biography,0.2337
+Random Forest,Australia,Comedy,0.1546
+Random Forest,Australia,Crime,0.2164
+Random Forest,Australia,Documentary,0.2201
+Random Forest,Australia,Drama,0.1664
+Random Forest,Australia,Family,0.0979
+Random Forest,Australia,Fantasy,0.1574
+Random Forest,Australia,Film-Noir,0.1967
+Random Forest,Australia,Game-Show,0.0222
+Random Forest,Australia,History,0.1724
+Random Forest,Australia,Horror,0.2312
+Random Forest,Australia,Music,0.2173
+Random Forest,Australia,Musical,0.1664
+Random Forest,Australia,Mystery,0.2057
+Random Forest,Australia,News,0.0653
+Random Forest,Australia,Reality-TV,0.0158
+Random Forest,Australia,Romance,0.1531
+Random Forest,Australia,Sci-Fi,0.1641
+Random Forest,Australia,Short,0.1179
+Random Forest,Australia,Sport,0.1672
+Random Forest,Australia,Talk-Show,0.0182
+Random Forest,Australia,Thriller,0.21
+Random Forest,Australia,War,0.1569
+Random Forest,Australia,Western,0.1506
+Random Forest,Belgium,Action,0.1857
+Random Forest,Belgium,Adventure,0.1628
+Random Forest,Belgium,Animation,0.1386
+Random Forest,Belgium,Biography,0.2242
+Random Forest,Belgium,Comedy,0.1563
+Random Forest,Belgium,Crime,0.1919
+Random Forest,Belgium,Documentary,0.2124
+Random Forest,Belgium,Drama,0.1788
+Random Forest,Belgium,Family,0.0987
+Random Forest,Belgium,Fantasy,0.1579
+Random Forest,Belgium,Film-Noir,0.1893
+Random Forest,Belgium,Game-Show,0.0313
+Random Forest,Belgium,History,0.1788
+Random Forest,Belgium,Horror,0.2148
+Random Forest,Belgium,Music,0.2306
+Random Forest,Belgium,Musical,0.1681
+Random Forest,Belgium,Mystery,0.1807
+Random Forest,Belgium,News,0.0692
+Random Forest,Belgium,Reality-TV,0.0201
+Random Forest,Belgium,Romance,0.1322
+Random Forest,Belgium,Sci-Fi,0.1584
+Random Forest,Belgium,Short,0.1262
+Random Forest,Belgium,Sport,0.1583
+Random Forest,Belgium,Talk-Show,0.0334
+Random Forest,Belgium,Thriller,0.218
+Random Forest,Belgium,War,0.1545
+Random Forest,Belgium,Western,0.1446
+Random Forest,Brazil,Action,0.1303
+Random Forest,Brazil,Adventure,0.1196
+Random Forest,Brazil,Animation,0.0978
+Random Forest,Brazil,Biography,0.1724
+Random Forest,Brazil,Comedy,0.0846
+Random Forest,Brazil,Crime,0.1451
+Random Forest,Brazil,Documentary,0.1123
+Random Forest,Brazil,Drama,0.1147
+Random Forest,Brazil,Family,0.06
+Random Forest,Brazil,Fantasy,0.1193
+Random Forest,Brazil,Film-Noir,0.1369
+Random Forest,Brazil,Game-Show,0.023
+Random Forest,Brazil,History,0.1303
+Random Forest,Brazil,Horror,0.1611
+Random Forest,Brazil,Music,0.1759
+Random Forest,Brazil,Musical,0.1188
+Random Forest,Brazil,Mystery,0.135
+Random Forest,Brazil,News,0.0489
+Random Forest,Brazil,Reality-TV,0.0181
+Random Forest,Brazil,Romance,0.0915
+Random Forest,Brazil,Sci-Fi,0.1214
+Random Forest,Brazil,Short,0.1045
+Random Forest,Brazil,Sport,0.1245
+Random Forest,Brazil,Talk-Show,0.0201
+Random Forest,Brazil,Thriller,0.1614
+Random Forest,Brazil,War,0.1151
+Random Forest,Brazil,Western,0.1078
+Random Forest,Canada,Action,0.1683
+Random Forest,Canada,Adventure,0.1818
+Random Forest,Canada,Animation,0.1221
+Random Forest,Canada,Biography,0.2449
+Random Forest,Canada,Comedy,0.1881
+Random Forest,Canada,Crime,0.2443
+Random Forest,Canada,Documentary,0.1729
+Random Forest,Canada,Drama,0.1766
+Random Forest,Canada,Family,0.1097
+Random Forest,Canada,Fantasy,0.1621
+Random Forest,Canada,Film-Noir,0.1896
+Random Forest,Canada,Game-Show,0.028
+Random Forest,Canada,History,0.168
+Random Forest,Canada,Horror,0.241
+Random Forest,Canada,Music,0.2168
+Random Forest,Canada,Musical,0.1679
+Random Forest,Canada,Mystery,0.2316
+Random Forest,Canada,News,0.0653
+Random Forest,Canada,Reality-TV,0.0181
+Random Forest,Canada,Romance,0.1632
+Random Forest,Canada,Sci-Fi,0.1408
+Random Forest,Canada,Short,0.1376
+Random Forest,Canada,Sport,0.1547
+Random Forest,Canada,Talk-Show,0.0421
+Random Forest,Canada,Thriller,0.1931
+Random Forest,Canada,War,0.153
+Random Forest,Canada,Western,0.1419
+Random Forest,China,Action,0.1737
+Random Forest,China,Adventure,0.1601
+Random Forest,China,Animation,0.1212
+Random Forest,China,Biography,0.2375
+Random Forest,China,Comedy,0.1964
+Random Forest,China,Crime,0.197
+Random Forest,China,Documentary,0.233
+Random Forest,China,Drama,0.2395
+Random Forest,China,Family,0.1026
+Random Forest,China,Fantasy,0.1604
+Random Forest,China,Film-Noir,0.2071
+Random Forest,China,Game-Show,0.0291
+Random Forest,China,History,0.1775
+Random Forest,China,Horror,0.2085
+Random Forest,China,Music,0.2289
+Random Forest,China,Musical,0.1761
+Random Forest,China,Mystery,0.1841
+Random Forest,China,News,0.0723
+Random Forest,China,Reality-TV,0.0212
+Random Forest,China,Romance,0.132
+Random Forest,China,Sci-Fi,0.1733
+Random Forest,China,Short,0.1219
+Random Forest,China,Sport,0.1707
+Random Forest,China,Talk-Show,0.0291
+Random Forest,China,Thriller,0.2303
+Random Forest,China,War,0.1647
+Random Forest,China,Western,0.1535
+Random Forest,Denmark,Action,0.1599
+Random Forest,Denmark,Adventure,0.1342
+Random Forest,Denmark,Animation,0.1115
+Random Forest,Denmark,Biography,0.2095
+Random Forest,Denmark,Comedy,0.1031
+Random Forest,Denmark,Crime,0.1781
+Random Forest,Denmark,Documentary,0.2578
+Random Forest,Denmark,Drama,0.1892
+Random Forest,Denmark,Family,0.0695
+Random Forest,Denmark,Fantasy,0.1416
+Random Forest,Denmark,Film-Noir,0.1632
+Random Forest,Denmark,Game-Show,0.0222
+Random Forest,Denmark,History,0.1563
+Random Forest,Denmark,Horror,0.1896
+Random Forest,Denmark,Music,0.2054
+Random Forest,Denmark,Musical,0.1454
+Random Forest,Denmark,Mystery,0.1594
+Random Forest,Denmark,News,0.0575
+Random Forest,Denmark,Reality-TV,0.0171
+Random Forest,Denmark,Romance,0.1068
+Random Forest,Denmark,Sci-Fi,0.1444
+Random Forest,Denmark,Short,0.1072
+Random Forest,Denmark,Sport,0.1459
+Random Forest,Denmark,Talk-Show,0.0202
+Random Forest,Denmark,Thriller,0.2011
+Random Forest,Denmark,War,0.1344
+Random Forest,Denmark,Western,0.1222
+Random Forest,Egypt,Action,0.1258
+Random Forest,Egypt,Adventure,0.1094
+Random Forest,Egypt,Animation,0.0929
+Random Forest,Egypt,Biography,0.1828
+Random Forest,Egypt,Comedy,0.0443
+Random Forest,Egypt,Crime,0.1372
+Random Forest,Egypt,Documentary,0.1741
+Random Forest,Egypt,Drama,0.0909
+Random Forest,Egypt,Family,0.0543
+Random Forest,Egypt,Fantasy,0.1029
+Random Forest,Egypt,Film-Noir,0.1074
+Random Forest,Egypt,Game-Show,0.0241
+Random Forest,Egypt,History,0.1091
+Random Forest,Egypt,Horror,0.1533
+Random Forest,Egypt,Music,0.1714
+Random Forest,Egypt,Musical,0.0889
+Random Forest,Egypt,Mystery,0.1364
+Random Forest,Egypt,News,0.0382
+Random Forest,Egypt,Reality-TV,0.0188
+Random Forest,Egypt,Romance,0.0751
+Random Forest,Egypt,Sci-Fi,0.0975
+Random Forest,Egypt,Short,0.0923
+Random Forest,Egypt,Sport,0.1012
+Random Forest,Egypt,Talk-Show,0.0253
+Random Forest,Egypt,Thriller,0.1399
+Random Forest,Egypt,War,0.0957
+Random Forest,Egypt,Western,0.0819
+Random Forest,Finland,Action,0.1433
+Random Forest,Finland,Adventure,0.1305
+Random Forest,Finland,Animation,0.1059
+Random Forest,Finland,Biography,0.211
+Random Forest,Finland,Comedy,0.0693
+Random Forest,Finland,Crime,0.157
+Random Forest,Finland,Documentary,0.2063
+Random Forest,Finland,Drama,0.1431
+Random Forest,Finland,Family,0.0687
+Random Forest,Finland,Fantasy,0.131
+Random Forest,Finland,Film-Noir,0.1373
+Random Forest,Finland,Game-Show,0.0231
+Random Forest,Finland,History,0.1376
+Random Forest,Finland,Horror,0.1785
+Random Forest,Finland,Music,0.2009
+Random Forest,Finland,Musical,0.1249
+Random Forest,Finland,Mystery,0.1583
+Random Forest,Finland,News,0.0485
+Random Forest,Finland,Reality-TV,0.0163
+Random Forest,Finland,Romance,0.1012
+Random Forest,Finland,Sci-Fi,0.1272
+Random Forest,Finland,Short,0.1044
+Random Forest,Finland,Sport,0.1298
+Random Forest,Finland,Talk-Show,0.0243
+Random Forest,Finland,Thriller,0.1659
+Random Forest,Finland,War,0.1188
+Random Forest,Finland,Western,0.1087
+Random Forest,France,Action,0.2347
+Random Forest,France,Adventure,0.1876
+Random Forest,France,Animation,0.154
+Random Forest,France,Biography,0.271
+Random Forest,France,Comedy,0.163
+Random Forest,France,Crime,0.22
+Random Forest,France,Documentary,0.2227
+Random Forest,France,Drama,0.2148
+Random Forest,France,Family,0.1356
+Random Forest,France,Fantasy,0.1978
+Random Forest,France,Film-Noir,0.2111
+Random Forest,France,Game-Show,0.043
+Random Forest,France,History,0.1879
+Random Forest,France,Horror,0.202
+Random Forest,France,Music,0.2353
+Random Forest,France,Musical,0.1985
+Random Forest,France,Mystery,0.2014
+Random Forest,France,News,0.0893
+Random Forest,France,Reality-TV,0.0298
+Random Forest,France,Romance,0.2007
+Random Forest,France,Sci-Fi,0.1934
+Random Forest,France,Short,0.1499
+Random Forest,France,Sport,0.1775
+Random Forest,France,Talk-Show,0.0415
+Random Forest,France,Thriller,0.2177
+Random Forest,France,War,0.1839
+Random Forest,France,Western,0.1676
+Random Forest,Germany,Action,0.1967
+Random Forest,Germany,Adventure,0.1521
+Random Forest,Germany,Animation,0.123
+Random Forest,Germany,Biography,0.2205
+Random Forest,Germany,Comedy,0.1635
+Random Forest,Germany,Crime,0.2411
+Random Forest,Germany,Documentary,0.2165
+Random Forest,Germany,Drama,0.1906
+Random Forest,Germany,Family,0.1023
+Random Forest,Germany,Fantasy,0.1715
+Random Forest,Germany,Film-Noir,0.1979
+Random Forest,Germany,Game-Show,0.0219
+Random Forest,Germany,History,0.1781
+Random Forest,Germany,Horror,0.2118
+Random Forest,Germany,Music,0.2121
+Random Forest,Germany,Musical,0.1699
+Random Forest,Germany,Mystery,0.2265
+Random Forest,Germany,News,0.0665
+Random Forest,Germany,Reality-TV,0.0153
+Random Forest,Germany,Romance,0.148
+Random Forest,Germany,Sci-Fi,0.1773
+Random Forest,Germany,Short,0.1106
+Random Forest,Germany,Sport,0.1689
+Random Forest,Germany,Talk-Show,0.0188
+Random Forest,Germany,Thriller,0.22
+Random Forest,Germany,War,0.1713
+Random Forest,Germany,Western,0.1536
+Random Forest,Greece,Action,0.123
+Random Forest,Greece,Adventure,0.1163
+Random Forest,Greece,Animation,0.1
+Random Forest,Greece,Biography,0.188
+Random Forest,Greece,Comedy,0.0565
+Random Forest,Greece,Crime,0.1441
+Random Forest,Greece,Documentary,0.1692
+Random Forest,Greece,Drama,0.1289
+Random Forest,Greece,Family,0.0579
+Random Forest,Greece,Fantasy,0.1049
+Random Forest,Greece,Film-Noir,0.1105
+Random Forest,Greece,Game-Show,0.0337
+Random Forest,Greece,History,0.1229
+Random Forest,Greece,Horror,0.15
+Random Forest,Greece,Music,0.1641
+Random Forest,Greece,Musical,0.0864
+Random Forest,Greece,Mystery,0.1385
+Random Forest,Greece,News,0.0465
+Random Forest,Greece,Reality-TV,0.0213
+Random Forest,Greece,Romance,0.0801
+Random Forest,Greece,Sci-Fi,0.1035
+Random Forest,Greece,Short,0.0944
+Random Forest,Greece,Sport,0.1073
+Random Forest,Greece,Talk-Show,0.0306
+Random Forest,Greece,Thriller,0.1391
+Random Forest,Greece,War,0.1005
+Random Forest,Greece,Western,0.0866
+Random Forest,Hong Kong,Action,0.1423
+Random Forest,Hong Kong,Adventure,0.1471
+Random Forest,Hong Kong,Animation,0.1118
+Random Forest,Hong Kong,Biography,0.2179
+Random Forest,Hong Kong,Comedy,0.0933
+Random Forest,Hong Kong,Crime,0.1599
+Random Forest,Hong Kong,Documentary,0.2024
+Random Forest,Hong Kong,Drama,0.1453
+Random Forest,Hong Kong,Family,0.072
+Random Forest,Hong Kong,Fantasy,0.1333
+Random Forest,Hong Kong,Film-Noir,0.1448
+Random Forest,Hong Kong,Game-Show,0.024
+Random Forest,Hong Kong,History,0.1543
+Random Forest,Hong Kong,Horror,0.1556
+Random Forest,Hong Kong,Music,0.1994
+Random Forest,Hong Kong,Musical,0.1259
+Random Forest,Hong Kong,Mystery,0.1596
+Random Forest,Hong Kong,News,0.0521
+Random Forest,Hong Kong,Reality-TV,0.0184
+Random Forest,Hong Kong,Romance,0.1123
+Random Forest,Hong Kong,Sci-Fi,0.1311
+Random Forest,Hong Kong,Short,0.1047
+Random Forest,Hong Kong,Sport,0.1362
+Random Forest,Hong Kong,Talk-Show,0.0238
+Random Forest,Hong Kong,Thriller,0.1634
+Random Forest,Hong Kong,War,0.1231
+Random Forest,Hong Kong,Western,0.1139
+Random Forest,India,Action,0.1146
+Random Forest,India,Adventure,0.1216
+Random Forest,India,Animation,0.1109
+Random Forest,India,Biography,0.1749
+Random Forest,India,Comedy,0.1046
+Random Forest,India,Crime,0.1503
+Random Forest,India,Documentary,0.1955
+Random Forest,India,Drama,0.0939
+Random Forest,India,Family,0.076
+Random Forest,India,Fantasy,0.1123
+Random Forest,India,Film-Noir,0.1206
+Random Forest,India,Game-Show,0.0479
+Random Forest,India,History,0.1286
+Random Forest,India,Horror,0.158
+Random Forest,India,Music,0.1784
+Random Forest,India,Musical,0.101
+Random Forest,India,Mystery,0.1382
+Random Forest,India,News,0.0624
+Random Forest,India,Reality-TV,0.0347
+Random Forest,India,Romance,0.0916
+Random Forest,India,Sci-Fi,0.1205
+Random Forest,India,Short,0.0888
+Random Forest,India,Sport,0.1303
+Random Forest,India,Talk-Show,0.0608
+Random Forest,India,Thriller,0.1448
+Random Forest,India,War,0.101
+Random Forest,India,Western,0.0993
+Random Forest,Iran,Action,0.1428
+Random Forest,Iran,Adventure,0.1361
+Random Forest,Iran,Animation,0.1357
+Random Forest,Iran,Biography,0.2096
+Random Forest,Iran,Comedy,0.1312
+Random Forest,Iran,Crime,0.1683
+Random Forest,Iran,Documentary,0.2288
+Random Forest,Iran,Drama,0.1731
+Random Forest,Iran,Family,0.0959
+Random Forest,Iran,Fantasy,0.1324
+Random Forest,Iran,Film-Noir,0.1409
+Random Forest,Iran,Game-Show,0.0735
+Random Forest,Iran,History,0.1518
+Random Forest,Iran,Horror,0.183
+Random Forest,Iran,Music,0.2083
+Random Forest,Iran,Musical,0.1321
+Random Forest,Iran,Mystery,0.1697
+Random Forest,Iran,News,0.0893
+Random Forest,Iran,Reality-TV,0.0358
+Random Forest,Iran,Romance,0.1094
+Random Forest,Iran,Sci-Fi,0.1389
+Random Forest,Iran,Short,0.1093
+Random Forest,Iran,Sport,0.1365
+Random Forest,Iran,Talk-Show,0.0701
+Random Forest,Iran,Thriller,0.172
+Random Forest,Iran,War,0.1292
+Random Forest,Iran,Western,0.1126
+Random Forest,Italy,Action,0.15
+Random Forest,Italy,Adventure,0.117
+Random Forest,Italy,Animation,0.1012
+Random Forest,Italy,Biography,0.2106
+Random Forest,Italy,Comedy,0.0851
+Random Forest,Italy,Crime,0.143
+Random Forest,Italy,Documentary,0.1821
+Random Forest,Italy,Drama,0.1766
+Random Forest,Italy,Family,0.0831
+Random Forest,Italy,Fantasy,0.1263
+Random Forest,Italy,Film-Noir,0.1558
+Random Forest,Italy,Game-Show,0.0265
+Random Forest,Italy,History,0.1431
+Random Forest,Italy,Horror,0.2223
+Random Forest,Italy,Music,0.2007
+Random Forest,Italy,Musical,0.1337
+Random Forest,Italy,Mystery,0.1269
+Random Forest,Italy,News,0.0568
+Random Forest,Italy,Reality-TV,0.0195
+Random Forest,Italy,Romance,0.1215
+Random Forest,Italy,Sci-Fi,0.129
+Random Forest,Italy,Short,0.0866
+Random Forest,Italy,Sport,0.1374
+Random Forest,Italy,Talk-Show,0.0277
+Random Forest,Italy,Thriller,0.1571
+Random Forest,Italy,War,0.1279
+Random Forest,Italy,Western,0.127
+Random Forest,Japan,Action,0.1598
+Random Forest,Japan,Adventure,0.1686
+Random Forest,Japan,Animation,0.1175
+Random Forest,Japan,Biography,0.2269
+Random Forest,Japan,Comedy,0.1267
+Random Forest,Japan,Crime,0.1795
+Random Forest,Japan,Documentary,0.2013
+Random Forest,Japan,Drama,0.2148
+Random Forest,Japan,Family,0.0935
+Random Forest,Japan,Fantasy,0.1423
+Random Forest,Japan,Film-Noir,0.1614
+Random Forest,Japan,Game-Show,0.0268
+Random Forest,Japan,History,0.1634
+Random Forest,Japan,Horror,0.1784
+Random Forest,Japan,Music,0.2086
+Random Forest,Japan,Musical,0.1475
+Random Forest,Japan,Mystery,0.2065
+Random Forest,Japan,News,0.0597
+Random Forest,Japan,Reality-TV,0.0439
+Random Forest,Japan,Romance,0.1122
+Random Forest,Japan,Sci-Fi,0.1343
+Random Forest,Japan,Short,0.114
+Random Forest,Japan,Sport,0.1502
+Random Forest,Japan,Talk-Show,0.0264
+Random Forest,Japan,Thriller,0.2037
+Random Forest,Japan,War,0.1377
+Random Forest,Japan,Western,0.1281
+Random Forest,Mexico,Action,0.1522
+Random Forest,Mexico,Adventure,0.1462
+Random Forest,Mexico,Animation,0.1128
+Random Forest,Mexico,Biography,0.2182
+Random Forest,Mexico,Comedy,0.1603
+Random Forest,Mexico,Crime,0.1723
+Random Forest,Mexico,Documentary,0.1758
+Random Forest,Mexico,Drama,0.1698
+Random Forest,Mexico,Family,0.0832
+Random Forest,Mexico,Fantasy,0.1447
+Random Forest,Mexico,Film-Noir,0.1746
+Random Forest,Mexico,Game-Show,0.024
+Random Forest,Mexico,History,0.1584
+Random Forest,Mexico,Horror,0.1965
+Random Forest,Mexico,Music,0.2105
+Random Forest,Mexico,Musical,0.1482
+Random Forest,Mexico,Mystery,0.1624
+Random Forest,Mexico,News,0.0599
+Random Forest,Mexico,Reality-TV,0.0218
+Random Forest,Mexico,Romance,0.1302
+Random Forest,Mexico,Sci-Fi,0.1454
+Random Forest,Mexico,Short,0.1069
+Random Forest,Mexico,Sport,0.148
+Random Forest,Mexico,Talk-Show,0.0243
+Random Forest,Mexico,Thriller,0.1791
+Random Forest,Mexico,War,0.1431
+Random Forest,Mexico,Western,0.1355
+Random Forest,Netherlands,Action,0.1477
+Random Forest,Netherlands,Adventure,0.1364
+Random Forest,Netherlands,Animation,0.1055
+Random Forest,Netherlands,Biography,0.2104
+Random Forest,Netherlands,Comedy,0.1055
+Random Forest,Netherlands,Crime,0.1762
+Random Forest,Netherlands,Documentary,0.1515
+Random Forest,Netherlands,Drama,0.1071
+Random Forest,Netherlands,Family,0.0709
+Random Forest,Netherlands,Fantasy,0.129
+Random Forest,Netherlands,Film-Noir,0.1541
+Random Forest,Netherlands,Game-Show,0.0208
+Random Forest,Netherlands,History,0.146
+Random Forest,Netherlands,Horror,0.2189
+Random Forest,Netherlands,Music,0.1905
+Random Forest,Netherlands,Musical,0.1344
+Random Forest,Netherlands,Mystery,0.1558
+Random Forest,Netherlands,News,0.0519
+Random Forest,Netherlands,Reality-TV,0.0165
+Random Forest,Netherlands,Romance,0.1022
+Random Forest,Netherlands,Sci-Fi,0.1331
+Random Forest,Netherlands,Short,0.1007
+Random Forest,Netherlands,Sport,0.1377
+Random Forest,Netherlands,Talk-Show,0.0208
+Random Forest,Netherlands,Thriller,0.1837
+Random Forest,Netherlands,War,0.1324
+Random Forest,Netherlands,Western,0.1202
+Random Forest,Norway,Action,0.1505
+Random Forest,Norway,Adventure,0.135
+Random Forest,Norway,Animation,0.1041
+Random Forest,Norway,Biography,0.2017
+Random Forest,Norway,Comedy,0.0909
+Random Forest,Norway,Crime,0.135
+Random Forest,Norway,Documentary,0.1911
+Random Forest,Norway,Drama,0.1148
+Random Forest,Norway,Family,0.0669
+Random Forest,Norway,Fantasy,0.1325
+Random Forest,Norway,Film-Noir,0.1384
+Random Forest,Norway,Game-Show,0.0229
+Random Forest,Norway,History,0.1433
+Random Forest,Norway,Horror,0.1984
+Random Forest,Norway,Music,0.2021
+Random Forest,Norway,Musical,0.1269
+Random Forest,Norway,Mystery,0.1605
+Random Forest,Norway,News,0.0493
+Random Forest,Norway,Reality-TV,0.0166
+Random Forest,Norway,Romance,0.1103
+Random Forest,Norway,Sci-Fi,0.1311
+Random Forest,Norway,Short,0.1041
+Random Forest,Norway,Sport,0.1339
+Random Forest,Norway,Talk-Show,0.0211
+Random Forest,Norway,Thriller,0.1799
+Random Forest,Norway,War,0.1228
+Random Forest,Norway,Western,0.1133
+Random Forest,Poland,Action,0.1327
+Random Forest,Poland,Adventure,0.1245
+Random Forest,Poland,Animation,0.1065
+Random Forest,Poland,Biography,0.1999
+Random Forest,Poland,Comedy,0.0914
+Random Forest,Poland,Crime,0.154
+Random Forest,Poland,Documentary,0.1817
+Random Forest,Poland,Drama,0.1258
+Random Forest,Poland,Family,0.0674
+Random Forest,Poland,Fantasy,0.127
+Random Forest,Poland,Film-Noir,0.1373
+Random Forest,Poland,Game-Show,0.0239
+Random Forest,Poland,History,0.139
+Random Forest,Poland,Horror,0.1827
+Random Forest,Poland,Music,0.199
+Random Forest,Poland,Musical,0.1192
+Random Forest,Poland,Mystery,0.1561
+Random Forest,Poland,News,0.0474
+Random Forest,Poland,Reality-TV,0.0184
+Random Forest,Poland,Romance,0.0951
+Random Forest,Poland,Sci-Fi,0.128
+Random Forest,Poland,Short,0.0981
+Random Forest,Poland,Sport,0.1311
+Random Forest,Poland,Talk-Show,0.024
+Random Forest,Poland,Thriller,0.1666
+Random Forest,Poland,War,0.1228
+Random Forest,Poland,Western,0.1088
+Random Forest,Russia,Action,0.1127
+Random Forest,Russia,Adventure,0.1067
+Random Forest,Russia,Animation,0.0807
+Random Forest,Russia,Biography,0.186
+Random Forest,Russia,Comedy,0.0801
+Random Forest,Russia,Crime,0.1284
+Random Forest,Russia,Documentary,0.176
+Random Forest,Russia,Drama,0.0844
+Random Forest,Russia,Family,0.0621
+Random Forest,Russia,Fantasy,0.0933
+Random Forest,Russia,Film-Noir,0.118
+Random Forest,Russia,Game-Show,0.0199
+Random Forest,Russia,History,0.1206
+Random Forest,Russia,Horror,0.1496
+Random Forest,Russia,Music,0.1636
+Random Forest,Russia,Musical,0.097
+Random Forest,Russia,Mystery,0.135
+Random Forest,Russia,News,0.0415
+Random Forest,Russia,Reality-TV,0.0176
+Random Forest,Russia,Romance,0.0866
+Random Forest,Russia,Sci-Fi,0.1041
+Random Forest,Russia,Short,0.0999
+Random Forest,Russia,Sport,0.1071
+Random Forest,Russia,Talk-Show,0.0188
+Random Forest,Russia,Thriller,0.148
+Random Forest,Russia,War,0.0974
+Random Forest,Russia,Western,0.0921
+Random Forest,South Korea,Action,0.1689
+Random Forest,South Korea,Adventure,0.1458
+Random Forest,South Korea,Animation,0.1204
+Random Forest,South Korea,Biography,0.2176
+Random Forest,South Korea,Comedy,0.1208
+Random Forest,South Korea,Crime,0.1676
+Random Forest,South Korea,Documentary,0.2042
+Random Forest,South Korea,Drama,0.2529
+Random Forest,South Korea,Family,0.0831
+Random Forest,South Korea,Fantasy,0.1462
+Random Forest,South Korea,Film-Noir,0.1731
+Random Forest,South Korea,Game-Show,0.0444
+Random Forest,South Korea,History,0.1589
+Random Forest,South Korea,Horror,0.1804
+Random Forest,South Korea,Music,0.2167
+Random Forest,South Korea,Musical,0.1524
+Random Forest,South Korea,Mystery,0.1647
+Random Forest,South Korea,News,0.067
+Random Forest,South Korea,Reality-TV,0.0389
+Random Forest,South Korea,Romance,0.1123
+Random Forest,South Korea,Sci-Fi,0.1435
+Random Forest,South Korea,Short,0.1048
+Random Forest,South Korea,Sport,0.1539
+Random Forest,South Korea,Talk-Show,0.0358
+Random Forest,South Korea,Thriller,0.1909
+Random Forest,South Korea,War,0.1449
+Random Forest,South Korea,Western,0.1346
+Random Forest,Spain,Action,0.1472
+Random Forest,Spain,Adventure,0.1138
+Random Forest,Spain,Animation,0.1116
+Random Forest,Spain,Biography,0.216
+Random Forest,Spain,Comedy,0.0978
+Random Forest,Spain,Crime,0.1563
+Random Forest,Spain,Documentary,0.1959
+Random Forest,Spain,Drama,0.1717
+Random Forest,Spain,Family,0.0756
+Random Forest,Spain,Fantasy,0.1334
+Random Forest,Spain,Film-Noir,0.1502
+Random Forest,Spain,Game-Show,0.0229
+Random Forest,Spain,History,0.1445
+Random Forest,Spain,Horror,0.1629
+Random Forest,Spain,Music,0.1881
+Random Forest,Spain,Musical,0.1302
+Random Forest,Spain,Mystery,0.1731
+Random Forest,Spain,News,0.0526
+Random Forest,Spain,Reality-TV,0.0172
+Random Forest,Spain,Romance,0.1097
+Random Forest,Spain,Sci-Fi,0.1366
+Random Forest,Spain,Short,0.1398
+Random Forest,Spain,Sport,0.1351
+Random Forest,Spain,Talk-Show,0.0231
+Random Forest,Spain,Thriller,0.1989
+Random Forest,Spain,War,0.1297
+Random Forest,Spain,Western,0.1238
+Random Forest,Sweden,Action,0.1495
+Random Forest,Sweden,Adventure,0.1361
+Random Forest,Sweden,Animation,0.0994
+Random Forest,Sweden,Biography,0.2153
+Random Forest,Sweden,Comedy,0.1185
+Random Forest,Sweden,Crime,0.1742
+Random Forest,Sweden,Documentary,0.1846
+Random Forest,Sweden,Drama,0.1534
+Random Forest,Sweden,Family,0.0684
+Random Forest,Sweden,Fantasy,0.1248
+Random Forest,Sweden,Film-Noir,0.153
+Random Forest,Sweden,Game-Show,0.0204
+Random Forest,Sweden,History,0.1561
+Random Forest,Sweden,Horror,0.2011
+Random Forest,Sweden,Music,0.2034
+Random Forest,Sweden,Musical,0.1326
+Random Forest,Sweden,Mystery,0.1537
+Random Forest,Sweden,News,0.052
+Random Forest,Sweden,Reality-TV,0.0139
+Random Forest,Sweden,Romance,0.1062
+Random Forest,Sweden,Sci-Fi,0.1335
+Random Forest,Sweden,Short,0.0928
+Random Forest,Sweden,Sport,0.1355
+Random Forest,Sweden,Talk-Show,0.0225
+Random Forest,Sweden,Thriller,0.1645
+Random Forest,Sweden,War,0.1306
+Random Forest,Sweden,Western,0.1175
+Random Forest,Turkey,Action,0.1457
+Random Forest,Turkey,Adventure,0.1315
+Random Forest,Turkey,Animation,0.1117
+Random Forest,Turkey,Biography,0.2149
+Random Forest,Turkey,Comedy,0.1546
+Random Forest,Turkey,Crime,0.1864
+Random Forest,Turkey,Documentary,0.2019
+Random Forest,Turkey,Drama,0.1769
+Random Forest,Turkey,Family,0.0854
+Random Forest,Turkey,Fantasy,0.1396
+Random Forest,Turkey,Film-Noir,0.1619
+Random Forest,Turkey,Game-Show,0.0275
+Random Forest,Turkey,History,0.1528
+Random Forest,Turkey,Horror,0.1419
+Random Forest,Turkey,Music,0.2076
+Random Forest,Turkey,Musical,0.1445
+Random Forest,Turkey,Mystery,0.1743
+Random Forest,Turkey,News,0.0608
+Random Forest,Turkey,Reality-TV,0.0183
+Random Forest,Turkey,Romance,0.1188
+Random Forest,Turkey,Sci-Fi,0.1453
+Random Forest,Turkey,Short,0.1111
+Random Forest,Turkey,Sport,0.1464
+Random Forest,Turkey,Talk-Show,0.0301
+Random Forest,Turkey,Thriller,0.1791
+Random Forest,Turkey,War,0.1341
+Random Forest,Turkey,Western,0.1224
+Random Forest,United Kingdom,Action,0.2093
+Random Forest,United Kingdom,Adventure,0.1983
+Random Forest,United Kingdom,Animation,0.1597
+Random Forest,United Kingdom,Biography,0.2925
+Random Forest,United Kingdom,Comedy,0.2125
+Random Forest,United Kingdom,Crime,0.2369
+Random Forest,United Kingdom,Documentary,0.2285
+Random Forest,United Kingdom,Drama,0.2668
+Random Forest,United Kingdom,Family,0.1471
+Random Forest,United Kingdom,Fantasy,0.2171
+Random Forest,United Kingdom,Film-Noir,0.2324
+Random Forest,United Kingdom,Game-Show,0.0428
+Random Forest,United Kingdom,History,0.196
+Random Forest,United Kingdom,Horror,0.2433
+Random Forest,United Kingdom,Music,0.2506
+Random Forest,United Kingdom,Musical,0.217
+Random Forest,United Kingdom,Mystery,0.2407
+Random Forest,United Kingdom,News,0.0913
+Random Forest,United Kingdom,Reality-TV,0.0289
+Random Forest,United Kingdom,Romance,0.252
+Random Forest,United Kingdom,Sci-Fi,0.21
+Random Forest,United Kingdom,Short,0.1342
+Random Forest,United Kingdom,Sport,0.1964
+Random Forest,United Kingdom,Talk-Show,0.0318
+Random Forest,United Kingdom,Thriller,0.2453
+Random Forest,United Kingdom,War,0.1943
+Random Forest,United Kingdom,Western,0.1997
+Random Forest,United States,Action,0.1817
+Random Forest,United States,Adventure,0.1981
+Random Forest,United States,Animation,0.1674
+Random Forest,United States,Biography,0.2825
+Random Forest,United States,Comedy,0.3271
+Random Forest,United States,Crime,0.2838
+Random Forest,United States,Documentary,0.307
+Random Forest,United States,Drama,0.313
+Random Forest,United States,Family,0.146
+Random Forest,United States,Fantasy,0.2672
+Random Forest,United States,Film-Noir,0.3041
+Random Forest,United States,Game-Show,0.0287
+Random Forest,United States,History,0.2271
+Random Forest,United States,Horror,0.2134
+Random Forest,United States,Music,0.2602
+Random Forest,United States,Musical,0.2119
+Random Forest,United States,Mystery,0.2613
+Random Forest,United States,News,0.0844
+Random Forest,United States,Reality-TV,0.0215
+Random Forest,United States,Romance,0.2229
+Random Forest,United States,Sci-Fi,0.1602
+Random Forest,United States,Short,0.1175
+Random Forest,United States,Sport,0.2361
+Random Forest,United States,Talk-Show,0.0322
+Random Forest,United States,Thriller,0.2308
+Random Forest,United States,War,0.2218
+Random Forest,United States,Western,0.1937
+XGBoost,Argentina,Action,0.0309
+XGBoost,Argentina,Adventure,0.0424
+XGBoost,Argentina,Animation,0.0404
+XGBoost,Argentina,Biography,0.0358
+XGBoost,Argentina,Comedy,0.0563
+XGBoost,Argentina,Crime,0.0557
+XGBoost,Argentina,Documentary,0.0837
+XGBoost,Argentina,Drama,0.1064
+XGBoost,Argentina,Family,0.0211
+XGBoost,Argentina,Fantasy,0.0598
+XGBoost,Argentina,Film-Noir,0.1511
+XGBoost,Argentina,Game-Show,0.0021
+XGBoost,Argentina,History,0.036
+XGBoost,Argentina,Horror,0.0552
+XGBoost,Argentina,Music,0.0466
+XGBoost,Argentina,Musical,0.0367
+XGBoost,Argentina,Mystery,0.0416
+XGBoost,Argentina,News,0.0092
+XGBoost,Argentina,Reality-TV,0.0025
+XGBoost,Argentina,Romance,0.0436
+XGBoost,Argentina,Sci-Fi,0.0289
+XGBoost,Argentina,Short,0.0304
+XGBoost,Argentina,Sport,0.0298
+XGBoost,Argentina,Talk-Show,0.0023
+XGBoost,Argentina,Thriller,0.0774
+XGBoost,Argentina,War,0.0347
+XGBoost,Argentina,Western,0.0541
+XGBoost,Australia,Action,0.1627
+XGBoost,Australia,Adventure,0.0894
+XGBoost,Australia,Animation,0.0991
+XGBoost,Australia,Biography,0.0946
+XGBoost,Australia,Comedy,0.1476
+XGBoost,Australia,Crime,0.1341
+XGBoost,Australia,Documentary,0.2171
+XGBoost,Australia,Drama,0.1561
+XGBoost,Australia,Family,0.0558
+XGBoost,Australia,Fantasy,0.0973
+XGBoost,Australia,Film-Noir,0.2818
+XGBoost,Australia,Game-Show,0.0064
+XGBoost,Australia,History,0.0838
+XGBoost,Australia,Horror,0.1907
+XGBoost,Australia,Music,0.1157
+XGBoost,Australia,Musical,0.0835
+XGBoost,Australia,Mystery,0.1053
+XGBoost,Australia,News,0.0231
+XGBoost,Australia,Reality-TV,0.0069
+XGBoost,Australia,Romance,0.1048
+XGBoost,Australia,Sci-Fi,0.0938
+XGBoost,Australia,Short,0.0614
+XGBoost,Australia,Sport,0.1055
+XGBoost,Australia,Talk-Show,0.0044
+XGBoost,Australia,Thriller,0.1537
+XGBoost,Australia,War,0.0992
+XGBoost,Australia,Western,0.1897
+XGBoost,Belgium,Action,0.1118
+XGBoost,Belgium,Adventure,0.0832
+XGBoost,Belgium,Animation,0.1115
+XGBoost,Belgium,Biography,0.0895
+XGBoost,Belgium,Comedy,0.1332
+XGBoost,Belgium,Crime,0.1063
+XGBoost,Belgium,Documentary,0.2129
+XGBoost,Belgium,Drama,0.1664
+XGBoost,Belgium,Family,0.0537
+XGBoost,Belgium,Fantasy,0.0876
+XGBoost,Belgium,Film-Noir,0.2774
+XGBoost,Belgium,Game-Show,0.007
+XGBoost,Belgium,History,0.0937
+XGBoost,Belgium,Horror,0.2775
+XGBoost,Belgium,Music,0.2122
+XGBoost,Belgium,Musical,0.0849
+XGBoost,Belgium,Mystery,0.0914
+XGBoost,Belgium,News,0.0236
+XGBoost,Belgium,Reality-TV,0.0083
+XGBoost,Belgium,Romance,0.0974
+XGBoost,Belgium,Sci-Fi,0.0806
+XGBoost,Belgium,Short,0.0635
+XGBoost,Belgium,Sport,0.0896
+XGBoost,Belgium,Talk-Show,0.0084
+XGBoost,Belgium,Thriller,0.1246
+XGBoost,Belgium,War,0.0918
+XGBoost,Belgium,Western,0.1299
+XGBoost,Brazil,Action,0.0413
+XGBoost,Brazil,Adventure,0.0387
+XGBoost,Brazil,Animation,0.038
+XGBoost,Brazil,Biography,0.0265
+XGBoost,Brazil,Comedy,0.0452
+XGBoost,Brazil,Crime,0.0327
+XGBoost,Brazil,Documentary,0.0942
+XGBoost,Brazil,Drama,0.0808
+XGBoost,Brazil,Family,0.0135
+XGBoost,Brazil,Fantasy,0.043
+XGBoost,Brazil,Film-Noir,0.1219
+XGBoost,Brazil,Game-Show,0.0026
+XGBoost,Brazil,History,0.0321
+XGBoost,Brazil,Horror,0.0587
+XGBoost,Brazil,Music,0.0461
+XGBoost,Brazil,Musical,0.0296
+XGBoost,Brazil,Mystery,0.0237
+XGBoost,Brazil,News,0.0091
+XGBoost,Brazil,Reality-TV,0.0031
+XGBoost,Brazil,Romance,0.0371
+XGBoost,Brazil,Sci-Fi,0.0479
+XGBoost,Brazil,Short,0.0249
+XGBoost,Brazil,Sport,0.0325
+XGBoost,Brazil,Talk-Show,0.0028
+XGBoost,Brazil,Thriller,0.0469
+XGBoost,Brazil,War,0.0353
+XGBoost,Brazil,Western,0.0491
+XGBoost,Canada,Action,0.1051
+XGBoost,Canada,Adventure,0.0964
+XGBoost,Canada,Animation,0.0962
+XGBoost,Canada,Biography,0.1076
+XGBoost,Canada,Comedy,0.1717
+XGBoost,Canada,Crime,0.121
+XGBoost,Canada,Documentary,0.1844
+XGBoost,Canada,Drama,0.1786
+XGBoost,Canada,Family,0.0627
+XGBoost,Canada,Fantasy,0.1101
+XGBoost,Canada,Film-Noir,0.303
+XGBoost,Canada,Game-Show,0.0071
+XGBoost,Canada,History,0.0861
+XGBoost,Canada,Horror,0.222
+XGBoost,Canada,Music,0.13
+XGBoost,Canada,Musical,0.1156
+XGBoost,Canada,Mystery,0.1273
+XGBoost,Canada,News,0.0267
+XGBoost,Canada,Reality-TV,0.0078
+XGBoost,Canada,Romance,0.1415
+XGBoost,Canada,Sci-Fi,0.0867
+XGBoost,Canada,Short,0.0774
+XGBoost,Canada,Sport,0.1052
+XGBoost,Canada,Talk-Show,0.0085
+XGBoost,Canada,Thriller,0.1395
+XGBoost,Canada,War,0.0989
+XGBoost,Canada,Western,0.113
+XGBoost,China,Action,0.1206
+XGBoost,China,Adventure,0.1002
+XGBoost,China,Animation,0.1042
+XGBoost,China,Biography,0.1157
+XGBoost,China,Comedy,0.1605
+XGBoost,China,Crime,0.1281
+XGBoost,China,Documentary,0.2771
+XGBoost,China,Drama,0.1969
+XGBoost,China,Family,0.0654
+XGBoost,China,Fantasy,0.1252
+XGBoost,China,Film-Noir,0.3259
+XGBoost,China,Game-Show,0.0067
+XGBoost,China,History,0.0981
+XGBoost,China,Horror,0.1581
+XGBoost,China,Music,0.1171
+XGBoost,China,Musical,0.1052
+XGBoost,China,Mystery,0.0928
+XGBoost,China,News,0.0276
+XGBoost,China,Reality-TV,0.0078
+XGBoost,China,Romance,0.0925
+XGBoost,China,Sci-Fi,0.1127
+XGBoost,China,Short,0.0777
+XGBoost,China,Sport,0.1013
+XGBoost,China,Talk-Show,0.0083
+XGBoost,China,Thriller,0.1696
+XGBoost,China,War,0.1101
+XGBoost,China,Western,0.1534
+XGBoost,Denmark,Action,0.1159
+XGBoost,Denmark,Adventure,0.0699
+XGBoost,Denmark,Animation,0.0779
+XGBoost,Denmark,Biography,0.074
+XGBoost,Denmark,Comedy,0.0992
+XGBoost,Denmark,Crime,0.1025
+XGBoost,Denmark,Documentary,0.2497
+XGBoost,Denmark,Drama,0.1753
+XGBoost,Denmark,Family,0.0186
+XGBoost,Denmark,Fantasy,0.085
+XGBoost,Denmark,Film-Noir,0.256
+XGBoost,Denmark,Game-Show,0.0051
+XGBoost,Denmark,History,0.0703
+XGBoost,Denmark,Horror,0.1472
+XGBoost,Denmark,Music,0.1008
+XGBoost,Denmark,Musical,0.0757
+XGBoost,Denmark,Mystery,0.0669
+XGBoost,Denmark,News,0.019
+XGBoost,Denmark,Reality-TV,0.006
+XGBoost,Denmark,Romance,0.0819
+XGBoost,Denmark,Sci-Fi,0.0693
+XGBoost,Denmark,Short,0.0546
+XGBoost,Denmark,Sport,0.0535
+XGBoost,Denmark,Talk-Show,0.006
+XGBoost,Denmark,Thriller,0.146
+XGBoost,Denmark,War,0.0803
+XGBoost,Denmark,Western,0.0821
+XGBoost,Egypt,Action,0.0179
+XGBoost,Egypt,Adventure,0.012
+XGBoost,Egypt,Animation,0.0145
+XGBoost,Egypt,Biography,0.0134
+XGBoost,Egypt,Comedy,0.019
+XGBoost,Egypt,Crime,0.0177
+XGBoost,Egypt,Documentary,0.0468
+XGBoost,Egypt,Drama,0.0461
+XGBoost,Egypt,Family,0.0078
+XGBoost,Egypt,Fantasy,0.0216
+XGBoost,Egypt,Film-Noir,0.0547
+XGBoost,Egypt,Game-Show,0.0022
+XGBoost,Egypt,History,0.0087
+XGBoost,Egypt,Horror,0.0495
+XGBoost,Egypt,Music,0.0186
+XGBoost,Egypt,Musical,0.0065
+XGBoost,Egypt,Mystery,0.0196
+XGBoost,Egypt,News,0.0039
+XGBoost,Egypt,Reality-TV,0.0026
+XGBoost,Egypt,Romance,0.0134
+XGBoost,Egypt,Sci-Fi,0.0128
+XGBoost,Egypt,Short,0.0096
+XGBoost,Egypt,Sport,0.0159
+XGBoost,Egypt,Talk-Show,0.0027
+XGBoost,Egypt,Thriller,0.0211
+XGBoost,Egypt,War,0.0146
+XGBoost,Egypt,Western,0.0219
+XGBoost,Finland,Action,0.0844
+XGBoost,Finland,Adventure,0.0511
+XGBoost,Finland,Animation,0.0461
+XGBoost,Finland,Biography,0.0573
+XGBoost,Finland,Comedy,0.0538
+XGBoost,Finland,Crime,0.0503
+XGBoost,Finland,Documentary,0.1745
+XGBoost,Finland,Drama,0.0855
+XGBoost,Finland,Family,0.0252
+XGBoost,Finland,Fantasy,0.0481
+XGBoost,Finland,Film-Noir,0.1462
+XGBoost,Finland,Game-Show,0.0023
+XGBoost,Finland,History,0.0356
+XGBoost,Finland,Horror,0.1299
+XGBoost,Finland,Music,0.0655
+XGBoost,Finland,Musical,0.0578
+XGBoost,Finland,Mystery,0.0483
+XGBoost,Finland,News,0.011
+XGBoost,Finland,Reality-TV,0.0032
+XGBoost,Finland,Romance,0.048
+XGBoost,Finland,Sci-Fi,0.0373
+XGBoost,Finland,Short,0.0311
+XGBoost,Finland,Sport,0.0476
+XGBoost,Finland,Talk-Show,0.0032
+XGBoost,Finland,Thriller,0.0454
+XGBoost,Finland,War,0.0526
+XGBoost,Finland,Western,0.0631
+XGBoost,France,Action,0.1416
+XGBoost,France,Adventure,0.0881
+XGBoost,France,Animation,0.0989
+XGBoost,France,Biography,0.0978
+XGBoost,France,Comedy,0.1388
+XGBoost,France,Crime,0.1159
+XGBoost,France,Documentary,0.2305
+XGBoost,France,Drama,0.1836
+XGBoost,France,Family,0.0881
+XGBoost,France,Fantasy,0.1006
+XGBoost,France,Film-Noir,0.2675
+XGBoost,France,Game-Show,0.0056
+XGBoost,France,History,0.094
+XGBoost,France,Horror,0.2122
+XGBoost,France,Music,0.1258
+XGBoost,France,Musical,0.0966
+XGBoost,France,Mystery,0.1013
+XGBoost,France,News,0.0247
+XGBoost,France,Reality-TV,0.0065
+XGBoost,France,Romance,0.1559
+XGBoost,France,Sci-Fi,0.0926
+XGBoost,France,Short,0.0849
+XGBoost,France,Sport,0.0991
+XGBoost,France,Talk-Show,0.0065
+XGBoost,France,Thriller,0.1492
+XGBoost,France,War,0.1029
+XGBoost,France,Western,0.1301
+XGBoost,Germany,Action,0.129
+XGBoost,Germany,Adventure,0.0802
+XGBoost,Germany,Animation,0.0946
+XGBoost,Germany,Biography,0.0905
+XGBoost,Germany,Comedy,0.146
+XGBoost,Germany,Crime,0.1291
+XGBoost,Germany,Documentary,0.2301
+XGBoost,Germany,Drama,0.1785
+XGBoost,Germany,Family,0.0571
+XGBoost,Germany,Fantasy,0.1095
+XGBoost,Germany,Film-Noir,0.2925
+XGBoost,Germany,Game-Show,0.006
+XGBoost,Germany,History,0.0874
+XGBoost,Germany,Horror,0.1837
+XGBoost,Germany,Music,0.1367
+XGBoost,Germany,Musical,0.1052
+XGBoost,Germany,Mystery,0.118
+XGBoost,Germany,News,0.0247
+XGBoost,Germany,Reality-TV,0.0067
+XGBoost,Germany,Romance,0.1089
+XGBoost,Germany,Sci-Fi,0.1032
+XGBoost,Germany,Short,0.0652
+XGBoost,Germany,Sport,0.1115
+XGBoost,Germany,Talk-Show,0.0063
+XGBoost,Germany,Thriller,0.1465
+XGBoost,Germany,War,0.1103
+XGBoost,Germany,Western,0.1352
+XGBoost,Greece,Action,0.0556
+XGBoost,Greece,Adventure,0.017
+XGBoost,Greece,Animation,0.0403
+XGBoost,Greece,Biography,0.0483
+XGBoost,Greece,Comedy,0.0443
+XGBoost,Greece,Crime,0.0347
+XGBoost,Greece,Documentary,0.1449
+XGBoost,Greece,Drama,0.106
+XGBoost,Greece,Family,0.0286
+XGBoost,Greece,Fantasy,0.0507
+XGBoost,Greece,Film-Noir,0.1525
+XGBoost,Greece,Game-Show,0.0058
+XGBoost,Greece,History,0.0421
+XGBoost,Greece,Horror,0.091
+XGBoost,Greece,Music,0.0634
+XGBoost,Greece,Musical,0.0472
+XGBoost,Greece,Mystery,0.0515
+XGBoost,Greece,News,0.0133
+XGBoost,Greece,Reality-TV,0.0065
+XGBoost,Greece,Romance,0.0452
+XGBoost,Greece,Sci-Fi,0.037
+XGBoost,Greece,Short,0.0336
+XGBoost,Greece,Sport,0.0542
+XGBoost,Greece,Talk-Show,0.0063
+XGBoost,Greece,Thriller,0.0458
+XGBoost,Greece,War,0.0481
+XGBoost,Greece,Western,0.0677
+XGBoost,Hong Kong,Action,0.0738
+XGBoost,Hong Kong,Adventure,0.0814
+XGBoost,Hong Kong,Animation,0.0578
+XGBoost,Hong Kong,Biography,0.0596
+XGBoost,Hong Kong,Comedy,0.0784
+XGBoost,Hong Kong,Crime,0.075
+XGBoost,Hong Kong,Documentary,0.1753
+XGBoost,Hong Kong,Drama,0.1037
+XGBoost,Hong Kong,Family,0.0335
+XGBoost,Hong Kong,Fantasy,0.0503
+XGBoost,Hong Kong,Film-Noir,0.197
+XGBoost,Hong Kong,Game-Show,0.0032
+XGBoost,Hong Kong,History,0.0838
+XGBoost,Hong Kong,Horror,0.0926
+XGBoost,Hong Kong,Music,0.0766
+XGBoost,Hong Kong,Musical,0.0512
+XGBoost,Hong Kong,Mystery,0.0439
+XGBoost,Hong Kong,News,0.0131
+XGBoost,Hong Kong,Reality-TV,0.0037
+XGBoost,Hong Kong,Romance,0.0534
+XGBoost,Hong Kong,Sci-Fi,0.0419
+XGBoost,Hong Kong,Short,0.0379
+XGBoost,Hong Kong,Sport,0.0393
+XGBoost,Hong Kong,Talk-Show,0.0038
+XGBoost,Hong Kong,Thriller,0.0741
+XGBoost,Hong Kong,War,0.0748
+XGBoost,Hong Kong,Western,0.0753
+XGBoost,India,Action,0.0333
+XGBoost,India,Adventure,0.0619
+XGBoost,India,Animation,0.0359
+XGBoost,India,Biography,0.0396
+XGBoost,India,Comedy,0.0735
+XGBoost,India,Crime,0.0458
+XGBoost,India,Documentary,0.0945
+XGBoost,India,Drama,0.0628
+XGBoost,India,Family,0.0237
+XGBoost,India,Fantasy,0.0303
+XGBoost,India,Film-Noir,0.1029
+XGBoost,India,Game-Show,0.0112
+XGBoost,India,History,0.0315
+XGBoost,India,Horror,0.0451
+XGBoost,India,Music,0.0503
+XGBoost,India,Musical,0.029
+XGBoost,India,Mystery,0.0375
+XGBoost,India,News,0.0136
+XGBoost,India,Reality-TV,0.0104
+XGBoost,India,Romance,0.0334
+XGBoost,India,Sci-Fi,0.0369
+XGBoost,India,Short,0.0211
+XGBoost,India,Sport,0.0898
+XGBoost,India,Talk-Show,0.0257
+XGBoost,India,Thriller,0.0448
+XGBoost,India,War,0.0414
+XGBoost,India,Western,0.0491
+XGBoost,Iran,Action,0.0744
+XGBoost,Iran,Adventure,0.0743
+XGBoost,Iran,Animation,0.0896
+XGBoost,Iran,Biography,0.0573
+XGBoost,Iran,Comedy,0.1328
+XGBoost,Iran,Crime,0.0884
+XGBoost,Iran,Documentary,0.2372
+XGBoost,Iran,Drama,0.1477
+XGBoost,Iran,Family,0.0503
+XGBoost,Iran,Fantasy,0.0325
+XGBoost,Iran,Film-Noir,0.2798
+XGBoost,Iran,Game-Show,0.01
+XGBoost,Iran,History,0.0833
+XGBoost,Iran,Horror,0.135
+XGBoost,Iran,Music,0.107
+XGBoost,Iran,Musical,0.0779
+XGBoost,Iran,Mystery,0.0915
+XGBoost,Iran,News,0.023
+XGBoost,Iran,Reality-TV,0.0114
+XGBoost,Iran,Romance,0.0609
+XGBoost,Iran,Sci-Fi,0.0772
+XGBoost,Iran,Short,0.0629
+XGBoost,Iran,Sport,0.0996
+XGBoost,Iran,Talk-Show,0.0104
+XGBoost,Iran,Thriller,0.0912
+XGBoost,Iran,War,0.0872
+XGBoost,Iran,Western,0.122
+XGBoost,Italy,Action,0.0586
+XGBoost,Italy,Adventure,0.0422
+XGBoost,Italy,Animation,0.0429
+XGBoost,Italy,Biography,0.0594
+XGBoost,Italy,Comedy,0.0836
+XGBoost,Italy,Crime,0.0618
+XGBoost,Italy,Documentary,0.1596
+XGBoost,Italy,Drama,0.1343
+XGBoost,Italy,Family,0.0372
+XGBoost,Italy,Fantasy,0.0694
+XGBoost,Italy,Film-Noir,0.2078
+XGBoost,Italy,Game-Show,0.0046
+XGBoost,Italy,History,0.0541
+XGBoost,Italy,Horror,0.1424
+XGBoost,Italy,Music,0.0939
+XGBoost,Italy,Musical,0.0935
+XGBoost,Italy,Mystery,0.0622
+XGBoost,Italy,News,0.0153
+XGBoost,Italy,Reality-TV,0.0054
+XGBoost,Italy,Romance,0.0721
+XGBoost,Italy,Sci-Fi,0.0472
+XGBoost,Italy,Short,0.0455
+XGBoost,Italy,Sport,0.0582
+XGBoost,Italy,Talk-Show,0.0055
+XGBoost,Italy,Thriller,0.084
+XGBoost,Italy,War,0.0607
+XGBoost,Italy,Western,0.0971
+XGBoost,Japan,Action,0.0926
+XGBoost,Japan,Adventure,0.0756
+XGBoost,Japan,Animation,0.0795
+XGBoost,Japan,Biography,0.0986
+XGBoost,Japan,Comedy,0.1159
+XGBoost,Japan,Crime,0.0959
+XGBoost,Japan,Documentary,0.2008
+XGBoost,Japan,Drama,0.1545
+XGBoost,Japan,Family,0.0556
+XGBoost,Japan,Fantasy,0.0865
+XGBoost,Japan,Film-Noir,0.2577
+XGBoost,Japan,Game-Show,0.0059
+XGBoost,Japan,History,0.0783
+XGBoost,Japan,Horror,0.1636
+XGBoost,Japan,Music,0.1224
+XGBoost,Japan,Musical,0.085
+XGBoost,Japan,Mystery,0.0925
+XGBoost,Japan,News,0.0211
+XGBoost,Japan,Reality-TV,0.0152
+XGBoost,Japan,Romance,0.0744
+XGBoost,Japan,Sci-Fi,0.0754
+XGBoost,Japan,Short,0.0476
+XGBoost,Japan,Sport,0.1014
+XGBoost,Japan,Talk-Show,0.0069
+XGBoost,Japan,Thriller,0.1264
+XGBoost,Japan,War,0.0641
+XGBoost,Japan,Western,0.1191
+XGBoost,Mexico,Action,0.0947
+XGBoost,Mexico,Adventure,0.1098
+XGBoost,Mexico,Animation,0.081
+XGBoost,Mexico,Biography,0.0904
+XGBoost,Mexico,Comedy,0.1313
+XGBoost,Mexico,Crime,0.1033
+XGBoost,Mexico,Documentary,0.1716
+XGBoost,Mexico,Drama,0.1529
+XGBoost,Mexico,Family,0.046
+XGBoost,Mexico,Fantasy,0.0931
+XGBoost,Mexico,Film-Noir,0.2726
+XGBoost,Mexico,Game-Show,0.0058
+XGBoost,Mexico,History,0.0806
+XGBoost,Mexico,Horror,0.163
+XGBoost,Mexico,Music,0.1175
+XGBoost,Mexico,Musical,0.0811
+XGBoost,Mexico,Mystery,0.0719
+XGBoost,Mexico,News,0.0222
+XGBoost,Mexico,Reality-TV,0.0067
+XGBoost,Mexico,Romance,0.0935
+XGBoost,Mexico,Sci-Fi,0.0787
+XGBoost,Mexico,Short,0.0597
+XGBoost,Mexico,Sport,0.0881
+XGBoost,Mexico,Talk-Show,0.0068
+XGBoost,Mexico,Thriller,0.12
+XGBoost,Mexico,War,0.0944
+XGBoost,Mexico,Western,0.1744
+XGBoost,Netherlands,Action,0.066
+XGBoost,Netherlands,Adventure,0.0519
+XGBoost,Netherlands,Animation,0.0875
+XGBoost,Netherlands,Biography,0.0574
+XGBoost,Netherlands,Comedy,0.0761
+XGBoost,Netherlands,Crime,0.0701
+XGBoost,Netherlands,Documentary,0.1338
+XGBoost,Netherlands,Drama,0.099
+XGBoost,Netherlands,Family,0.0343
+XGBoost,Netherlands,Fantasy,0.0615
+XGBoost,Netherlands,Film-Noir,0.1871
+XGBoost,Netherlands,Game-Show,0.0035
+XGBoost,Netherlands,History,0.056
+XGBoost,Netherlands,Horror,0.3514
+XGBoost,Netherlands,Music,0.1259
+XGBoost,Netherlands,Musical,0.0539
+XGBoost,Netherlands,Mystery,0.0601
+XGBoost,Netherlands,News,0.0141
+XGBoost,Netherlands,Reality-TV,0.0039
+XGBoost,Netherlands,Romance,0.0618
+XGBoost,Netherlands,Sci-Fi,0.0722
+XGBoost,Netherlands,Short,0.0393
+XGBoost,Netherlands,Sport,0.0659
+XGBoost,Netherlands,Talk-Show,0.0039
+XGBoost,Netherlands,Thriller,0.0796
+XGBoost,Netherlands,War,0.0682
+XGBoost,Netherlands,Western,0.0832
+XGBoost,Norway,Action,0.091
+XGBoost,Norway,Adventure,0.0661
+XGBoost,Norway,Animation,0.0682
+XGBoost,Norway,Biography,0.0667
+XGBoost,Norway,Comedy,0.1005
+XGBoost,Norway,Crime,0.0484
+XGBoost,Norway,Documentary,0.1616
+XGBoost,Norway,Drama,0.135
+XGBoost,Norway,Family,0.0303
+XGBoost,Norway,Fantasy,0.0927
+XGBoost,Norway,Film-Noir,0.2089
+XGBoost,Norway,Game-Show,0.0054
+XGBoost,Norway,History,0.1025
+XGBoost,Norway,Horror,0.1905
+XGBoost,Norway,Music,0.0953
+XGBoost,Norway,Musical,0.0672
+XGBoost,Norway,Mystery,0.0671
+XGBoost,Norway,News,0.0184
+XGBoost,Norway,Reality-TV,0.0066
+XGBoost,Norway,Romance,0.0693
+XGBoost,Norway,Sci-Fi,0.0634
+XGBoost,Norway,Short,0.0463
+XGBoost,Norway,Sport,0.0682
+XGBoost,Norway,Talk-Show,0.0061
+XGBoost,Norway,Thriller,0.0986
+XGBoost,Norway,War,0.0673
+XGBoost,Norway,Western,0.1013
+XGBoost,Poland,Action,0.0392
+XGBoost,Poland,Adventure,0.0405
+XGBoost,Poland,Animation,0.0463
+XGBoost,Poland,Biography,0.0463
+XGBoost,Poland,Comedy,0.0613
+XGBoost,Poland,Crime,0.0545
+XGBoost,Poland,Documentary,0.1468
+XGBoost,Poland,Drama,0.099
+XGBoost,Poland,Family,0.0207
+XGBoost,Poland,Fantasy,0.0518
+XGBoost,Poland,Film-Noir,0.1553
+XGBoost,Poland,Game-Show,0.0027
+XGBoost,Poland,History,0.0392
+XGBoost,Poland,Horror,0.0925
+XGBoost,Poland,Music,0.0736
+XGBoost,Poland,Musical,0.0424
+XGBoost,Poland,Mystery,0.0514
+XGBoost,Poland,News,0.0107
+XGBoost,Poland,Reality-TV,0.0031
+XGBoost,Poland,Romance,0.041
+XGBoost,Poland,Sci-Fi,0.0278
+XGBoost,Poland,Short,0.0344
+XGBoost,Poland,Sport,0.0503
+XGBoost,Poland,Talk-Show,0.0032
+XGBoost,Poland,Thriller,0.0789
+XGBoost,Poland,War,0.0494
+XGBoost,Poland,Western,0.0673
+XGBoost,Russia,Action,0.0212
+XGBoost,Russia,Adventure,0.0183
+XGBoost,Russia,Animation,0.0176
+XGBoost,Russia,Biography,0.0197
+XGBoost,Russia,Comedy,0.0379
+XGBoost,Russia,Crime,0.0306
+XGBoost,Russia,Documentary,0.1153
+XGBoost,Russia,Drama,0.0436
+XGBoost,Russia,Family,0.0099
+XGBoost,Russia,Fantasy,0.0331
+XGBoost,Russia,Film-Noir,0.0879
+XGBoost,Russia,Game-Show,0.0011
+XGBoost,Russia,History,0.018
+XGBoost,Russia,Horror,0.0531
+XGBoost,Russia,Music,0.0272
+XGBoost,Russia,Musical,0.0225
+XGBoost,Russia,Mystery,0.0238
+XGBoost,Russia,News,0.0058
+XGBoost,Russia,Reality-TV,0.0014
+XGBoost,Russia,Romance,0.019
+XGBoost,Russia,Sci-Fi,0.0294
+XGBoost,Russia,Short,0.0199
+XGBoost,Russia,Sport,0.0218
+XGBoost,Russia,Talk-Show,0.0014
+XGBoost,Russia,Thriller,0.0408
+XGBoost,Russia,War,0.0235
+XGBoost,Russia,Western,0.031
+XGBoost,South Korea,Action,0.0797
+XGBoost,South Korea,Adventure,0.0593
+XGBoost,South Korea,Animation,0.0603
+XGBoost,South Korea,Biography,0.063
+XGBoost,South Korea,Comedy,0.0906
+XGBoost,South Korea,Crime,0.0756
+XGBoost,South Korea,Documentary,0.1974
+XGBoost,South Korea,Drama,0.1278
+XGBoost,South Korea,Family,0.0378
+XGBoost,South Korea,Fantasy,0.0817
+XGBoost,South Korea,Film-Noir,0.2132
+XGBoost,South Korea,Game-Show,0.0188
+XGBoost,South Korea,History,0.0615
+XGBoost,South Korea,Horror,0.1297
+XGBoost,South Korea,Music,0.0907
+XGBoost,South Korea,Musical,0.0583
+XGBoost,South Korea,Mystery,0.0716
+XGBoost,South Korea,News,0.0171
+XGBoost,South Korea,Reality-TV,0.0097
+XGBoost,South Korea,Romance,0.0688
+XGBoost,South Korea,Sci-Fi,0.0646
+XGBoost,South Korea,Short,0.0445
+XGBoost,South Korea,Sport,0.0502
+XGBoost,South Korea,Talk-Show,0.0066
+XGBoost,South Korea,Thriller,0.0763
+XGBoost,South Korea,War,0.0881
+XGBoost,South Korea,Western,0.0976
+XGBoost,Spain,Action,0.0872
+XGBoost,Spain,Adventure,0.0675
+XGBoost,Spain,Animation,0.0995
+XGBoost,Spain,Biography,0.0782
+XGBoost,Spain,Comedy,0.097
+XGBoost,Spain,Crime,0.0931
+XGBoost,Spain,Documentary,0.1975
+XGBoost,Spain,Drama,0.1502
+XGBoost,Spain,Family,0.0471
+XGBoost,Spain,Fantasy,0.0901
+XGBoost,Spain,Film-Noir,0.256
+XGBoost,Spain,Game-Show,0.0048
+XGBoost,Spain,History,0.0872
+XGBoost,Spain,Horror,0.1487
+XGBoost,Spain,Music,0.1036
+XGBoost,Spain,Musical,0.0816
+XGBoost,Spain,Mystery,0.0939
+XGBoost,Spain,News,0.0207
+XGBoost,Spain,Reality-TV,0.0067
+XGBoost,Spain,Romance,0.0848
+XGBoost,Spain,Sci-Fi,0.0565
+XGBoost,Spain,Short,0.0677
+XGBoost,Spain,Sport,0.0929
+XGBoost,Spain,Talk-Show,0.0069
+XGBoost,Spain,Thriller,0.1152
+XGBoost,Spain,War,0.0832
+XGBoost,Spain,Western,0.1153
+XGBoost,Sweden,Action,0.0757
+XGBoost,Sweden,Adventure,0.0642
+XGBoost,Sweden,Animation,0.0454
+XGBoost,Sweden,Biography,0.0684
+XGBoost,Sweden,Comedy,0.1137
+XGBoost,Sweden,Crime,0.0946
+XGBoost,Sweden,Documentary,0.1781
+XGBoost,Sweden,Drama,0.1482
+XGBoost,Sweden,Family,0.0356
+XGBoost,Sweden,Fantasy,0.0816
+XGBoost,Sweden,Film-Noir,0.2105
+XGBoost,Sweden,Game-Show,0.0044
+XGBoost,Sweden,History,0.0657
+XGBoost,Sweden,Horror,0.1501
+XGBoost,Sweden,Music,0.0955
+XGBoost,Sweden,Musical,0.0321
+XGBoost,Sweden,Mystery,0.0656
+XGBoost,Sweden,News,0.0172
+XGBoost,Sweden,Reality-TV,0.0043
+XGBoost,Sweden,Romance,0.0767
+XGBoost,Sweden,Sci-Fi,0.0528
+XGBoost,Sweden,Short,0.0448
+XGBoost,Sweden,Sport,0.0702
+XGBoost,Sweden,Talk-Show,0.0052
+XGBoost,Sweden,Thriller,0.0915
+XGBoost,Sweden,War,0.0681
+XGBoost,Sweden,Western,0.0976
+XGBoost,Turkey,Action,0.0851
+XGBoost,Turkey,Adventure,0.071
+XGBoost,Turkey,Animation,0.0409
+XGBoost,Turkey,Biography,0.0766
+XGBoost,Turkey,Comedy,0.1395
+XGBoost,Turkey,Crime,0.1167
+XGBoost,Turkey,Documentary,0.1837
+XGBoost,Turkey,Drama,0.1469
+XGBoost,Turkey,Family,0.0467
+XGBoost,Turkey,Fantasy,0.0843
+XGBoost,Turkey,Film-Noir,0.2465
+XGBoost,Turkey,Game-Show,0.0042
+XGBoost,Turkey,History,0.0714
+XGBoost,Turkey,Horror,0.0738
+XGBoost,Turkey,Music,0.1038
+XGBoost,Turkey,Musical,0.0735
+XGBoost,Turkey,Mystery,0.0754
+XGBoost,Turkey,News,0.0201
+XGBoost,Turkey,Reality-TV,0.0073
+XGBoost,Turkey,Romance,0.082
+XGBoost,Turkey,Sci-Fi,0.0832
+XGBoost,Turkey,Short,0.0558
+XGBoost,Turkey,Sport,0.0821
+XGBoost,Turkey,Talk-Show,0.0084
+XGBoost,Turkey,Thriller,0.1194
+XGBoost,Turkey,War,0.0819
+XGBoost,Turkey,Western,0.1111
+XGBoost,United Kingdom,Action,0.1275
+XGBoost,United Kingdom,Adventure,0.111
+XGBoost,United Kingdom,Animation,0.1105
+XGBoost,United Kingdom,Biography,0.1209
+XGBoost,United Kingdom,Comedy,0.2099
+XGBoost,United Kingdom,Crime,0.1339
+XGBoost,United Kingdom,Documentary,0.2421
+XGBoost,United Kingdom,Drama,0.2196
+XGBoost,United Kingdom,Family,0.0774
+XGBoost,United Kingdom,Fantasy,0.144
+XGBoost,United Kingdom,Film-Noir,0.2718
+XGBoost,United Kingdom,Game-Show,0.0117
+XGBoost,United Kingdom,History,0.1022
+XGBoost,United Kingdom,Horror,0.2064
+XGBoost,United Kingdom,Music,0.1466
+XGBoost,United Kingdom,Musical,0.1216
+XGBoost,United Kingdom,Mystery,0.1262
+XGBoost,United Kingdom,News,0.0327
+XGBoost,United Kingdom,Reality-TV,0.0116
+XGBoost,United Kingdom,Romance,0.1706
+XGBoost,United Kingdom,Sci-Fi,0.118
+XGBoost,United Kingdom,Short,0.0691
+XGBoost,United Kingdom,Sport,0.1362
+XGBoost,United Kingdom,Talk-Show,0.0117
+XGBoost,United Kingdom,Thriller,0.1604
+XGBoost,United Kingdom,War,0.1012
+XGBoost,United Kingdom,Western,0.1541
+XGBoost,United States,Action,0.1369
+XGBoost,United States,Adventure,0.118
+XGBoost,United States,Animation,0.1371
+XGBoost,United States,Biography,0.1375
+XGBoost,United States,Comedy,0.3092
+XGBoost,United States,Crime,0.1504
+XGBoost,United States,Documentary,0.3435
+XGBoost,United States,Drama,0.2407
+XGBoost,United States,Family,0.0874
+XGBoost,United States,Fantasy,0.2069
+XGBoost,United States,Film-Noir,0.3368
+XGBoost,United States,Game-Show,0.0086
+XGBoost,United States,History,0.1149
+XGBoost,United States,Horror,0.1791
+XGBoost,United States,Music,0.1505
+XGBoost,United States,Musical,0.1162
+XGBoost,United States,Mystery,0.146
+XGBoost,United States,News,0.0316
+XGBoost,United States,Reality-TV,0.0084
+XGBoost,United States,Romance,0.1437
+XGBoost,United States,Sci-Fi,0.1155
+XGBoost,United States,Short,0.0842
+XGBoost,United States,Sport,0.1548
+XGBoost,United States,Talk-Show,0.0095
+XGBoost,United States,Thriller,0.1731
+XGBoost,United States,War,0.1221
+XGBoost,United States,Western,0.1583
