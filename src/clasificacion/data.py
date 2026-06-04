@@ -18,7 +18,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from data_utils import load_prime, load_genres, load_regions
 
-from .config import MIN_REGION, RATING_MIN_EXITO, SPLIT_YEAR
+from .config import MIN_ACTIVE, MIN_REGION, RATING_MIN_EXITO, SPLIT_YEAR
 
 
 @dataclass
@@ -31,6 +31,7 @@ class Dataset:
     cat_cols: list
     genre_cols: list
     regions_kept: list
+    active_regions: list          # regiones aun activas (>= MIN_ACTIVE en test)
     info: dict = field(default_factory=dict)
 
     @property
@@ -84,6 +85,10 @@ def build_dataset() -> Dataset:
     keep = sorted(train_counts[train_counts >= MIN_REGION].index)
     df["region_grp"] = np.where(df["region"].isin(set(keep)), df["region"], "Other")
 
+    # regiones aun activas: de las modeladas, las que siguen produciendo (>= 2020)
+    test_counts = df.loc[df["releaseYear"] >= SPLIT_YEAR, "region"].value_counts()
+    active = sorted(reg for reg in keep if test_counts.get(reg, 0) >= MIN_ACTIVE)
+
     num_cols = ["length", "is_movie"]
     cat_cols = ["region_grp"]
     feat_cols = num_cols + cat_cols + genre_cols
@@ -98,6 +103,7 @@ def build_dataset() -> Dataset:
         "n_test": len(test),
         "exito_rate_train": float((train["clase"] == "exito").mean()),
         "exito_rate_test": float((test["clase"] == "exito").mean()),
+        "regions_excluded": sorted(set(keep) - set(active)),
     }
 
     return Dataset(
@@ -109,6 +115,7 @@ def build_dataset() -> Dataset:
         cat_cols=cat_cols,
         genre_cols=genre_cols,
         regions_kept=keep,
+        active_regions=active,
         info=info,
     )
 

@@ -68,9 +68,11 @@ se usa como variable predictora (es el eje de la partición).
 2. **Random Forest** — ensamble de árboles (bagging).
 3. **XGBoost** — boosting de árboles (modelo avanzado).
 
-Entregable de negocio: **ranking de géneros por P(éxito)**, clasificados en 3
-niveles (posible éxito / sin pena ni gloria / posible fracaso), con las **3
-regiones de origen que mejor producen** cada género (mejor modelo).
+Entregable de negocio: **ranking de géneros por P(éxito)** (para los 3 modelos),
+clasificados en 3 niveles (posible éxito / sin pena ni gloria / posible fracaso),
+con las **3 regiones de origen que mejor producen** cada género. Solo se
+recomiendan **regiones activas** (que aún producen tras 2020), excluyendo regiones
+desaparecidas (Soviet Union, West Germany).
 
 ## Cómo ejecutar
 

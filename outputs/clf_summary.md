@@ -70,36 +70,104 @@ weighted avg      0.724     0.663     0.677     12863
 
 **Mejor modelo (ROC-AUC): Random Forest**
 
-## Ranking de generos por probabilidad de exito
+## Ranking de generos por probabilidad de exito (por modelo)
 
-(P(exito) promedio entre regiones, segun Random Forest. La region es el origen de produccion; se listan las 3 mejores por genero.)
+P(exito) promedio entre **regiones activas** (las que aun producen, >= 2020). La region es el origen de produccion; se listan las 3 mejores por genero. Regiones activas: 28.
+
+> Excluidas por no producir desde 2020 (region desaparecida): Soviet Union, West Germany.
+
+### Regresion Logistica
 
 | Genero | P(exito) | Categoria | 3 mejores regiones productoras |
 |--------|----------|-----------|--------------------------------|
-| Documentary | 0.502 | posible exito | West Germany (0.65), Denmark (0.61), Australia (0.60) |
-| Film-Noir | 0.440 | posible exito | Soviet Union (0.50), United States (0.49), West Germany (0.46) |
-| Drama | 0.408 | posible exito | South Korea (0.56), Japan (0.55), China (0.52) |
-| Biography | 0.397 | posible exito | France (0.47), United Kingdom (0.46), Japan (0.44) |
-| History | 0.360 | posible exito | France (0.44), Soviet Union (0.41), Japan (0.39) |
-| Music | 0.337 | posible exito | Japan (0.39), Soviet Union (0.39), France (0.38) |
-| War | 0.331 | posible exito | France (0.44), Soviet Union (0.41), Japan (0.37) |
-| Animation | 0.310 | posible exito | Japan (0.43), France (0.37), Soviet Union (0.37) |
-| Western | 0.277 | posible exito | United States (0.39), Soviet Union (0.36), France (0.34) |
-| Crime | 0.258 | sin pena ni gloria | Japan (0.39), France (0.34), Soviet Union (0.34) |
-| Mystery | 0.249 | sin pena ni gloria | Soviet Union (0.34), France (0.33), Japan (0.31) |
-| Comedy | 0.244 | sin pena ni gloria | Soviet Union (0.44), Poland (0.41), China (0.38) |
-| Short | 0.241 | sin pena ni gloria | France (0.35), Soviet Union (0.32), Japan (0.27) |
-| Adventure | 0.227 | sin pena ni gloria | Soviet Union (0.38), France (0.36), Japan (0.35) |
-| Romance | 0.222 | sin pena ni gloria | Soviet Union (0.38), France (0.34), Japan (0.27) |
-| Sport | 0.213 | sin pena ni gloria | Soviet Union (0.32), France (0.29), Japan (0.27) |
-| Musical | 0.209 | sin pena ni gloria | Soviet Union (0.33), France (0.31), Japan (0.26) |
-| Fantasy | 0.202 | sin pena ni gloria | Soviet Union (0.31), France (0.28), Japan (0.26) |
-| News | 0.197 | posible fracaso | Soviet Union (0.31), France (0.29), Japan (0.26) |
-| Game-Show | 0.190 | posible fracaso | Soviet Union (0.30), France (0.29), Japan (0.26) |
-| Talk-Show | 0.183 | posible fracaso | Soviet Union (0.28), France (0.27), Japan (0.25) |
-| Thriller | 0.181 | posible fracaso | India (0.27), Japan (0.26), Soviet Union (0.24) |
-| Family | 0.174 | posible fracaso | Soviet Union (0.32), France (0.29), Japan (0.23) |
-| Sci-Fi | 0.151 | posible fracaso | France (0.28), Japan (0.24), Soviet Union (0.23) |
-| Action | 0.151 | posible fracaso | Japan (0.29), Soviet Union (0.28), France (0.23) |
-| Reality-TV | 0.149 | posible fracaso | Japan (0.26), Soviet Union (0.23), France (0.22) |
-| Horror | 0.146 | posible fracaso | France (0.24), Belgium (0.24), Japan (0.20) |
+| Drama | 0.464 | posible exito | South Korea (0.55), France (0.54), United Kingdom (0.54) |
+| Film-Noir | 0.463 | posible exito | South Korea (0.55), France (0.54), United Kingdom (0.54) |
+| Biography | 0.418 | posible exito | South Korea (0.51), France (0.49), United Kingdom (0.49) |
+| Documentary | 0.409 | posible exito | South Korea (0.50), France (0.48), United Kingdom (0.48) |
+| Animation | 0.379 | posible exito | South Korea (0.47), France (0.45), United Kingdom (0.45) |
+| War | 0.378 | posible exito | South Korea (0.46), France (0.45), United Kingdom (0.45) |
+| Mystery | 0.339 | posible exito | South Korea (0.42), France (0.41), United Kingdom (0.40) |
+| Music | 0.337 | posible exito | South Korea (0.42), France (0.41), United Kingdom (0.40) |
+| Western | 0.336 | posible exito | South Korea (0.42), France (0.41), United Kingdom (0.40) |
+| Crime | 0.328 | sin pena ni gloria | South Korea (0.41), France (0.40), United Kingdom (0.39) |
+| Adventure | 0.327 | sin pena ni gloria | South Korea (0.41), France (0.40), United Kingdom (0.39) |
+| Comedy | 0.315 | sin pena ni gloria | South Korea (0.40), France (0.38), United Kingdom (0.38) |
+| History | 0.312 | sin pena ni gloria | South Korea (0.39), France (0.38), United Kingdom (0.37) |
+| Short | 0.307 | sin pena ni gloria | South Korea (0.39), France (0.37), United Kingdom (0.37) |
+| Game-Show | 0.299 | sin pena ni gloria | South Korea (0.38), France (0.37), United Kingdom (0.36) |
+| Musical | 0.299 | sin pena ni gloria | South Korea (0.38), France (0.36), United Kingdom (0.36) |
+| Fantasy | 0.292 | sin pena ni gloria | South Korea (0.37), France (0.36), United Kingdom (0.35) |
+| Romance | 0.278 | sin pena ni gloria | South Korea (0.35), France (0.34), United Kingdom (0.34) |
+| Sport | 0.275 | posible fracaso | South Korea (0.35), France (0.34), United Kingdom (0.33) |
+| Action | 0.265 | posible fracaso | South Korea (0.34), France (0.33), United Kingdom (0.32) |
+| Thriller | 0.264 | posible fracaso | South Korea (0.34), France (0.33), United Kingdom (0.32) |
+| Sci-Fi | 0.253 | posible fracaso | South Korea (0.32), France (0.31), United Kingdom (0.31) |
+| News | 0.228 | posible fracaso | South Korea (0.29), France (0.28), United Kingdom (0.28) |
+| Family | 0.205 | posible fracaso | South Korea (0.27), France (0.26), United Kingdom (0.25) |
+| Talk-Show | 0.205 | posible fracaso | South Korea (0.27), France (0.26), United Kingdom (0.25) |
+| Reality-TV | 0.190 | posible fracaso | South Korea (0.25), France (0.24), United Kingdom (0.24) |
+| Horror | 0.143 | posible fracaso | South Korea (0.19), France (0.18), United Kingdom (0.18) |
+
+### Random Forest
+
+| Genero | P(exito) | Categoria | 3 mejores regiones productoras |
+|--------|----------|-----------|--------------------------------|
+| Film-Noir | 0.437 | posible exito | United States (0.49), France (0.46), South Korea (0.46) |
+| Documentary | 0.395 | posible exito | Denmark (0.47), Australia (0.45), United States (0.45) |
+| Biography | 0.374 | posible exito | France (0.45), United Kingdom (0.44), Japan (0.41) |
+| Drama | 0.358 | posible exito | South Korea (0.49), Japan (0.47), France (0.46) |
+| War | 0.314 | posible exito | France (0.42), Japan (0.36), United Kingdom (0.35) |
+| Music | 0.304 | posible exito | Japan (0.36), France (0.35), United States (0.33) |
+| History | 0.303 | posible exito | France (0.39), South Korea (0.33), Iran (0.33) |
+| Western | 0.265 | posible exito | United States (0.38), France (0.33), Japan (0.30) |
+| Comedy | 0.228 | posible exito | Poland (0.35), China (0.33), United Kingdom (0.33) |
+| Crime | 0.227 | sin pena ni gloria | Japan (0.34), France (0.30), Turkey (0.27) |
+| Short | 0.225 | sin pena ni gloria | France (0.33), Japan (0.25), South Korea (0.25) |
+| Mystery | 0.220 | sin pena ni gloria | France (0.30), United Kingdom (0.28), Japan (0.27) |
+| Animation | 0.218 | sin pena ni gloria | Japan (0.30), France (0.27), United States (0.25) |
+| Adventure | 0.200 | sin pena ni gloria | France (0.32), Japan (0.31), Mexico (0.22) |
+| Romance | 0.198 | sin pena ni gloria | France (0.32), Japan (0.25), United Kingdom (0.24) |
+| Sport | 0.197 | sin pena ni gloria | France (0.28), United Kingdom (0.25), Japan (0.25) |
+| Musical | 0.196 | sin pena ni gloria | France (0.30), Japan (0.25), United Kingdom (0.24) |
+| Fantasy | 0.181 | sin pena ni gloria | France (0.26), Japan (0.23), United Kingdom (0.23) |
+| Thriller | 0.174 | posible fracaso | India (0.26), Japan (0.25), United Kingdom (0.23) |
+| Action | 0.157 | posible fracaso | Japan (0.27), France (0.23), South Korea (0.22) |
+| Horror | 0.148 | posible fracaso | France (0.24), Belgium (0.24), Japan (0.20) |
+| Sci-Fi | 0.142 | posible fracaso | France (0.26), Japan (0.22), India (0.17) |
+| Family | 0.138 | posible fracaso | France (0.24), Iran (0.20), United Kingdom (0.19) |
+| Talk-Show | 0.120 | posible fracaso | India (0.27), France (0.17), South Korea (0.17) |
+| News | 0.119 | posible fracaso | France (0.20), South Korea (0.17), India (0.17) |
+| Game-Show | 0.108 | posible fracaso | South Korea (0.21), France (0.18), India (0.18) |
+| Reality-TV | 0.092 | posible fracaso | Japan (0.17), South Korea (0.15), France (0.13) |
+
+### XGBoost
+
+| Genero | P(exito) | Categoria | 3 mejores regiones productoras |
+|--------|----------|-----------|--------------------------------|
+| Film-Noir | 0.689 | posible exito | Japan (0.81), Denmark (0.76), Norway (0.76) |
+| Documentary | 0.364 | posible exito | Japan (0.47), United States (0.45), South Korea (0.45) |
+| Drama | 0.343 | posible exito | Japan (0.44), Iran (0.44), Denmark (0.42) |
+| Western | 0.275 | posible exito | Japan (0.39), United States (0.37), France (0.34) |
+| Comedy | 0.217 | posible exito | United Kingdom (0.31), Norway (0.31), India (0.27) |
+| Animation | 0.181 | posible exito | Netherlands (0.29), Iran (0.28), Japan (0.25) |
+| War | 0.165 | posible exito | France (0.25), Japan (0.25), Denmark (0.21) |
+| Crime | 0.163 | posible exito | Japan (0.26), Denmark (0.23), India (0.23) |
+| Music | 0.163 | posible exito | Japan (0.24), France (0.21), Germany (0.21) |
+| History | 0.161 | sin pena ni gloria | Iran (0.30), Japan (0.23), Turkey (0.20) |
+| Mystery | 0.154 | sin pena ni gloria | Japan (0.23), United Kingdom (0.21), France (0.20) |
+| Biography | 0.153 | sin pena ni gloria | Japan (0.24), United Kingdom (0.21), France (0.20) |
+| Romance | 0.147 | sin pena ni gloria | France (0.24), Japan (0.21), South Korea (0.20) |
+| Short | 0.141 | sin pena ni gloria | France (0.29), Iran (0.23), Japan (0.19) |
+| Thriller | 0.133 | sin pena ni gloria | Norway (0.21), Japan (0.20), United Kingdom (0.19) |
+| Fantasy | 0.132 | sin pena ni gloria | Japan (0.20), United Kingdom (0.19), Norway (0.18) |
+| Musical | 0.132 | sin pena ni gloria | France (0.23), Japan (0.21), Denmark (0.17) |
+| Adventure | 0.128 | sin pena ni gloria | Japan (0.23), Mexico (0.20), United Kingdom (0.19) |
+| Sport | 0.127 | posible fracaso | India (0.24), Japan (0.18), United Kingdom (0.18) |
+| Action | 0.102 | posible fracaso | Denmark (0.19), Japan (0.19), Hong Kong (0.14) |
+| Sci-Fi | 0.085 | posible fracaso | Japan (0.13), France (0.13), United Kingdom (0.13) |
+| Horror | 0.085 | posible fracaso | Japan (0.14), France (0.13), Italy (0.12) |
+| Family | 0.084 | posible fracaso | Iran (0.25), Japan (0.11), Norway (0.11) |
+| Talk-Show | 0.054 | posible fracaso | India (0.43), United States (0.09), Iran (0.06) |
+| News | 0.048 | posible fracaso | United Kingdom (0.08), India (0.07), Japan (0.07) |
+| Reality-TV | 0.043 | posible fracaso | Japan (0.12), United Kingdom (0.07), Iran (0.07) |
+| Game-Show | 0.041 | posible fracaso | South Korea (0.23), India (0.07), United Kingdom (0.06) |

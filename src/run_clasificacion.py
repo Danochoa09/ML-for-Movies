@@ -18,7 +18,7 @@ from clasificacion.config import MIN_REGION, OUT_DIR, SPLIT_YEAR
 from clasificacion.data import build_dataset
 from clasificacion.models import build_models
 from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions
-from clasificacion.deliverable import ranking_generos, plot_feature_importance
+from clasificacion.deliverable import rankings_all_models
 
 from sklearn.metrics import recall_score
 
@@ -98,31 +98,33 @@ def main() -> None:
     plot_comparison(results, "10_clf_model_compare.png")
     plot_confusions(results, "11_clf_confusion.png")
 
-    # ----------------------------------------------------------------- #
-    # 3. Mejor modelo -> importancia + entregable
-    # ----------------------------------------------------------------- #
     best_name = max(results, key=lambda n: results[n].roc_auc)
-    best = results[best_name].model
     log(f"**Mejor modelo (ROC-AUC): {best_name}**\n")
 
-    plot_feature_importance(best, ds, "12_clf_feature_importance.png")
-
     # ----------------------------------------------------------------- #
-    # 4. Entregable: ranking de generos por P(exito) + mejores regiones
+    # 3. Entregable: ranking de generos por P(exito) para los 3 modelos
     # ----------------------------------------------------------------- #
-    rank = ranking_generos(best, ds)
-    log("## Ranking de generos por probabilidad de exito\n")
-    log(f"(P(exito) promedio entre regiones, segun {best_name}. La region es el "
-        f"origen de produccion; se listan las 3 mejores por genero.)\n")
-    log("| Genero | P(exito) | Categoria | 3 mejores regiones productoras |")
-    log("|--------|----------|-----------|--------------------------------|")
-    for x in rank.itertuples():
-        log(f"| {x.genre} | {x.p_exito_promedio:.3f} | {x.categoria} | {x.top_regiones} |")
+    rankings = rankings_all_models(results, ds)
+    excl = ds.info.get("regions_excluded", [])
+    log("## Ranking de generos por probabilidad de exito (por modelo)\n")
+    log(f"P(exito) promedio entre **regiones activas** (las que aun producen, "
+        f">= 2020). La region es el origen de produccion; se listan las 3 mejores "
+        f"por genero. Regiones activas: {len(ds.active_regions)}.")
+    if excl:
+        log(f"\n> Excluidas por no producir desde 2020 (region desaparecida): "
+            f"{', '.join(excl)}.")
     log("")
+    for name, rk in rankings.items():
+        log(f"### {name}\n")
+        log("| Genero | P(exito) | Categoria | 3 mejores regiones productoras |")
+        log("|--------|----------|-----------|--------------------------------|")
+        for x in rk.itertuples():
+            log(f"| {x.genre} | {x.p_exito_promedio:.3f} | {x.categoria} | {x.top_regiones} |")
+        log("")
 
     SUMMARY.write_text("\n".join(lines), encoding="utf-8")
     print(f"\nResumen -> {SUMMARY}")
-    print(f"Ranking CSV -> {OUT_DIR / 'clf_ranking_generos.csv'}")
+    print(f"Ranking CSV (3 modelos) -> {OUT_DIR / 'clf_ranking_generos.csv'}")
 
 
 if __name__ == "__main__":

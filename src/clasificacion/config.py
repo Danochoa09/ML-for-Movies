@@ -27,4 +27,8 @@ CLASS_ORDER = ["no_exito", "exito"]
 POS_LABEL = "exito"
 
 MIN_REGION = 500           # regiones con al menos este numero de titulos (en train)
+# Para el ENTREGABLE solo se recomiendan regiones aun activas: con al menos esta
+# cantidad de titulos en el periodo de test (>= 2020). Asi se excluyen regiones
+# desaparecidas (Soviet Union, West Germany) que no producen en el presente.
+MIN_ACTIVE = 20
 RANDOM_STATE = 42
