@@ -30,32 +30,55 @@ con lo que realmente les gustó** (rating / votos reales).
 IMDb/
 ├── data/raw/              # CSV descargados (no se versionan)
 ├── src/
-│   ├── download_data.py   # descarga el dataset desde Kaggle
-│   ├── data_utils.py      # carga + limpieza + tabla unida (reutilizable)
-│   └── eda.py             # Análisis Exploratorio de Datos
+│   ├── download_data.py        # descarga el dataset desde Kaggle
+│   ├── data_utils.py           # carga + limpieza + tabla unida (reutilizable)
+│   ├── eda.py                  # Análisis Exploratorio de Datos
+│   ├── run_clasificacion.py    # orquesta la comparación de los 3 modelos
+│   └── clasificacion/          # paquete de clasificación
+│       ├── config.py           # umbrales de clases, semillas, rutas
+│       ├── data.py             # construcción del dataset + preprocesador
+│       ├── models.py           # los 3 clasificadores (LogReg, RF, XGBoost)
+│       ├── evaluate.py         # entrenamiento, métricas y gráficas
+│       └── deliverable.py      # top-3 géneros por región (mejor modelo)
 ├── outputs/
-│   ├── figures/           # gráficas del EDA
-│   └── eda_summary.md     # resumen del EDA
+│   ├── figures/                # gráficas (EDA + clasificación)
+│   ├── eda_summary.md
+│   └── clf_summary.md          # resumen de la comparación de modelos
 ├── requirements.txt
 └── README.md
 ```
+
+## Las tres técnicas (todas de clasificación)
+
+Mismo problema, tres clasificadores comparados para predecir la **clase de éxito**
+de un título a partir de género, región, tipo, duración y año:
+
+| Clase | Regla (rating IMDb) | Interpretación |
+|---|---|---|
+| `exito`    | rating ≥ 8     | posible éxito |
+| `mediocre` | 5 ≤ rating < 8 | sin pena ni gloria |
+| `fracaso`  | rating < 5     | posible fracaso |
+
+1. **Regresión Logística** — modelo lineal base/simple.
+2. **Random Forest** — ensamble de árboles (bagging).
+3. **XGBoost** — boosting de árboles (modelo avanzado).
+
+Entregable de negocio: **top-3 géneros con mayor P(éxito) por región** (mejor modelo).
 
 ## Cómo ejecutar
 
 ```bash
 pip install -r requirements.txt
-python src/download_data.py   # descarga CSV a data/raw/
-python src/eda.py             # genera figuras + resumen en outputs/
+python src/download_data.py       # descarga CSV a data/raw/
+python src/eda.py                 # EDA -> figuras + resumen
+python src/run_clasificacion.py   # compara los 3 modelos + entregable
 ```
 
 ## Estado / Roadmap
 
 - [x] **Fase 1 — EDA** (limpieza, distribuciones, correlaciones, géneros/regiones)
-- [x] **Fase 2 — Técnica 1: Clasificación.** Random Forest (vs Reg. Logística)
-  predice clase de éxito por rating (`éxito` ≥8, `mediocre` 5–8, `fracaso` <5).
-  Entregable: top-3 géneros con mayor P(éxito) por región
-  (`src/tecnica1_clasificacion.py`). F1-macro RF ≈ 0.53.
-- [ ] **Fase 3 — Técnica 2:** Agrupación (clustering de perfiles de contenido)
-- [ ] **Fase 4 — Técnica 3:** (regresión / otra técnica a definir)
-- [ ] **Fase 5 — Informe IEEE** doble columna (máx. 6 páginas)
-- [ ] **Fase 6 — Video** presentación (máx. 6 min)
+- [x] **Fase 2 — Clasificación (3 modelos comparados).** Regresión Logística,
+  Random Forest y XGBoost sobre la clase de éxito. F1-macro: LogReg 0.46,
+  RF 0.53, XGBoost 0.53 (`src/run_clasificacion.py`).
+- [ ] **Fase 3 — Informe IEEE** doble columna (máx. 6 páginas)
+- [ ] **Fase 4 — Video** presentación (máx. 6 min)
