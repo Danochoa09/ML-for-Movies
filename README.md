@@ -55,10 +55,7 @@ python src/eda.py             # genera figuras + resumen en outputs/
   predice clase de éxito por rating (`éxito` ≥8, `mediocre` 5–8, `fracaso` <5).
   Entregable: top-3 géneros con mayor P(éxito) por región
   (`src/tecnica1_clasificacion.py`). F1-macro RF ≈ 0.53.
-- [x] **Fase 3 — Técnica 2: Agrupación.** K-Means (k=7 por silueta + parsimonia)
-  sobre rating, votos, duración, época, tipo y géneros. Descubre 7 perfiles de
-  contenido (p. ej. prestigio/documental, blockbuster animado, mainstream
-  drama-comedia, suspenso/terror) (`src/tecnica2_clustering.py`).
+- [ ] **Fase 3 — Técnica 2:** Agrupación (clustering de perfiles de contenido)
 - [ ] **Fase 4 — Técnica 3:** (regresión / otra técnica a definir)
 - [ ] **Fase 5 — Informe IEEE** doble columna (máx. 6 páginas)
 - [ ] **Fase 6 — Video** presentación (máx. 6 min)
