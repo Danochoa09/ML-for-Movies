@@ -1,0 +1,8 @@
+cluster,n,rating,votes_med,length,year,pct_movie,top_generos
+0,1494,6.43,957,105.0,1981.0,90.0,"Musical, Comedy, Drama"
+1,3733,7.06,1099,117.0,2002.0,65.0,"History, Drama, Documentary"
+2,12228,6.41,1104,75.0,1999.0,56.0,"Adventure, Animation, Action"
+3,10554,6.93,517,83.0,2010.0,44.0,"Documentary, Reality-TV, Comedy"
+4,50034,6.41,969,95.0,2000.0,75.0,"Drama, Comedy, Romance"
+5,18816,5.63,1442,96.0,2003.0,86.0,"Thriller, Horror, Drama"
+6,4747,6.79,657,17.0,1977.0,86.0,"Short, Animation, Comedy"
