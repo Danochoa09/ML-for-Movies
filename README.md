@@ -50,14 +50,19 @@ IMDb/
 
 ## Las tres técnicas (todas de clasificación)
 
-Mismo problema, tres clasificadores comparados para predecir la **clase de éxito**
-de un título a partir de género, región, tipo, duración y año:
+Mismo problema, tres clasificadores comparados para predecir si un título será un
+**éxito de taquilla y público** (no solo de crítica) a partir de género, región,
+tipo y duración.
 
-| Clase | Regla (rating IMDb) | Interpretación |
-|---|---|---|
-| `exito`    | rating ≥ 8     | posible éxito |
-| `mediocre` | 5 ≤ rating < 8 | sin pena ni gloria |
-| `fracaso`  | rating < 5     | posible fracaso |
+**Definición de éxito (binaria):** un título es `exito` si combina aceptación y
+tracción masiva:
+
+> `rating ≥ 6.5`  **Y**  ( `votes > mediana`  **O**  `gross > mediana` )
+
+**Validación temporal:** se entrena con títulos **anteriores a 2020** y se prueba
+con títulos de **2020 en adelante** (simula predecir el futuro). Los umbrales y el
+agrupado de regiones se calculan solo con train (sin fuga de datos). El año **no**
+se usa como variable predictora (es el eje de la partición).
 
 1. **Regresión Logística** — modelo lineal base/simple.
 2. **Random Forest** — ensamble de árboles (bagging).
@@ -78,7 +83,8 @@ python src/run_clasificacion.py   # compara los 3 modelos + entregable
 
 - [x] **Fase 1 — EDA** (limpieza, distribuciones, correlaciones, géneros/regiones)
 - [x] **Fase 2 — Clasificación (3 modelos comparados).** Regresión Logística,
-  Random Forest y XGBoost sobre la clase de éxito. F1-macro: LogReg 0.46,
-  RF 0.53, XGBoost 0.53 (`src/run_clasificacion.py`).
+  Random Forest y XGBoost sobre la clase binaria de éxito (taquilla/público),
+  con validación temporal (<2020 train / ≥2020 test). ROC-AUC: LogReg 0.69,
+  RF 0.74, XGBoost 0.74 (`src/run_clasificacion.py`).
 - [ ] **Fase 3 — Informe IEEE** doble columna (máx. 6 páginas)
 - [ ] **Fase 4 — Video** presentación (máx. 6 min)

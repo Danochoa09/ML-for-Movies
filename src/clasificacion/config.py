@@ -1,19 +1,30 @@
-"""Configuracion compartida del experimento de clasificacion."""
+"""Configuracion compartida del experimento de clasificacion.
+
+Definicion de EXITO (clasificacion binaria): un titulo es 'exito' si combina
+buena aceptacion con traccion masiva:
+
+    rating >= 6.5  Y  ( votes > mediana(votes)  O  gross > mediana(gross) )
+
+es decir, no basta con gustar a la critica: tambien debe haber sido visto
+masivamente (votos) o haber recaudado (gross). Asi los modelos aprenden a
+predecir "exito de taquilla y publico", no solo calidad percibida.
+
+Validacion temporal: se entrena con titulos anteriores a 2020 y se prueba con
+titulos de 2020 en adelante (simula predecir el futuro). Los umbrales (medianas)
+y el agrupado de regiones se calculan SOLO con train para evitar fuga de datos.
+"""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = ROOT / "outputs"
 FIG_DIR = OUT_DIR / "figures"
 
-# Clases de exito definidas sobre el rating IMDb:
-#   rating >= 8       -> 'exito'    (posible exito)
-#   5 <= rating < 8   -> 'mediocre' (sin pena ni gloria)
-#   rating < 5        -> 'fracaso'  (posible fracaso)
-EXITO_MIN = 8.0
-FRACASO_MAX = 5.0
-# Orden ordinal: 0 fracaso < 1 mediocre < 2 exito
-CLASS_ORDER = ["fracaso", "mediocre", "exito"]
+RATING_MIN_EXITO = 6.5     # aceptacion minima
+SPLIT_YEAR = 2020          # train: anio < 2020 ; test: anio >= 2020
 
-MIN_REGION = 500     # regiones con al menos este numero de titulos
-TEST_SIZE = 0.2
+# Clasificacion binaria. Positiva = 'exito'.
+CLASS_ORDER = ["no_exito", "exito"]
+POS_LABEL = "exito"
+
+MIN_REGION = 500           # regiones con al menos este numero de titulos (en train)
 RANDOM_STATE = 42

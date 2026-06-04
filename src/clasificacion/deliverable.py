@@ -26,8 +26,7 @@ def _exito_col(model) -> int:
 
 def top3_por_region(model, ds: Dataset) -> pd.DataFrame:
     col = _exito_col(model)
-    med_len = float(ds.X["length"].median())
-    med_year = float(ds.X["releaseYear"].median())
+    med_len = float(ds.X_train["length"].median())
 
     rows = []
     for region in ds.regions_kept:
@@ -36,7 +35,6 @@ def top3_por_region(model, ds: Dataset) -> pd.DataFrame:
             r = {c: 0 for c in ds.genre_cols}
             r[gcol] = 1
             r["length"] = med_len
-            r["releaseYear"] = med_year
             r["is_movie"] = 1
             r["region_grp"] = region
             synth.append(r)

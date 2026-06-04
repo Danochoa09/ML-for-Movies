@@ -1,29 +1,32 @@
-# Clasificacion de exito - comparacion de 3 modelos
+# Clasificacion de EXITO de taquilla/publico - 3 modelos
 
-- Filas (titulo, region): **126,276**
-- Regiones modeladas (>= 500 titulos): 33 + 'Other'
-- Generos: 27
-- Distribucion de clases: {'mediocre': 100378, 'fracaso': 16162, 'exito': 9736}
+**Definicion de exito:** rating >= 6.5 Y (votes > mediana O gross > mediana)
 
-## Resultados en test (20%)
+- Umbrales (solo train): mediana votos = 973, mediana gross = 1950000
+- Validacion temporal: train anio < 2020 (105,935 filas), test anio >= 2020 (12,863 filas)
+- Tasa de exito: train 30.8% | test 29.8%
+- Regiones modeladas (>= 500 en train): 30 + 'Other'
+- Generos (one-hot): 27
+- Predictoras: ['length', 'is_movie', 'region_grp'] + generos (el anio NO se usa: es el eje del split)
 
-| Modelo | F1-macro | Accuracy |
-|--------|----------|----------|
-| Regresion Logistica | 0.462 | 0.539 |
-| Random Forest | 0.530 | 0.628 |
-| XGBoost | 0.529 | 0.621 |
+## Resultados en test temporal (>= 2020)
+
+| Modelo | F1 (exito) | ROC-AUC | Accuracy |
+|--------|-----------|---------|----------|
+| Regresion Logistica | 0.513 | 0.691 | 0.629 |
+| Random Forest | 0.554 | 0.742 | 0.665 |
+| XGBoost | 0.555 | 0.738 | 0.663 |
 
 ### Reporte - Regresion Logistica
 ```
               precision    recall  f1-score   support
 
-     fracaso      0.314     0.681     0.430      3233
-    mediocre      0.917     0.496     0.644     20076
-       exito      0.197     0.744     0.311      1947
+    no_exito      0.810     0.617     0.700      9035
+       exito      0.421     0.658     0.513      3828
 
-    accuracy                          0.539     25256
-   macro avg      0.476     0.641     0.462     25256
-weighted avg      0.784     0.539     0.591     25256
+    accuracy                          0.629     12863
+   macro avg      0.615     0.637     0.607     12863
+weighted avg      0.694     0.629     0.645     12863
 
 ```
 
@@ -31,13 +34,12 @@ weighted avg      0.784     0.539     0.591     25256
 ```
               precision    recall  f1-score   support
 
-     fracaso      0.384     0.708     0.498      3233
-    mediocre      0.924     0.603     0.730     20076
-       exito      0.237     0.755     0.361      1947
+    no_exito      0.836     0.651     0.732      9035
+       exito      0.459     0.699     0.554      3828
 
-    accuracy                          0.628     25256
-   macro avg      0.515     0.689     0.530     25256
-weighted avg      0.802     0.628     0.672     25256
+    accuracy                          0.665     12863
+   macro avg      0.647     0.675     0.643     12863
+weighted avg      0.724     0.665     0.679     12863
 
 ```
 
@@ -45,52 +47,48 @@ weighted avg      0.802     0.628     0.672     25256
 ```
               precision    recall  f1-score   support
 
-     fracaso      0.373     0.740     0.496      3233
-    mediocre      0.930     0.588     0.721     20076
-       exito      0.242     0.766     0.368      1947
+    no_exito      0.838     0.646     0.729      9035
+       exito      0.457     0.705     0.555      3828
 
-    accuracy                          0.621     25256
-   macro avg      0.515     0.698     0.529     25256
-weighted avg      0.806     0.621     0.665     25256
+    accuracy                          0.663     12863
+   macro avg      0.647     0.675     0.642     12863
+weighted avg      0.724     0.663     0.677     12863
 
 ```
 
-**Mejor modelo (F1-macro): Random Forest**
+**Mejor modelo (ROC-AUC): Random Forest**
 
 ## Top 3 generos con mayor P(exito) por region
 
 (probabilidad predicha por Random Forest)
 
-- **Argentina**: Documentary (0.45), Short (0.43), History (0.20)
-- **Australia**: Documentary (0.47), Short (0.41), History (0.20)
-- **Belgium**: Documentary (0.50), Short (0.39), History (0.19)
-- **Brazil**: Documentary (0.54), Short (0.42), Music (0.19)
-- **Canada**: Documentary (0.52), Short (0.38), Music (0.22)
-- **China**: Documentary (0.47), Short (0.42), History (0.19)
-- **Denmark**: Short (0.40), Documentary (0.39), History (0.19)
-- **Egypt**: Documentary (0.53), Short (0.41), History (0.20)
-- **Finland**: Short (0.42), Documentary (0.38), History (0.19)
-- **France**: Documentary (0.53), Short (0.37), History (0.19)
-- **Germany**: Documentary (0.47), Short (0.37), History (0.17)
-- **Greece**: Documentary (0.57), Short (0.45), History (0.25)
-- **Hong Kong**: Documentary (0.51), Short (0.39), Music (0.18)
-- **Hungary**: Documentary (0.53), Short (0.42), History (0.20)
-- **India**: Documentary (0.61), Biography (0.51), History (0.51)
-- **Iran**: Documentary (0.51), Short (0.43), History (0.19)
-- **Ireland**: Documentary (0.55), Short (0.45), History (0.20)
-- **Italy**: Documentary (0.38), Short (0.36), Music (0.16)
-- **Japan**: Short (0.35), Documentary (0.31), Drama (0.22)
-- **Mexico**: Documentary (0.49), Short (0.42), Music (0.19)
-- **Netherlands**: Documentary (0.42), Short (0.37), History (0.17)
-- **Norway**: Documentary (0.48), Short (0.42), History (0.19)
-- **Poland**: Documentary (0.48), Short (0.39), History (0.18)
-- **Russia**: Documentary (0.47), Short (0.40), History (0.17)
-- **South Korea**: Documentary (0.54), Short (0.42), Music (0.25)
-- **Soviet Union**: Short (0.53), Documentary (0.53), Comedy (0.45)
-- **Spain**: Documentary (0.44), Short (0.40), History (0.18)
-- **Sweden**: Short (0.39), Documentary (0.32), Music (0.18)
-- **Switzerland**: Short (0.41), Documentary (0.29), History (0.19)
-- **Turkey**: Documentary (0.65), Short (0.38), Music (0.18)
-- **United Kingdom**: Documentary (0.69), Short (0.40), Music (0.20)
-- **United States**: Documentary (0.58), Short (0.38), Animation (0.20)
-- **West Germany**: Short (0.42), Documentary (0.36), Music (0.20)
+- **Argentina**: Film-Noir (0.44), Documentary (0.42), Biography (0.39)
+- **Australia**: Documentary (0.60), Film-Noir (0.43), Biography (0.39)
+- **Belgium**: Documentary (0.53), Film-Noir (0.43), Biography (0.39)
+- **Brazil**: Film-Noir (0.42), Documentary (0.36), History (0.33)
+- **Canada**: Documentary (0.48), Film-Noir (0.38), Biography (0.37)
+- **China**: Drama (0.52), Documentary (0.47), Film-Noir (0.44)
+- **Denmark**: Documentary (0.61), Film-Noir (0.45), Drama (0.45)
+- **Egypt**: Documentary (0.49), Film-Noir (0.41), Biography (0.39)
+- **Finland**: Documentary (0.50), Film-Noir (0.42), Biography (0.39)
+- **France**: Documentary (0.51), Drama (0.50), Biography (0.47)
+- **Germany**: Documentary (0.52), Film-Noir (0.44), Drama (0.42)
+- **Greece**: Documentary (0.46), Film-Noir (0.44), Drama (0.40)
+- **Hong Kong**: Documentary (0.54), Drama (0.46), Film-Noir (0.43)
+- **India**: Documentary (0.49), Film-Noir (0.44), Biography (0.40)
+- **Iran**: Drama (0.50), Documentary (0.47), Film-Noir (0.43)
+- **Italy**: Documentary (0.45), Film-Noir (0.43), Drama (0.41)
+- **Japan**: Drama (0.55), Documentary (0.48), Film-Noir (0.45)
+- **Mexico**: Film-Noir (0.45), Drama (0.42), Biography (0.40)
+- **Netherlands**: Documentary (0.42), Film-Noir (0.41), Biography (0.37)
+- **Norway**: Documentary (0.54), Film-Noir (0.45), Biography (0.40)
+- **Poland**: Drama (0.46), Documentary (0.46), Film-Noir (0.45)
+- **Russia**: Documentary (0.49), Film-Noir (0.42), Biography (0.37)
+- **South Korea**: Drama (0.56), Documentary (0.54), Film-Noir (0.46)
+- **Soviet Union**: Drama (0.52), Film-Noir (0.50), Documentary (0.47)
+- **Spain**: Documentary (0.54), Film-Noir (0.44), Drama (0.40)
+- **Sweden**: Documentary (0.56), Film-Noir (0.45), Biography (0.41)
+- **Turkey**: Documentary (0.54), Drama (0.45), Film-Noir (0.44)
+- **United Kingdom**: Documentary (0.53), Biography (0.46), Film-Noir (0.45)
+- **United States**: Documentary (0.57), Film-Noir (0.49), Biography (0.39)
+- **West Germany**: Documentary (0.65), Drama (0.48), Film-Noir (0.46)

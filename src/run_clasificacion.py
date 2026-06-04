@@ -1,25 +1,20 @@
-"""Experimento de CLASIFICACION: compara tres clasificadores sobre la clase de
-exito de un titulo (derivada del rating IMDb).
+"""Experimento de CLASIFICACION BINARIA: predecir si un titulo sera un EXITO de
+taquilla y publico, con validacion temporal.
 
+EXITO  =  rating >= 6.5  Y  ( votes > mediana  O  gross > mediana )
+
+Se comparan tres clasificadores:
     Regresion Logistica  -> modelo base / lineal
     Random Forest        -> ensamble de arboles (bagging)
     XGBoost              -> boosting de arboles (modelo avanzado)
 
-Clases:
-    rating >= 8       -> 'exito'    (posible exito)
-    5 <= rating < 8   -> 'mediocre' (sin pena ni gloria)
-    rating < 5        -> 'fracaso'  (posible fracaso)
-
+Validacion temporal: train con titulos < 2020, test con titulos >= 2020.
 Entregable: top-3 generos con mayor P(exito) por region (mejor modelo).
 
 Uso:
     python src/run_clasificacion.py
 """
-from pathlib import Path
-
-from sklearn.model_selection import train_test_split
-
-from clasificacion.config import CLASS_ORDER, MIN_REGION, OUT_DIR, RANDOM_STATE, TEST_SIZE
+from clasificacion.config import MIN_REGION, OUT_DIR, SPLIT_YEAR
 from clasificacion.data import build_dataset
 from clasificacion.models import build_models
 from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions
@@ -36,31 +31,37 @@ def main() -> None:
         lines.append(msg)
 
     # ----------------------------------------------------------------- #
-    # 1. Datos
+    # 1. Datos (con particion temporal y umbrales calculados en train)
     # ----------------------------------------------------------------- #
     ds = build_dataset()
-    log("# Clasificacion de exito - comparacion de 3 modelos\n")
-    log(f"- Filas (titulo, region): **{len(ds.X):,}**")
-    log(f"- Regiones modeladas (>= {MIN_REGION} titulos): {len(ds.regions_kept)} + 'Other'")
-    log(f"- Generos: {len(ds.genre_cols)}")
-    log(f"- Distribucion de clases: {ds.y.value_counts().to_dict()}")
+    i = ds.info
+    log("# Clasificacion de EXITO de taquilla/publico - 3 modelos\n")
+    log("**Definicion de exito:** rating >= 6.5 Y (votes > mediana O gross > mediana)\n")
+    log(f"- Umbrales (solo train): mediana votos = {i['median_votes']:.0f}, "
+        f"mediana gross = {i['median_gross']:.0f}")
+    log(f"- Validacion temporal: train anio < {SPLIT_YEAR} ({i['n_train']:,} filas), "
+        f"test anio >= {SPLIT_YEAR} ({i['n_test']:,} filas)")
+    log(f"- Tasa de exito: train {i['exito_rate_train']*100:.1f}% | "
+        f"test {i['exito_rate_test']*100:.1f}%")
+    log(f"- Regiones modeladas (>= {MIN_REGION} en train): {len(ds.regions_kept)} + 'Other'")
+    log(f"- Generos (one-hot): {len(ds.genre_cols)}")
+    log(f"- Predictoras: {ds.num_cols + ds.cat_cols} + generos "
+        f"(el anio NO se usa: es el eje del split)")
     log("")
-
-    X_tr, X_te, y_tr, y_te = train_test_split(
-        ds.X, ds.y, test_size=TEST_SIZE, stratify=ds.y, random_state=RANDOM_STATE
-    )
 
     # ----------------------------------------------------------------- #
     # 2. Entrenar y evaluar los 3 modelos
     # ----------------------------------------------------------------- #
     models = build_models(ds.num_cols, ds.cat_cols, ds.genre_cols)
-    results = evaluate_all(models, X_tr, y_tr, X_te, y_te)
+    results = evaluate_all(
+        models, ds.X_train, ds.y_train, ds.X_test, ds.y_test
+    )
 
-    log("## Resultados en test (20%)\n")
-    log("| Modelo | F1-macro | Accuracy |")
-    log("|--------|----------|----------|")
+    log("## Resultados en test temporal (>= 2020)\n")
+    log("| Modelo | F1 (exito) | ROC-AUC | Accuracy |")
+    log("|--------|-----------|---------|----------|")
     for r in results.values():
-        log(f"| {r.name} | {r.f1_macro:.3f} | {r.accuracy:.3f} |")
+        log(f"| {r.name} | {r.f1_exito:.3f} | {r.roc_auc:.3f} | {r.accuracy:.3f} |")
     log("")
 
     for r in results.values():
@@ -70,15 +71,15 @@ def main() -> None:
         log("```")
         log("")
 
-    comp = plot_comparison(results, "10_clf_model_compare.png")
+    plot_comparison(results, "10_clf_model_compare.png")
     plot_confusions(results, "11_clf_confusion.png")
 
     # ----------------------------------------------------------------- #
     # 3. Mejor modelo -> importancia + entregable
     # ----------------------------------------------------------------- #
-    best_name = max(results, key=lambda n: results[n].f1_macro)
+    best_name = max(results, key=lambda n: results[n].roc_auc)
     best = results[best_name].model
-    log(f"**Mejor modelo (F1-macro): {best_name}**\n")
+    log(f"**Mejor modelo (ROC-AUC): {best_name}**\n")
 
     plot_feature_importance(best, ds, "12_clf_feature_importance.png")
 
