@@ -18,7 +18,7 @@ from clasificacion.config import MIN_REGION, OUT_DIR, SPLIT_YEAR
 from clasificacion.data import build_dataset
 from clasificacion.models import build_models
 from clasificacion.evaluate import evaluate_all, plot_comparison, plot_confusions
-from clasificacion.deliverable import rankings_all_models, matriz_region_genero
+from clasificacion.deliverable import rankings_all_models, heatmaps_all_models
 
 from sklearn.metrics import recall_score
 
@@ -122,12 +122,15 @@ def main() -> None:
             log(f"| {x.genre} | {x.p_exito_promedio:.3f} | {x.categoria} | {x.top_regiones} |")
         log("")
 
-    # matriz completa P(exito) region x genero (mejor modelo)
-    matriz_region_genero(results[best_name].model, ds, best_name)
-    log("## Matriz P(exito) por region y genero\n")
-    log(f"Matriz completa (region activa x genero) segun {best_name} en "
-        f"`outputs/clf_matriz_region_genero.csv` y figura "
-        f"`13_clf_heatmap_region_genero.png`.\n")
+    # matriz completa P(exito) region x genero, para los 3 modelos
+    heatmaps_all_models(results, ds, best_name)
+    log("## Matriz P(exito) por region y genero (los 3 modelos)\n")
+    log("Matriz completa (region activa x genero) por modelo en "
+        "`outputs/clf_matriz_region_genero.csv` y figuras "
+        "`13/14/15_clf_heatmap_*.png` (ejes en el mismo orden para comparar).")
+    log("> En Regresion Logistica el orden de regiones es igual en todos los "
+        "generos: el modelo lineal no captura interaccion region-genero. En "
+        "Random Forest y XGBoost varia por genero.\n")
 
     SUMMARY.write_text("\n".join(lines), encoding="utf-8")
     print(f"\nResumen -> {SUMMARY}")

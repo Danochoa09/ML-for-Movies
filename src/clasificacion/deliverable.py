@@ -150,23 +150,48 @@ def rankings_all_models(results, ds: Dataset) -> dict:
     return rankings
 
 
-def matriz_region_genero(model, ds: Dataset, nombre_modelo: str) -> pd.DataFrame:
-    """Matriz completa P(exito) por region (activa) x genero: heatmap + CSV."""
+def _slug(s: str) -> str:
+    return s.lower().replace(" ", "_").replace(".", "")
+
+
+def heatmaps_all_models(results, ds: Dataset, best_name: str) -> None:
+    """Matriz P(exito) region (activa) x genero para CADA modelo: una figura por
+    modelo (con ejes en el mismo orden para poder compararlas) + un CSV largo.
+
+    Nota: en Regresion Logistica el orden de regiones es identico en todos los
+    generos (modelo lineal sin interaccion region-genero); en los modelos de
+    arboles varia por genero (capturan la interaccion).
+    """
     shares = _movie_share(ds)
-    pred = _predict_region_genre(model, ds, ds.active_regions, shares)
-    mat = pred.pivot(index="region", columns="genre", values="p_exito")
+    preds = {
+        name: _predict_region_genre(res.model, ds, ds.active_regions, shares)
+        for name, res in results.items()
+    }
 
-    # ordenar: generos por P(exito) medio (desc), regiones por P(exito) medio (desc)
-    mat = mat.loc[
-        mat.mean(axis=1).sort_values(ascending=False).index,
-        mat.mean(axis=0).sort_values(ascending=False).index,
-    ]
-    mat.round(4).to_csv(OUT_DIR / "clf_matriz_region_genero.csv")
+    # orden compartido de ejes, definido por el mejor modelo
+    ref = preds[best_name].pivot(index="region", columns="genre", values="p_exito")
+    row_order = ref.mean(axis=1).sort_values(ascending=False).index
+    col_order = ref.mean(axis=0).sort_values(ascending=False).index
 
-    plt.figure(figsize=(13, 8))
-    sns.heatmap(mat, cmap="RdYlGn", center=mat.values.mean(),
-                cbar_kws={"label": "P(exito)"}, linewidths=0.3, linecolor="white")
-    plt.title(f"P(exito) por region de origen y genero - {nombre_modelo}")
-    plt.xlabel("Genero"); plt.ylabel("Region (activa)")
-    savefig("13_clf_heatmap_region_genero.png")
-    return mat
+    long_rows = []
+    fig_idx = 13
+    for name, pred in preds.items():
+        mat = (
+            pred.pivot(index="region", columns="genre", values="p_exito")
+            .loc[row_order, col_order]
+        )
+        for r in pred.itertuples():
+            long_rows.append({"modelo": name, "region": r.region,
+                              "genre": r.genre, "p_exito": round(r.p_exito, 4)})
+
+        plt.figure(figsize=(13, 8))
+        sns.heatmap(mat, cmap="RdYlGn", center=float(mat.values.mean()),
+                    cbar_kws={"label": "P(exito)"}, linewidths=0.3, linecolor="white")
+        plt.title(f"P(exito) por region de origen y genero - {name}")
+        plt.xlabel("Genero"); plt.ylabel("Region (activa)")
+        savefig(f"{fig_idx}_clf_heatmap_{_slug(name)}.png")
+        fig_idx += 1
+
+    pd.DataFrame(long_rows).to_csv(
+        OUT_DIR / "clf_matriz_region_genero.csv", index=False
+    )

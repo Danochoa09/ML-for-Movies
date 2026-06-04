@@ -172,6 +172,7 @@ P(exito) promedio entre **regiones activas** (las que aun producen, >= 2020). La
 | Reality-TV | 0.043 | posible fracaso | Japan (0.12), United Kingdom (0.07), Iran (0.07) |
 | Game-Show | 0.041 | posible fracaso | South Korea (0.23), India (0.07), United Kingdom (0.06) |
 
-## Matriz P(exito) por region y genero
+## Matriz P(exito) por region y genero (los 3 modelos)
 
-Matriz completa (region activa x genero) segun Random Forest en `outputs/clf_matriz_region_genero.csv` y figura `13_clf_heatmap_region_genero.png`.
+Matriz completa (region activa x genero) por modelo en `outputs/clf_matriz_region_genero.csv` y figuras `13/14/15_clf_heatmap_*.png` (ejes en el mismo orden para comparar).
+> En Regresion Logistica el orden de regiones es igual en todos los generos: el modelo lineal no captura interaccion region-genero. En Random Forest y XGBoost varia por genero.
