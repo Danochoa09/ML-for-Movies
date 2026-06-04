@@ -42,7 +42,10 @@ def load_genres(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
 
 
 def load_regions(raw_dir: Path = RAW_DIR) -> pd.DataFrame:
-    return pd.read_csv(raw_dir / "contentDataRegion.csv")
+    r = pd.read_csv(raw_dir / "contentDataRegion.csv")
+    # Eliminar artefactos de parseo (regiones espurias 'l', 'n', 'u')
+    r = r[r["region"].str.len() > 2]
+    return r.reset_index(drop=True)
 
 
 def genres_wide(raw_dir: Path = RAW_DIR) -> pd.DataFrame:

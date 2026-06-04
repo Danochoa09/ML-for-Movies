@@ -51,7 +51,10 @@ python src/eda.py             # genera figuras + resumen en outputs/
 ## Estado / Roadmap
 
 - [x] **Fase 1 — EDA** (limpieza, distribuciones, correlaciones, géneros/regiones)
-- [ ] **Fase 2 — Técnica 1:** Clasificación (¿una película será "bien valorada"?)
+- [x] **Fase 2 — Técnica 1: Clasificación.** Random Forest (vs Reg. Logística)
+  predice clase de éxito por rating (`éxito` ≥8, `mediocre` 5–8, `fracaso` <5).
+  Entregable: top-3 géneros con mayor P(éxito) por región
+  (`src/tecnica1_clasificacion.py`). F1-macro RF ≈ 0.53.
 - [ ] **Fase 3 — Técnica 2:** Agrupación (clustering de perfiles de contenido)
 - [ ] **Fase 4 — Técnica 3:** (regresión / otra técnica a definir)
 - [ ] **Fase 5 — Informe IEEE** doble columna (máx. 6 páginas)
