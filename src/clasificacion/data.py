@@ -53,6 +53,38 @@ def _norm(s: pd.Series, lo: float, hi: float) -> pd.Series:
     return ((s - lo) / (hi - lo)).clip(0, 1)
 
 
+def _impute_length(base: pd.DataFrame, genre_cols, train_mask) -> pd.Series:
+    """Imputa la duracion faltante con la mediana por genero (de train), no con la
+    mediana global. Asi un Short/News sin dato recibe una duracion tipica de su
+    nicho (coherente con _median_length de deliverable.py). Respaldos: mediana por
+    tipo (pelicula/serie) -> mediana global."""
+    length = base["length"].copy()
+    tr_ok = train_mask & length.notna()
+    global_med = float(length[tr_ok].median())
+    type_med = base.loc[tr_ok].groupby("is_movie")["length"].median()
+    # mediana de duracion por genero (en train, con dato)
+    gmed = {}
+    for g in genre_cols:
+        sel = tr_ok & (base[g] == 1)
+        gmed[g] = float(base.loc[sel, "length"].median()) if sel.any() else np.nan
+
+    miss = length.isna()
+    if miss.any():
+        gmat = base.loc[miss, genre_cols].to_numpy(dtype=float)  # (k, n_gen)
+        gvec = np.array([gmed[g] for g in genre_cols], dtype=float)
+        valid = ~np.isnan(gvec)
+        num = np.nansum(gmat[:, valid] * gvec[valid], axis=1)
+        den = gmat[:, valid].sum(axis=1)
+        with np.errstate(invalid="ignore", divide="ignore"):
+            imp = num / den  # promedio de medianas de sus generos
+        # respaldo por tipo y global donde no haya generos con dato
+        type_fallback = base.loc[miss, "is_movie"].map(type_med).to_numpy(dtype=float)
+        imp = np.where(den > 0, imp, type_fallback)
+        imp = np.where(np.isnan(imp), global_med, imp)
+        length.loc[miss] = imp
+    return length
+
+
 def _compute_iep(df: pd.DataFrame, params: dict) -> pd.Series:
     """IEP por titulo. Normaliza con parametros de train. Redistribuye el peso
     del gross a votos cuando no hay recaudo."""
@@ -88,14 +120,9 @@ def build_dataset() -> Dataset:
         # gross se normaliza solo sobre titulos con recaudo (train)
         "loggross": _minmax_params(np.log10(tr.loc[tr["gross"].notna(), "gross"].clip(lower=1))),
     }
-    len_med = float(tr["length"].median())
-
     # IEP por titulo (el IEP es una propiedad del titulo, no de la region)
     prime["iep"] = _compute_iep(prime, params)
-
-    # variables a nivel titulo
     prime["is_movie"] = (prime["contentType"] == "movie").astype(int)
-    prime["length"] = prime["length"].fillna(len_med)
 
     # one-hot de generos
     gw = (
@@ -107,6 +134,9 @@ def build_dataset() -> Dataset:
 
     base = prime.set_index("dataId").join(gw)
     base[genre_cols] = base[genre_cols].fillna(0).astype(int)
+
+    # imputar duracion faltante por genero (no con la mediana global)
+    base["length"] = _impute_length(base, genre_cols, base["releaseYear"] < SPLIT_YEAR)
 
     # una fila por (titulo, region)
     df = regions.merge(base.reset_index(), on="dataId", how="inner")

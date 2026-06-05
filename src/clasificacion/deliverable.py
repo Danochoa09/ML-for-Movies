@@ -105,14 +105,20 @@ def _predict_region_genre(model, ds: Dataset, regions, shares) -> pd.DataFrame:
 
 def _ranking_one(pred: pd.DataFrame) -> pd.DataFrame:
     score = pred.groupby("genre")["p_exito"].mean().sort_values(ascending=False)
-    q1, q2 = score.quantile([1 / 3, 2 / 3])
+
+    # Niveles por separacion respecto a la distribucion (media +/- 0.5*sigma), NO
+    # por terciles forzados: asi los conteos por nivel son variables (no siempre
+    # 9/9/9) y reflejan que tan destacado esta cada genero. No se usa el umbral
+    # absoluto 0.333 (tasa base): el perfil sintetico de "genero puro" deprime las
+    # probabilidades y no es comparable a la tasa base de perfiles reales.
+    mu, sigma = float(score.mean()), float(score.std())
 
     def nivel(p: float) -> str:
-        if p >= q2:
+        if p >= mu + 0.5 * sigma:
             return "posible exito"
-        if p >= q1:
-            return "sin pena ni gloria"
-        return "posible fracaso"
+        if p <= mu - 0.5 * sigma:
+            return "posible fracaso"
+        return "sin pena ni gloria"
 
     top_reg = (
         pred.sort_values(["genre", "p_exito"], ascending=[True, False])
