@@ -90,18 +90,8 @@ def build_dataset() -> Dataset:
     }
     len_med = float(tr["length"].median())
 
-    # IEP por titulo y discretizacion en 3 clases por terciles (de train)
+    # IEP por titulo (el IEP es una propiedad del titulo, no de la region)
     prime["iep"] = _compute_iep(prime, params)
-    q1, q2 = prime.loc[is_train, "iep"].quantile([1 / 3, 2 / 3])
-
-    def _clase(v: float) -> str:
-        if v >= q2:
-            return "exito"
-        if v >= q1:
-            return "mediocre"
-        return "fracaso"
-
-    prime["clase"] = prime["iep"].map(_clase)
 
     # variables a nivel titulo
     prime["is_movie"] = (prime["contentType"] == "movie").astype(int)
@@ -121,8 +111,24 @@ def build_dataset() -> Dataset:
     # una fila por (titulo, region)
     df = regions.merge(base.reset_index(), on="dataId", how="inner")
 
+    # Terciles calculados SOBRE LAS FILAS DE ENTRENAMIENTO YA EXPLOTADAS por region
+    # (no a nivel titulo): asi las 3 clases quedan balanceadas en el dataset que el
+    # modelo realmente ve. Si se calcularan antes del merge, los titulos con muchas
+    # regiones (tipicamente exitos comerciales) inflarian su clase tras la explosion.
+    is_train_row = df["releaseYear"] < SPLIT_YEAR
+    q1, q2 = df.loc[is_train_row, "iep"].quantile([1 / 3, 2 / 3])
+
+    def _clase(v: float) -> str:
+        if v >= q2:
+            return "exito"
+        if v >= q1:
+            return "mediocre"
+        return "fracaso"
+
+    df["clase"] = df["iep"].map(_clase)
+
     # agrupar regiones poco frecuentes (conteo solo en train)
-    train_counts = df.loc[df["releaseYear"] < SPLIT_YEAR, "region"].value_counts()
+    train_counts = df.loc[is_train_row, "region"].value_counts()
     keep = sorted(train_counts[train_counts >= MIN_REGION].index)
     df["region_grp"] = np.where(df["region"].isin(set(keep)), df["region"], "Other")
 

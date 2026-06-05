@@ -51,10 +51,33 @@ def _movie_share(ds: Dataset) -> dict:
     return shares
 
 
+def _median_length(ds: Dataset) -> dict:
+    """Mediana de duracion por (genero, formato) en train, con respaldos.
+
+    Evita el sesgo de usar la mediana global (~90 min) para generos cortos como
+    Short o News, cuya duracion tipica es mucho menor. Respaldo: mediana del
+    genero (cualquier formato) -> mediana global.
+    """
+    global_med = float(ds.X_train["length"].median())
+    out = {}
+    for gcol, gname in zip(ds.genre_cols, ds.genre_names):
+        gmask = ds.X_train[gcol] == 1
+        genre_med = float(ds.X_train.loc[gmask, "length"].median()) if gmask.any() else global_med
+        for fmt in (0, 1):
+            m = gmask & (ds.X_train["is_movie"] == fmt)
+            v = float(ds.X_train.loc[m, "length"].median()) if m.any() else genre_med
+            out[(gname, fmt)] = v if not pd.isna(v) else global_med
+    return out
+
+
 def _predict_region_genre(model, ds: Dataset, regions, shares) -> pd.DataFrame:
-    """P(exito) por (region, genero), promediando formatos segun su peso real."""
+    """P(exito) por (region, genero), promediando formatos segun su peso real.
+
+    La duracion del titulo sintetico es la mediana real de cada (genero, formato),
+    no una constante global (que distorsionaria generos cortos como Short/News).
+    """
     col = _exito_col(model)
-    med_len = float(ds.X_train["length"].median())
+    med_len = _median_length(ds)
 
     synth, recs = [], []
     for region in regions:
@@ -62,7 +85,7 @@ def _predict_region_genre(model, ds: Dataset, regions, shares) -> pd.DataFrame:
             for fmt in (0, 1):
                 r = {c: 0 for c in ds.genre_cols}
                 r[gcol] = 1
-                r["length"] = med_len
+                r["length"] = med_len[(gname, fmt)]
                 r["is_movie"] = fmt
                 r["region_grp"] = region
                 synth.append(r)
